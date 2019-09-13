@@ -1,0 +1,3330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph territory="TU Berlin">
+  <level id="1" storey="0" mapfile="en_00_3_cut_neu.jpg" width="708" height="1024">
+    <node id="1" x="202" y="840" type="doorway"/>
+    <node id="2" x="424" y="810" type="doorway"/>
+    <node id="3" x="429" y="734" type="doorway"/>
+    <node id="4" x="359" y="566" type="doorway"/>
+    <node id="5" x="412" y="554" type="doorway"/>
+    <node id="6" x="402" y="401" type="doorway"/>
+    <node id="7" x="377" y="500" type="doorway"/>
+    <node id="8" x="384" y="622" type="doorway"/>
+    <node id="9" x="314" y="309" type="doorway"/>
+    <node id="10" x="348" y="397" type="doorway"/>
+    <node id="11" x="178" y="297" type="doorway"/>
+    <node id="12" x="173" y="210" type="doorway"/>
+    <node id="13" x="420" y="687" type="doorway"/>
+    <node id="14" x="413" y="820" type="Entry"/>
+    <node id="15" x="444" y="818" type="Entry"/>
+    <node id="16" x="473" y="816" type="Entry"/>
+    <node id="17" x="460" y="795" type="Entry"/>
+    <node id="18" x="573" y="819" type="Entry"/>
+    <node id="19" x="551" y="852" type="Entry"/>
+    <node id="20" x="577" y="880" type="Entry"/>
+    <node id="21" x="555" y="911" type="Entry"/>
+    <node id="22" x="582" y="940" type="Entry"/>
+    <node id="23" x="558" y="947" type="Entry"/>
+    <node id="24" x="576" y="722" type="Entry"/>
+    <node id="25" x="558" y="707" type="Entry"/>
+    <node id="26" x="529" y="718" type="Entry"/>
+    <node id="27" x="497" y="721" type="Entry"/>
+    <node id="28" x="463" y="721" type="Entry"/>
+    <node id="29" x="428" y="659" type="Entry"/>
+    <node id="30" x="427" y="627" type="Entry"/>
+    <node id="31" x="424" y="597" type="Entry"/>
+    <node id="32" x="423" y="567" type="Entry"/>
+    <node id="33" x="421" y="537" type="Entry"/>
+    <node id="34" x="419" y="506" type="Entry"/>
+    <node id="35" x="415" y="475" type="Entry"/>
+    <node id="36" x="413" y="424" type="Entry"/>
+    <node id="37" x="398" y="425" type="Entry"/>
+    <node id="38" x="364" y="393" type="Entry"/>
+    <node id="39" x="400" y="467" type="Entry"/>
+    <node id="40" x="392" y="493" type="Entry"/>
+    <node id="41" x="370" y="494" type="Entry"/>
+    <node id="42" x="358" y="469" type="Entry"/>
+    <node id="43" x="399" y="539" type="Entry"/>
+    <node id="44" x="401" y="578" type="Entry"/>
+    <node id="45" x="366" y="580" type="Entry"/>
+    <node id="46" x="408" y="670" type="Entry"/>
+    <node id="47" x="361" y="724" type="Entry"/>
+    <node id="48" x="359" y="705" type="Entry"/>
+    <node id="49" x="357" y="672" type="Entry"/>
+    <node id="50" x="355" y="642" type="Entry"/>
+    <node id="51" x="353" y="613" type="Entry"/>
+    <node id="52" x="351" y="581" type="Entry"/>
+    <node id="53" x="349" y="551" type="Entry"/>
+    <node id="54" x="348" y="522" type="Entry"/>
+    <node id="55" x="345" y="490" type="Entry"/>
+    <node id="56" x="343" y="459" type="Entry"/>
+    <node id="57" x="341" y="418" type="Entry"/>
+    <node id="58" x="376" y="304" type="Entry"/>
+    <node id="59" x="360" y="300" type="Entry"/>
+    <node id="60" x="329" y="301" type="Entry"/>
+    <node id="61" x="300" y="303" type="Entry"/>
+    <node id="62" x="203" y="327" type="Entry"/>
+    <node id="63" x="346" y="367" type="Entry"/>
+    <node id="64" x="198" y="418" type="Entry"/>
+    <node id="65" x="174" y="419" type="Entry"/>
+    <node id="66" x="202" y="505" type="Entry"/>
+    <node id="67" x="185" y="408" type="doorway"/>
+    <node id="68" x="241" y="861" type="Entry"/>
+    <node id="70" x="581" y="761" type="doorway"/>
+    <node id="71" x="379" y="345" type="doorway"/>
+    <node id="74" x="154" y="359" type="doorway"/>
+    <node id="78" x="425" y="451" type="doorway"/>
+    <node id="79" x="429" y="741" type="Entry"/>
+    <node id="80" x="461" y="743" type="Entry"/>
+    <node id="81" x="511" y="736" type="Entry"/>
+    <node id="83" x="309" y="319" type="Entry"/>
+    <node id="84" x="277" y="325" type="Entry"/>
+    <node id="85" x="227" y="325" type="Entry"/>
+    <node id="86" x="228" y="337" type="Toilet" name="EN 0 Damen WC 1"/>
+    <node id="87" x="309" y="334" type="Toilet" name="EN 0 Herren WC 1"/>
+    <node id="88" x="430" y="753" type="Toilet" name="EN 0 Damen WC 2 (rollstuhlgerecht)"/>
+    <node id="89" x="511" y="745" type="Toilet" name="EN 0 Herren WC 2 (rollstuhlgerecht)"/>
+    <node id="90" x="526" y="965" type="Office" name="SAP" roomid="EN 056"/>
+    <node id="91" x="524" y="913" type="Office" roomid="EN 057"/>
+    <node id="92" x="521" y="854" type="Office" roomid="EN 058"/>
+    <node id="93" x="628" y="816" type="Office" roomid="EN 053"/>
+    <node id="94" x="627" y="877" type="Office" roomid="EN 054"/>
+    <node id="95" x="630" y="937" type="Office" roomid="EN 055"/>
+    <node id="96" x="596" y="720" type="Office" roomid="EN 052"/>
+    <node id="97" x="580" y="687" type="Office" roomid="EN 051"/>
+    <node id="98" x="537" y="692" type="Office" roomid="EN 050"/>
+    <node id="99" x="511" y="701" type="Office" roomid="EN 049"/>
+    <node id="100" x="462" y="700" type="Office" roomid="EN 048"/>
+    <node id="101" x="462" y="758" type="Office" roomid="EN 062a"/>
+    <node id="102" x="459" y="778" type="Office" roomid="EN 062"/>
+    <node id="103" x="474" y="828" type="Office" name="Erste Hilfe" roomid="EN 059"/>
+    <node id="104" x="435" y="850" type="Office" roomid="EN 060"/>
+    <node id="105" x="415" y="839" type="Office" roomid="EN 061"/>
+    <node id="106" x="388" y="671" type="branch" name="EN 0 Archiv" roomid="EN 047"/>
+    <node id="107" x="383" y="579" type="branch" name="EN 0 Lager" roomid="EN 012"/>
+    <node id="108" x="380" y="540" type="Office" roomid="EN 042"/>
+    <node id="109" x="369" y="484" type="branch" roomid="EN 039"/>
+    <node id="110" x="391" y="483" type="branch" name="EN Küche" roomid="EN 038"/>
+    <node id="111" x="378" y="468" type="branch" roomid="EN 037"/>
+    <node id="112" x="367" y="427" type="Office" roomid="EN 035"/>
+    <node id="113" x="433" y="384" type="Office" roomid="EN 033"/>
+    <node id="114" x="411" y="385" type="Entry"/>
+    <node id="115" x="440" y="422" type="Office" roomid="EN 034"/>
+    <node id="116" x="445" y="473" type="Office" roomid="EN 036"/>
+    <node id="117" x="444" y="504" type="Office" roomid="EN 040"/>
+    <node id="118" x="444" y="536" type="Office" roomid="EN 041"/>
+    <node id="119" x="445" y="566" type="Office" roomid="EN 043"/>
+    <node id="120" x="449" y="595" type="Office" roomid="EN 044"/>
+    <node id="121" x="450" y="626" type="Office" roomid="EN 045"/>
+    <node id="122" x="452" y="657" type="Office" roomid="EN 046"/>
+    <node id="123" x="343" y="740" type="Office" roomid="EN 006"/>
+    <node id="124" x="331" y="707" type="Office" roomid="EN 007"/>
+    <node id="125" x="329" y="674" type="Office" roomid="EN 008"/>
+    <node id="126" x="330" y="644" type="Office" roomid="EN 009"/>
+    <node id="127" x="328" y="614" type="Office" roomid="EN 010"/>
+    <node id="128" x="324" y="583" type="Office" roomid="EN 011"/>
+    <node id="129" x="324" y="553" type="Office" roomid="EN 013"/>
+    <node id="130" x="322" y="523" type="Office" roomid="EN 014"/>
+    <node id="131" x="320" y="491" type="Office" roomid="EN 015"/>
+    <node id="132" x="318" y="461" type="Office" roomid="EN 016"/>
+    <node id="133" x="316" y="420" type="Office" roomid="EN 017"/>
+    <node id="134" x="336" y="368" type="branch" roomid="EN 019"/>
+    <node id="135" x="400" y="303" type="Office" roomid="EN 032"/>
+    <node id="136" x="358" y="274" type="Office" roomid="EN 031"/>
+    <node id="137" x="328" y="288" type="Office" roomid="EN 030"/>
+    <node id="138" x="300" y="290" type="Office" roomid="EN 029"/>
+    <node id="139" x="313" y="289" type="doorway"/>
+    <node id="140" x="223" y="417" type="Office" name="TUBIT-Laden" roomid="EN 024" isdestination=""/>
+    <node id="141" x="147" y="421" type="Office" roomid="EN 025"/>
+    <node id="143" x="262" y="332" type="branch" roomid="EN 018a"/>
+    <node id="144" x="270" y="391" type="branch" roomid="EN 018"/>
+    <node id="145" x="202" y="395" type="Entry"/>
+    <node id="146" x="333" y="387" type="Entry"/>
+    <node id="147" x="569" y="946" type="branch"/>
+    <node id="148" x="568" y="941" type="branch"/>
+    <node id="149" x="566" y="911" type="branch"/>
+    <node id="150" x="564" y="881" type="branch"/>
+    <node id="151" x="563" y="851" type="branch"/>
+    <node id="152" x="561" y="820" type="branch"/>
+    <node id="153" x="560" y="725" type="branch"/>
+    <node id="154" x="529" y="727" type="branch"/>
+    <node id="155" x="510" y="729" type="branch"/>
+    <node id="156" x="497" y="729" type="branch"/>
+    <node id="158" x="473" y="807" type="branch"/>
+    <node id="159" x="461" y="808" type="branch"/>
+    <node id="160" x="443" y="809" type="branch"/>
+    <node id="161" x="413" y="811" type="branch"/>
+    <node id="162" x="461" y="732" type="branch"/>
+    <node id="164" x="419" y="669" type="branch"/>
+    <node id="165" x="418" y="660" type="branch"/>
+    <node id="166" x="416" y="628" type="branch"/>
+    <node id="167" x="416" y="620" type="branch"/>
+    <node id="168" x="414" y="597" type="branch"/>
+    <node id="169" x="413" y="577" type="branch"/>
+    <node id="170" x="413" y="568" type="branch"/>
+    <node id="171" x="411" y="538" type="branch"/>
+    <node id="172" x="363" y="623" type="branch"/>
+    <node id="173" x="409" y="506" type="branch"/>
+    <node id="174" x="408" y="498" type="branch"/>
+    <node id="175" x="407" y="476" type="branch"/>
+    <node id="176" x="406" y="466" type="branch"/>
+    <node id="177" x="403" y="425" type="branch"/>
+    <node id="178" x="401" y="382" type="branch"/>
+    <node id="179" x="364" y="385" type="branch"/>
+    <node id="180" x="363" y="366" type="branch"/>
+    <node id="181" x="360" y="305" type="branch"/>
+    <node id="182" x="362" y="346" type="branch"/>
+    <node id="183" x="330" y="308" type="branch"/>
+    <node id="184" x="308" y="309" type="branch"/>
+    <node id="185" x="301" y="310" type="branch"/>
+    <node id="186" x="276" y="311" type="branch"/>
+    <node id="187" x="226" y="315" type="branch"/>
+    <node id="188" x="203" y="316" type="branch"/>
+    <node id="189" x="179" y="318" type="branch"/>
+    <node id="190" x="182" y="357" type="branch"/>
+    <node id="191" x="185" y="396" type="branch"/>
+    <node id="192" x="347" y="386" type="branch"/>
+    <node id="193" x="350" y="418" type="branch"/>
+    <node id="194" x="352" y="459" type="branch"/>
+    <node id="195" x="353" y="470" type="branch"/>
+    <node id="196" x="354" y="489" type="branch"/>
+    <node id="197" x="355" y="501" type="branch"/>
+    <node id="198" x="356" y="521" type="branch"/>
+    <node id="199" x="358" y="551" type="branch"/>
+    <node id="200" x="360" y="581" type="branch"/>
+    <node id="201" x="362" y="612" type="branch"/>
+    <node id="202" x="364" y="642" type="branch"/>
+    <node id="203" x="366" y="672" type="branch"/>
+    <node id="204" x="368" y="704" type="branch"/>
+    <node id="205" x="369" y="724" type="branch"/>
+    <node id="206" x="422" y="720" type="branch"/>
+    <node id="207" x="373" y="775" type="branch"/>
+    <node id="208" x="356" y="776" type="doorway"/>
+    <node id="209" x="376" y="829" type="branch"/>
+    <node id="210" x="239" y="838" type="branch"/>
+    <edge id="1" source="1" sink="210" type="0"/>
+    <edge id="2" source="210" sink="68" type="0"/>
+    <edge id="4" source="203" sink="204" type="0"/>
+    <edge id="5" source="204" sink="205" type="0"/>
+    <edge id="6" source="205" sink="207" type="0"/>
+    <edge id="8" source="203" sink="202" type="0"/>
+    <edge id="9" source="202" sink="172" type="0"/>
+    <edge id="10" source="172" sink="8" type="0"/>
+    <edge id="11" source="172" sink="201" type="0"/>
+    <edge id="12" source="200" sink="201" type="0"/>
+    <edge id="13" source="205" sink="206" type="0"/>
+    <edge id="14" source="206" sink="3" type="0"/>
+    <edge id="15" source="206" sink="79" type="0"/>
+    <edge id="16" source="3" sink="162" type="0"/>
+    <edge id="17" source="162" sink="156" type="0"/>
+    <edge id="18" source="156" sink="155" type="0"/>
+    <node id="211" x="375" y="813" type="branch"/>
+    <edge id="19" source="211" sink="161" type="0"/>
+    <edge id="20" source="211" sink="209" type="0"/>
+    <edge id="21" source="207" sink="211" type="0"/>
+    <edge id="22" source="200" sink="4" type="0"/>
+    <edge id="23" source="4" sink="199" type="0"/>
+    <edge id="24" source="199" sink="198" type="0"/>
+    <edge id="25" source="198" sink="197" type="0"/>
+    <edge id="28" source="8" sink="167" type="0"/>
+    <edge id="29" source="166" sink="30" type="0"/>
+    <edge id="30" source="167" sink="166" type="0"/>
+    <edge id="31" source="166" sink="165" type="0"/>
+    <edge id="32" source="165" sink="29" type="0"/>
+    <edge id="33" source="165" sink="164" type="0"/>
+    <edge id="34" source="164" sink="46" type="0"/>
+    <edge id="35" source="164" sink="13" type="0"/>
+    <edge id="36" source="13" sink="206" type="0"/>
+    <edge id="37" source="205" sink="47" type="0"/>
+    <edge id="38" source="204" sink="48" type="0"/>
+    <edge id="39" source="203" sink="49" type="0"/>
+    <edge id="40" source="202" sink="50" type="0"/>
+    <edge id="41" source="201" sink="51" type="0"/>
+    <edge id="42" source="161" sink="14" type="0"/>
+    <edge id="43" source="161" sink="2" type="0"/>
+    <edge id="44" source="2" sink="160" type="0"/>
+    <edge id="45" source="160" sink="15" type="0"/>
+    <edge id="46" source="160" sink="159" type="0"/>
+    <edge id="47" source="159" sink="17" type="0"/>
+    <edge id="48" source="159" sink="158" type="0"/>
+    <edge id="49" source="158" sink="16" type="0"/>
+    <edge id="50" source="162" sink="80" type="0"/>
+    <edge id="51" source="162" sink="28" type="0"/>
+    <edge id="52" source="156" sink="27" type="0"/>
+    <edge id="53" source="155" sink="81" type="0"/>
+    <edge id="54" source="155" sink="154" type="0"/>
+    <edge id="55" source="154" sink="26" type="0"/>
+    <edge id="56" source="154" sink="153" type="0"/>
+    <edge id="57" source="153" sink="25" type="0"/>
+    <edge id="58" source="153" sink="24" type="0"/>
+    <node id="212" x="557" y="763" type="branch"/>
+    <node id="213" x="559" y="802" type="branch"/>
+    <edge id="59" source="213" sink="212" type="0"/>
+    <edge id="60" source="212" sink="153" type="0"/>
+    <edge id="61" source="213" sink="152" type="0"/>
+    <edge id="62" source="152" sink="18" type="0"/>
+    <edge id="63" source="152" sink="151" type="0"/>
+    <edge id="64" source="151" sink="19" type="0"/>
+    <edge id="65" source="151" sink="150" type="0"/>
+    <edge id="66" source="150" sink="20" type="0"/>
+    <edge id="67" source="212" sink="70" type="0"/>
+    <edge id="68" source="150" sink="149" type="0"/>
+    <edge id="69" source="149" sink="21" type="0"/>
+    <edge id="70" source="149" sink="148" type="0"/>
+    <edge id="71" source="148" sink="22" type="0"/>
+    <edge id="72" source="147" sink="148" type="0"/>
+    <edge id="73" source="147" sink="23" type="0"/>
+    <edge id="74" source="213" sink="158" type="0"/>
+    <edge id="75" source="207" sink="208" type="0"/>
+    <edge id="76" source="200" sink="45" type="0"/>
+    <edge id="77" source="200" sink="52" type="0"/>
+    <edge id="78" source="199" sink="53" type="0"/>
+    <edge id="79" source="198" sink="54" type="0"/>
+    <edge id="80" source="168" sink="167" type="0"/>
+    <edge id="81" source="168" sink="31" type="0"/>
+    <edge id="82" source="168" sink="169" type="0"/>
+    <edge id="83" source="169" sink="44" type="0"/>
+    <edge id="84" source="169" sink="170" type="0"/>
+    <edge id="85" source="170" sink="32" type="0"/>
+    <edge id="86" source="170" sink="5" type="0"/>
+    <edge id="87" source="5" sink="171" type="0"/>
+    <edge id="88" source="171" sink="33" type="0"/>
+    <edge id="89" source="171" sink="43" type="0"/>
+    <edge id="90" source="171" sink="173" type="0"/>
+    <edge id="91" source="173" sink="34" type="0"/>
+    <edge id="92" source="173" sink="174" type="0"/>
+    <node id="214" x="392" y="499" type="branch"/>
+    <node id="215" x="370" y="500" type="branch"/>
+    <edge id="93" source="197" sink="215" type="0"/>
+    <edge id="94" source="215" sink="41" type="0"/>
+    <edge id="95" source="214" sink="7" type="0"/>
+    <edge id="96" source="214" sink="40" type="0"/>
+    <edge id="97" source="214" sink="174" type="0"/>
+    <edge id="98" source="174" sink="175" type="0"/>
+    <edge id="99" source="175" sink="35" type="0"/>
+    <edge id="100" source="175" sink="176" type="0"/>
+    <edge id="101" source="176" sink="39" type="0"/>
+    <edge id="102" source="176" sink="177" type="0"/>
+    <edge id="103" source="177" sink="36" type="0"/>
+    <edge id="104" source="177" sink="37" type="0"/>
+    <edge id="105" source="177" sink="6" type="0"/>
+    <edge id="106" source="6" sink="178" type="0"/>
+    <edge id="107" source="178" sink="114" type="0"/>
+    <edge id="108" source="197" sink="196" type="0"/>
+    <edge id="109" source="196" sink="55" type="0"/>
+    <edge id="110" source="196" sink="195" type="0"/>
+    <edge id="111" source="195" sink="42" type="0"/>
+    <edge id="112" source="195" sink="194" type="0"/>
+    <edge id="113" source="194" sink="56" type="0"/>
+    <edge id="114" source="194" sink="193" type="0"/>
+    <edge id="115" source="193" sink="57" type="0"/>
+    <edge id="116" source="193" sink="10" type="0"/>
+    <edge id="117" source="10" sink="192" type="0"/>
+    <edge id="118" source="192" sink="179" type="0"/>
+    <edge id="119" source="179" sink="38" type="0"/>
+    <edge id="120" source="179" sink="178" type="0"/>
+    <edge id="121" source="192" sink="146" type="0"/>
+    <edge id="122" source="179" sink="180" type="0"/>
+    <edge id="123" source="180" sink="63" type="0"/>
+    <edge id="124" source="180" sink="182" type="0"/>
+    <edge id="125" source="182" sink="71" type="0"/>
+    <edge id="126" source="182" sink="181" type="0"/>
+    <edge id="127" source="181" sink="58" type="0"/>
+    <edge id="128" source="181" sink="59" type="0"/>
+    <edge id="130" source="183" sink="9" type="0"/>
+    <edge id="131" source="181" sink="183" type="0"/>
+    <edge id="132" source="9" sink="184" type="0"/>
+    <edge id="133" source="184" sink="83" type="0"/>
+    <edge id="134" source="184" sink="185" type="0"/>
+    <edge id="135" source="185" sink="61" type="0"/>
+    <edge id="136" source="185" sink="186" type="0"/>
+    <edge id="137" source="186" sink="84" type="0"/>
+    <edge id="138" source="186" sink="187" type="0"/>
+    <edge id="139" source="187" sink="85" type="0"/>
+    <edge id="140" source="187" sink="188" type="0"/>
+    <edge id="141" source="188" sink="62" type="0"/>
+    <edge id="142" source="188" sink="189" type="0"/>
+    <edge id="143" source="189" sink="11" type="0"/>
+    <edge id="144" source="189" sink="190" type="0"/>
+    <edge id="145" source="190" sink="74" type="0"/>
+    <edge id="146" source="190" sink="191" type="0"/>
+    <edge id="147" source="191" sink="145" type="0"/>
+    <edge id="148" source="191" sink="67" type="0"/>
+    <edge id="149" source="67" sink="64" type="0"/>
+    <edge id="151" source="67" sink="65" type="0"/>
+    <edge id="152" source="210" sink="209" type="3"/>
+    <edge id="153" source="11" sink="12" type="6"/>
+    <node id="216" x="287" y="182" type="doorway"/>
+    <node id="217" x="113" y="271" type="doorway"/>
+    <edge id="154" source="217" sink="12" type="6"/>
+    <edge id="155" source="217" sink="11" type="6"/>
+    <node id="218" x="180" y="239" type="branch"/>
+    <edge id="156" source="218" sink="12" type="6"/>
+    <edge id="157" source="218" sink="216" type="6"/>
+    <edge id="158" source="218" sink="11" type="6"/>
+    <edge id="159" source="218" sink="217" type="6"/>
+    <node id="219" x="88" y="363" type="doorway"/>
+    <edge id="160" source="219" sink="74" type="2"/>
+    <edge id="161" source="145" sink="144" type="1"/>
+    <edge id="162" source="144" sink="146" type="1"/>
+    <edge id="163" source="6" sink="114" type="0"/>
+    <edge id="164" source="141" sink="65" type="1"/>
+    <edge id="165" source="64" sink="140" type="1"/>
+    <edge id="167" source="85" sink="86" type="1"/>
+    <edge id="168" source="84" sink="143" type="1"/>
+    <edge id="169" source="61" sink="138" type="1"/>
+    <edge id="170" source="83" sink="87" type="1"/>
+    <edge id="171" source="139" sink="137" type="1"/>
+    <edge id="172" source="137" sink="60" type="1"/>
+    <edge id="173" source="138" sink="139" type="1"/>
+    <edge id="174" source="59" sink="136" type="1"/>
+    <edge id="175" source="58" sink="135" type="1"/>
+    <edge id="176" source="57" sink="133" type="1"/>
+    <edge id="177" source="56" sink="132" type="1"/>
+    <edge id="178" source="55" sink="131" type="1"/>
+    <edge id="179" source="54" sink="130" type="1"/>
+    <edge id="180" source="53" sink="129" type="1"/>
+    <edge id="181" source="52" sink="128" type="1"/>
+    <edge id="182" source="37" sink="112" type="1"/>
+    <edge id="183" source="38" sink="112" type="1"/>
+    <edge id="184" source="114" sink="113" type="1"/>
+    <edge id="185" source="36" sink="115" type="1"/>
+    <edge id="186" source="116" sink="35" type="1"/>
+    <edge id="187" source="34" sink="117" type="1"/>
+    <edge id="188" source="33" sink="118" type="1"/>
+    <edge id="189" source="51" sink="127" type="1"/>
+    <edge id="190" source="50" sink="126" type="1"/>
+    <edge id="191" source="49" sink="125" type="1"/>
+    <edge id="192" source="48" sink="124" type="1"/>
+    <edge id="193" source="29" sink="122" type="1"/>
+    <edge id="194" source="46" sink="106" type="1"/>
+    <edge id="195" source="44" sink="107" type="1"/>
+    <edge id="196" source="43" sink="108" type="1"/>
+    <edge id="197" source="32" sink="119" type="1"/>
+    <edge id="198" source="31" sink="120" type="1"/>
+    <edge id="199" source="30" sink="121" type="1"/>
+    <edge id="200" source="47" sink="123" type="1"/>
+    <edge id="201" source="28" sink="100" type="1"/>
+    <edge id="202" source="27" sink="99" type="1"/>
+    <edge id="203" source="26" sink="98" type="1"/>
+    <edge id="204" source="25" sink="97" type="1"/>
+    <edge id="205" source="24" sink="96" type="1"/>
+    <edge id="206" source="80" sink="101" type="1"/>
+    <edge id="207" source="102" sink="17" type="1"/>
+    <edge id="208" source="79" sink="88" type="1"/>
+    <edge id="209" source="14" sink="105" type="1"/>
+    <edge id="210" source="15" sink="104" type="1"/>
+    <edge id="211" source="16" sink="103" type="1"/>
+    <edge id="212" source="19" sink="92" type="1"/>
+    <edge id="213" source="18" sink="93" type="1"/>
+    <edge id="214" source="20" sink="94" type="1"/>
+    <edge id="215" source="21" sink="91" type="1"/>
+    <edge id="216" source="23" sink="90" type="1"/>
+    <edge id="217" source="22" sink="95" type="1"/>
+    <edge id="218" source="41" sink="109" type="1"/>
+    <edge id="219" source="110" sink="40" type="1"/>
+    <edge id="220" source="39" sink="111" type="1"/>
+    <edge id="221" source="111" sink="42" type="1"/>
+    <edge id="222" source="134" sink="63" type="1"/>
+    <edge id="223" source="107" sink="45" type="1"/>
+    <edge id="224" source="115" sink="78" type="1"/>
+    <edge id="225" source="78" sink="116" type="1"/>
+    <node id="220" x="210" y="627" type="Lecturehall" name="TUBIT PC-POOL" isdestination=""/>
+    <edge id="226" source="66" sink="220" type="1"/>
+    <edge id="227" source="183" sink="60" type="0"/>
+    <edge id="228" source="3" sink="79" type="0"/>
+    <edge id="229" source="81" sink="89" type="1"/>
+    <node id="221" x="242" y="877" type="branch" name="EN Pförtner"/>
+    <edge id="230" source="68" sink="221" type="1"/>
+    <node id="222" x="170" y="174" type="branch" name="EN Cafeteria" isdestination=""/>
+    <edge id="231" source="222" sink="12" type="1"/>
+    <node id="223" x="188" y="434" type="branch"/>
+    <edge id="232" source="67" sink="223" type="0"/>
+    <edge id="233" source="223" sink="66" type="0"/>
+    <edge id="234" source="64" sink="223" type="0"/>
+    <edge id="235" source="65" sink="223" type="0"/>
+    <node id="224" x="204" y="337" type="branch" roomid="EN 023"/>
+    <edge id="236" source="62" sink="224" type="1"/>
+    <edge id="237" source="7" sink="215" type="0"/>
+    <node id="225" x="319" y="778" type="branch" name="EN 0 Aufgang A"/>
+    <edge id="238" source="225" sink="208" type="0"/>
+    <node id="226" x="407" y="781" type="branch" name="EN 0 Fahrstuhl A"/>
+    <edge id="239" source="207" sink="226" type="0"/>
+    <node id="227" x="613" y="759" type="branch" name="EN 0 Aufgang D"/>
+    <edge id="240" source="227" sink="70" type="0"/>
+    <node id="228" x="532" y="765" type="branch" name="EN 0 Fahrstuhl D"/>
+    <edge id="241" source="228" sink="212" type="0"/>
+    <node id="229" x="410" y="343" type="branch" name="EN 0 Aufgang C"/>
+    <edge id="242" source="229" sink="71" type="0"/>
+    <node id="230" x="331" y="348" type="branch" name="EN 0 Fahrstuhl C"/>
+    <edge id="243" source="230" sink="182" type="0"/>
+    <node id="231" x="120" y="365" type="branch" name="EN 0 Aufgang B"/>
+    <edge id="244" source="231" sink="74" type="0"/>
+    <edge id="245" source="219" sink="231" type="0"/>
+    <node id="232" x="206" y="363" type="branch" name="EN 0 Fahrstuhl B"/>
+    <edge id="246" source="190" sink="232" type="0"/>
+    <node id="233" x="322" y="878" type="GpsLink" lat="52.51474" long="13.32672"/>
+    <node id="234" x="627" y="659" type="GpsLink" lat="52.51497" long="13.32722"/>
+    <node id="235" x="412" y="240" type="GpsLink" lat="52.51539" long="13.32686"/>
+    <node id="236" x="504" y="988" type="GpsLink" lat="52.51464" long="13.32704"/>
+    <node id="237" x="87" y="363" type="GpsLink" lat="52.51526" long="13.32631"/>
+    <pixelToGK>
+      <xrw>0.11211890066636</xrw>
+      <yrw>0.0041502525039714</yrw>
+      <wrw>4590132.2323832</wrw>
+      <xhw>0.0041502525039715</xhw>
+      <yhw>-0.11211890066636</yhw>
+      <whw>5821100.3213257</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>1.7764599920672E-8</xlat>
+      <ylat>-1.0080309280344E-6</ylat>
+      <wlat>52.515621287076</wlat>
+      <xlon>1.6522254887664E-6</xlon>
+      <ylon>3.0619082487464E-8</ylon>
+      <wlon>13.326160843675</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>0.001977546216929</xx>
+      <yx>-0.11221348959744</yx>
+      <wx>5846012.219556</wx>
+      <xy>0.18907252088798</xy>
+      <yy>0.0035049440194414</yy>
+      <wy>1497020.0705904</wy>
+    </pixelToEPSG3857>
+    <node id="238" x="80" y="274" type="branch"/>
+    <edge id="247" source="217" sink="238" type="6"/>
+  </level>
+  <level id="2" storey="1" mapfile="en01_3_neu.jpg" width="663" height="1024">
+    <node id="1" x="208" y="507" type="Office" roomid="EN 180" isdestination=""/>
+    <node id="2" x="209" y="550" type="Office" roomid="EN 181 / 182"/>
+    <node id="3" x="212" y="612" type="Office" roomid="EN 183 / 184"/>
+    <node id="4" x="216" y="669" type="Office" roomid="EN 185 / 186"/>
+    <node id="5" x="220" y="705" type="Office" roomid="EN 187 / 188"/>
+    <node id="6" x="225" y="767" type="Office" roomid="EN 189"/>
+    <node id="7" x="229" y="825" type="Office" roomid="EN 190 / 191"/>
+    <node id="8" x="237" y="901" type="Office" roomid="EN 192 / 193"/>
+    <node id="9" x="238" y="945" type="Office" roomid="EN 194 / 195"/>
+    <node id="10" x="478" y="704" type="branch" name="EN 1 Lager" roomid="EN 170"/>
+    <node id="11" x="538" y="805" type="Lecturehall" name="EN 1 Labor, Erste Hilfe" roomid="EN 164 / 165"/>
+    <node id="12" x="574" y="884" type="Lecturehall" name="EN 1 Labor" roomid="EN 162 / 163"/>
+    <node id="13" x="613" y="800" type="Lecturehall" name="EN 1 Labor" roomid="EN 161"/>
+    <node id="14" x="611" y="740" type="Office" roomid="EN 160"/>
+    <node id="15" x="608" y="661" type="Office" roomid="EN 159"/>
+    <node id="16" x="581" y="624" type="Office" roomid="EN 158"/>
+    <node id="17" x="549" y="627" type="Office" name="CIT Sekretariat" roomid="EN 157"/>
+    <node id="18" x="519" y="631" type="Office" roomid="EN 156"/>
+    <node id="19" x="473" y="638" type="branch" roomid="EN 154 / 155"/>
+    <node id="20" x="417" y="664" type="Office" roomid="EN 155a"/>
+    <node id="21" x="447" y="588" type="Office" roomid="EN 152 / 153"/>
+    <node id="22" x="436" y="528" type="Office" roomid="EN 150 / 151"/>
+    <node id="23" x="439" y="459" type="Office" roomid="EN 148 / 149"/>
+    <node id="24" x="403" y="389" type="branch" name="EN 1 Lager" roomid="EN 146"/>
+    <node id="25" x="454" y="413" type="Office" roomid="EN 147"/>
+    <node id="26" x="452" y="372" type="Office" roomid="EN 145"/>
+    <node id="27" x="451" y="340" type="Office" roomid="EN 144"/>
+    <node id="28" x="399" y="335" type="branch" name="EN 1 Lager" roomid="EN 143"/>
+    <node id="29" x="407" y="254" type="Office" roomid="EN 142"/>
+    <node id="30" x="400" y="223" type="Office" roomid="EN 141"/>
+    <node id="31" x="358" y="214" type="Office" roomid="EN 140"/>
+    <node id="32" x="311" y="227" type="Lecturehall" name="EN 1 Labor" roomid="EN 138 / 139"/>
+    <node id="33" x="224" y="240" type="Office" roomid="EN 137"/>
+    <node id="34" x="243" y="161" type="Office" roomid="EN 135 / 136"/>
+    <node id="35" x="214" y="103" type="Office" roomid="EN 134"/>
+    <node id="36" x="262" y="92" type="Office" roomid="EN 133"/>
+    <node id="37" x="248" y="49" type="Office" roomid="EN 132"/>
+    <node id="38" x="209" y="56" type="Office" roomid="EN 131"/>
+    <node id="39" x="175" y="56" type="Office" roomid="EN 130"/>
+    <node id="40" x="142" y="108" type="Office" roomid="EN 129"/>
+    <node id="41" x="145" y="172" type="Office" roomid="EN 127"/>
+    <node id="42" x="151" y="206" type="Office" roomid="EN 125 / 126"/>
+    <node id="43" x="151" y="242" type="Office" roomid="EN 124"/>
+    <node id="44" x="156" y="272" type="Office" roomid="EN 123"/>
+    <node id="45" x="163" y="370" type="Office" roomid="EN 122"/>
+    <node id="46" x="231" y="375" type="Office" roomid="EN 121"/>
+    <node id="47" x="354" y="659" type="Office" roomid="EN 101 / 102"/>
+    <node id="48" x="352" y="620" type="Office" roomid="EN 103"/>
+    <node id="49" x="348" y="591" type="Office" roomid="EN 104"/>
+    <node id="50" x="344" y="541" type="Office" roomid="EN 105 / 106"/>
+    <node id="51" x="343" y="484" type="Office" roomid="EN 107 / 108"/>
+    <node id="52" x="340" y="428" type="Office" roomid="EN 109 / 110"/>
+    <node id="53" x="336" y="379" type="Office" roomid="EN 111 / 112"/>
+    <node id="54" x="283" y="342" type="branch" roomid="EN 113 / 114"/>
+    <node id="55" x="540" y="683" type="branch" roomid="EN 168"/>
+    <node id="56" x="547" y="723" type="branch" roomid="EN 167"/>
+    <node id="57" x="419" y="693" type="branch" roomid="EN 172"/>
+    <node id="58" x="449" y="783" type="Office" roomid="EN 173"/>
+    <node id="59" x="422" y="785" type="Office" roomid="EN 174"/>
+    <node id="60" x="389" y="790" type="Office" roomid="EN 175"/>
+    <node id="61" x="353" y="795" type="Office" roomid="EN 176"/>
+    <node id="62" x="243" y="810" type="doorway"/>
+    <node id="63" x="271" y="736" type="doorway"/>
+    <node id="64" x="275" y="798" type="doorway"/>
+    <node id="65" x="204" y="362" type="doorway"/>
+    <node id="66" x="304" y="262" type="doorway"/>
+    <node id="67" x="448" y="672" type="doorway"/>
+    <node id="68" x="453" y="749" type="doorway"/>
+    <node id="69" x="373" y="745" type="doorway"/>
+    <node id="70" x="351" y="695" type="doorway"/>
+    <node id="71" x="581" y="755" type="doorway"/>
+    <node id="73" x="235" y="75" type="Entry"/>
+    <node id="74" x="229" y="71" type="Entry"/>
+    <node id="75" x="220" y="72" type="Entry"/>
+    <node id="76" x="189" y="74" type="Entry"/>
+    <node id="77" x="198" y="110" type="Entry"/>
+    <node id="78" x="176" y="112" type="Entry"/>
+    <node id="79" x="180" y="170" type="Entry"/>
+    <node id="80" x="181" y="180" type="Entry"/>
+    <node id="81" x="201" y="164" type="Entry"/>
+    <node id="82" x="183" y="229" type="Entry"/>
+    <node id="83" x="188" y="270" type="Entry"/>
+    <node id="84" x="244" y="287" type="Toilet" name="EN 1 Damen WC 1"/>
+    <node id="85" x="324" y="281" type="Toilet" name="EN 1 Herren WC 1"/>
+    <node id="86" x="443" y="694" type="Toilet" name="EN 1 Damen WC 2"/>
+    <node id="87" x="512" y="687" type="Toilet" name="EN 1 Herren WC 2"/>
+    <node id="88" x="194" y="348" type="Entry"/>
+    <node id="89" x="229" y="353" type="Entry"/>
+    <node id="90" x="243" y="277" type="Entry"/>
+    <node id="91" x="264" y="278" type="Entry"/>
+    <node id="92" x="324" y="272" type="Entry"/>
+    <node id="93" x="342" y="245" type="Entry"/>
+    <node id="94" x="222" y="213" type="doorway"/>
+    <node id="95" x="266" y="212" type="doorway"/>
+    <node id="96" x="258" y="343" type="Entry"/>
+    <node id="97" x="244" y="505" type="Entry"/>
+    <node id="98" x="249" y="565" type="Entry"/>
+    <node id="99" x="251" y="585" type="Entry"/>
+    <node id="100" x="252" y="625" type="Entry"/>
+    <node id="101" x="253" y="644" type="Entry"/>
+    <node id="102" x="257" y="684" type="Entry"/>
+    <node id="103" x="258" y="703" type="Entry"/>
+    <node id="104" x="263" y="764" type="Entry"/>
+    <node id="105" x="267" y="822" type="Entry"/>
+    <node id="106" x="269" y="863" type="Entry"/>
+    <node id="107" x="271" y="883" type="Entry"/>
+    <node id="108" x="274" y="922" type="Entry"/>
+    <node id="109" x="275" y="943" type="Entry"/>
+    <node id="110" x="371" y="772" type="Entry"/>
+    <node id="111" x="400" y="760" type="Entry"/>
+    <node id="112" x="429" y="758" type="Entry"/>
+    <node id="113" x="438" y="757" type="Entry"/>
+    <node id="114" x="419" y="683" type="Entry"/>
+    <node id="115" x="443" y="682" type="Entry"/>
+    <node id="116" x="406" y="665" type="Entry"/>
+    <node id="117" x="386" y="675" type="Entry"/>
+    <node id="118" x="384" y="634" type="Entry"/>
+    <node id="119" x="383" y="626" type="Entry"/>
+    <node id="120" x="402" y="614" type="Entry"/>
+    <node id="121" x="399" y="564" type="Entry"/>
+    <node id="122" x="399" y="556" type="Entry"/>
+    <node id="123" x="381" y="565" type="Entry"/>
+    <node id="124" x="381" y="575" type="Entry"/>
+    <node id="125" x="390" y="446" type="Entry"/>
+    <node id="126" x="372" y="458" type="Entry"/>
+    <node id="127" x="371" y="447" type="Entry"/>
+    <node id="128" x="387" y="511" type="doorway"/>
+    <node id="129" x="405" y="419" type="Entry"/>
+    <node id="130" x="368" y="398" type="Entry"/>
+    <node id="131" x="430" y="435" type="Entry"/>
+    <node id="132" x="426" y="363" type="Entry"/>
+    <node id="133" x="425" y="352" type="Entry"/>
+    <node id="134" x="400" y="350" type="Entry"/>
+    <node id="135" x="387" y="246" type="Entry"/>
+    <node id="136" x="382" y="240" type="Entry"/>
+    <node id="137" x="372" y="242" type="Entry"/>
+    <node id="138" x="230" y="81" type="branch"/>
+    <node id="140" x="220" y="82" type="branch"/>
+    <node id="141" x="190" y="84" type="branch"/>
+    <node id="142" x="186" y="111" type="branch"/>
+    <node id="143" x="190" y="165" type="branch"/>
+    <node id="144" x="191" y="179" type="branch"/>
+    <node id="145" x="194" y="228" type="branch"/>
+    <node id="146" x="197" y="269" type="branch"/>
+    <node id="147" x="203" y="347" type="branch"/>
+    <node id="148" x="229" y="345" type="branch"/>
+    <node id="149" x="243" y="266" type="branch"/>
+    <node id="150" x="263" y="265" type="branch"/>
+    <node id="151" x="323" y="260" type="branch"/>
+    <node id="152" x="343" y="259" type="branch"/>
+    <node id="153" x="373" y="257" type="branch"/>
+    <node id="154" x="376" y="296" type="branch"/>
+    <node id="155" x="173" y="310" type="doorway"/>
+    <node id="156" x="388" y="295" type="doorway"/>
+    <node id="157" x="164" y="81" type="doorway"/>
+    <node id="158" x="374" y="716" type="doorway"/>
+    <node id="159" x="586" y="702" type="doorway"/>
+    <node id="160" x="475" y="662" type="Entry"/>
+    <node id="161" x="464" y="684" type="Entry"/>
+    <node id="162" x="532" y="658" type="Entry"/>
+    <node id="163" x="541" y="658" type="Entry"/>
+    <node id="164" x="568" y="646" type="Entry"/>
+    <node id="165" x="586" y="662" type="Entry"/>
+    <node id="166" x="592" y="742" type="Entry"/>
+    <node id="167" x="540" y="674" type="Entry"/>
+    <node id="168" x="560" y="722" type="Entry"/>
+    <node id="169" x="595" y="801" type="Entry"/>
+    <node id="170" x="575" y="803" type="Entry"/>
+    <node id="171" x="588" y="847" type="Entry"/>
+    <node id="172" x="300" y="980" type="doorway"/>
+    <node id="173" x="200" y="308" type="branch"/>
+    <node id="174" x="376" y="363" type="branch"/>
+    <node id="175" x="401" y="361" type="branch"/>
+    <node id="176" x="379" y="397" type="branch"/>
+    <node id="177" x="381" y="431" type="branch"/>
+    <node id="178" x="405" y="430" type="branch"/>
+    <node id="179" x="382" y="446" type="branch"/>
+    <node id="180" x="383" y="457" type="branch"/>
+    <node id="181" x="390" y="556" type="branch"/>
+    <node id="182" x="390" y="564" type="branch"/>
+    <node id="183" x="391" y="575" type="branch"/>
+    <node id="184" x="394" y="615" type="branch"/>
+    <node id="185" x="395" y="625" type="branch"/>
+    <node id="186" x="395" y="634" type="branch"/>
+    <node id="187" x="398" y="665" type="branch"/>
+    <node id="188" x="398" y="676" type="branch"/>
+    <node id="189" x="211" y="469" type="branch"/>
+    <node id="190" x="252" y="466" type="branch"/>
+    <node id="191" x="255" y="504" type="branch"/>
+    <node id="192" x="246" y="525" type="Entry"/>
+    <node id="193" x="256" y="525" type="branch"/>
+    <node id="194" x="259" y="565" type="branch"/>
+    <node id="195" x="260" y="584" type="branch"/>
+    <node id="196" x="263" y="624" type="branch"/>
+    <node id="197" x="265" y="643" type="branch"/>
+    <node id="198" x="267" y="683" type="branch"/>
+    <node id="199" x="269" y="702" type="branch"/>
+    <node id="200" x="273" y="763" type="branch"/>
+    <node id="201" x="277" y="821" type="branch"/>
+    <node id="202" x="370" y="756" type="branch"/>
+    <node id="203" x="399" y="743" type="branch"/>
+    <node id="204" x="397" y="715" type="branch"/>
+    <node id="205" x="418" y="674" type="branch"/>
+    <node id="206" x="442" y="672" type="branch"/>
+    <node id="207" x="463" y="671" type="branch"/>
+    <node id="208" x="476" y="670" type="branch"/>
+    <node id="209" x="280" y="862" type="branch"/>
+    <node id="210" x="281" y="882" type="branch"/>
+    <node id="211" x="284" y="921" type="branch"/>
+    <node id="212" x="286" y="942" type="branch"/>
+    <node id="213" x="288" y="976" type="branch"/>
+    <node id="214" x="399" y="752" type="branch"/>
+    <node id="215" x="429" y="750" type="branch"/>
+    <node id="216" x="437" y="750" type="branch"/>
+    <node id="217" x="539" y="666" type="branch"/>
+    <node id="218" x="569" y="663" type="branch"/>
+    <node id="219" x="572" y="703" type="branch"/>
+    <node id="220" x="574" y="721" type="branch"/>
+    <node id="221" x="580" y="740" type="branch"/>
+    <node id="222" x="584" y="802" type="branch"/>
+    <edge id="1" source="148" sink="89" type="0"/>
+    <edge id="2" source="148" sink="96" type="0"/>
+    <edge id="3" source="148" sink="147" type="0"/>
+    <edge id="4" source="147" sink="88" type="0"/>
+    <edge id="5" source="147" sink="173" type="0"/>
+    <edge id="6" source="173" sink="155" type="0"/>
+    <edge id="7" source="146" sink="173" type="0"/>
+    <edge id="8" source="146" sink="83" type="0"/>
+    <edge id="9" source="146" sink="145" type="0"/>
+    <edge id="10" source="145" sink="82" type="0"/>
+    <edge id="11" source="143" sink="79" type="0"/>
+    <edge id="12" source="143" sink="81" type="0"/>
+    <edge id="13" source="143" sink="144" type="0"/>
+    <edge id="14" source="144" sink="145" type="0"/>
+    <edge id="15" source="143" sink="142" type="0"/>
+    <edge id="16" source="142" sink="77" type="0"/>
+    <edge id="17" source="142" sink="78" type="0"/>
+    <edge id="18" source="142" sink="141" type="0"/>
+    <edge id="19" source="141" sink="76" type="0"/>
+    <edge id="20" source="141" sink="157" type="0"/>
+    <edge id="21" source="141" sink="140" type="0"/>
+    <edge id="22" source="140" sink="75" type="0"/>
+    <edge id="23" source="140" sink="138" type="0"/>
+    <edge id="24" source="138" sink="74" type="0"/>
+    <edge id="25" source="138" sink="73" type="0"/>
+    <edge id="26" source="149" sink="146" type="0"/>
+    <edge id="27" source="149" sink="90" type="0"/>
+    <edge id="28" source="149" sink="150" type="0"/>
+    <edge id="29" source="150" sink="91" type="0"/>
+    <edge id="30" source="150" sink="66" type="0"/>
+    <edge id="31" source="66" sink="151" type="0"/>
+    <edge id="32" source="151" sink="92" type="0"/>
+    <edge id="33" source="151" sink="152" type="0"/>
+    <edge id="34" source="152" sink="93" type="0"/>
+    <edge id="35" source="152" sink="153" type="0"/>
+    <edge id="36" source="153" sink="137" type="0"/>
+    <edge id="37" source="153" sink="136" type="0"/>
+    <edge id="38" source="153" sink="135" type="0"/>
+    <edge id="39" source="153" sink="154" type="0"/>
+    <edge id="40" source="154" sink="156" type="0"/>
+    <edge id="41" source="154" sink="174" type="0"/>
+    <edge id="42" source="174" sink="175" type="0"/>
+    <edge id="43" source="175" sink="134" type="0"/>
+    <edge id="44" source="175" sink="133" type="0"/>
+    <edge id="45" source="175" sink="132" type="0"/>
+    <edge id="46" source="174" sink="176" type="0"/>
+    <edge id="47" source="176" sink="130" type="0"/>
+    <edge id="48" source="176" sink="177" type="0"/>
+    <edge id="49" source="177" sink="178" type="0"/>
+    <edge id="50" source="178" sink="129" type="0"/>
+    <edge id="51" source="178" sink="131" type="0"/>
+    <edge id="52" source="177" sink="179" type="0"/>
+    <edge id="53" source="179" sink="125" type="0"/>
+    <edge id="54" source="179" sink="127" type="0"/>
+    <edge id="55" source="179" sink="180" type="0"/>
+    <edge id="56" source="180" sink="126" type="0"/>
+    <edge id="57" source="147" sink="65" type="0"/>
+    <edge id="58" source="65" sink="189" type="0"/>
+    <edge id="59" source="189" sink="190" type="0"/>
+    <edge id="60" source="190" sink="191" type="0"/>
+    <edge id="61" source="191" sink="97" type="0"/>
+    <edge id="62" source="191" sink="193" type="0"/>
+    <edge id="63" source="193" sink="192" type="0"/>
+    <edge id="64" source="193" sink="194" type="0"/>
+    <edge id="65" source="194" sink="98" type="0"/>
+    <edge id="66" source="194" sink="195" type="0"/>
+    <edge id="67" source="195" sink="99" type="0"/>
+    <edge id="68" source="195" sink="196" type="0"/>
+    <edge id="69" source="196" sink="100" type="0"/>
+    <edge id="70" source="196" sink="197" type="0"/>
+    <edge id="71" source="197" sink="101" type="0"/>
+    <edge id="72" source="197" sink="198" type="0"/>
+    <edge id="73" source="198" sink="102" type="0"/>
+    <edge id="74" source="198" sink="199" type="0"/>
+    <edge id="75" source="199" sink="103" type="0"/>
+    <edge id="76" source="199" sink="63" type="0"/>
+    <edge id="77" source="63" sink="200" type="0"/>
+    <edge id="78" source="200" sink="104" type="0"/>
+    <edge id="80" source="202" sink="110" type="0"/>
+    <edge id="81" source="202" sink="69" type="0"/>
+    <edge id="82" source="69" sink="203" type="0"/>
+    <edge id="83" source="203" sink="204" type="0"/>
+    <edge id="84" source="203" sink="214" type="0"/>
+    <edge id="85" source="214" sink="111" type="0"/>
+    <edge id="86" source="200" sink="64" type="0"/>
+    <edge id="87" source="201" sink="105" type="0"/>
+    <edge id="88" source="201" sink="64" type="0"/>
+    <edge id="89" source="201" sink="209" type="0"/>
+    <edge id="90" source="209" sink="106" type="0"/>
+    <edge id="91" source="210" sink="209" type="0"/>
+    <edge id="92" source="210" sink="107" type="0"/>
+    <edge id="93" source="210" sink="211" type="0"/>
+    <edge id="94" source="211" sink="108" type="0"/>
+    <edge id="95" source="211" sink="212" type="0"/>
+    <edge id="96" source="212" sink="109" type="0"/>
+    <edge id="97" source="212" sink="213" type="0"/>
+    <edge id="98" source="213" sink="172" type="0"/>
+    <edge id="99" source="180" sink="128" type="0"/>
+    <edge id="100" source="128" sink="181" type="0"/>
+    <edge id="101" source="181" sink="122" type="0"/>
+    <edge id="102" source="181" sink="182" type="0"/>
+    <edge id="103" source="182" sink="121" type="0"/>
+    <edge id="104" source="182" sink="123" type="0"/>
+    <edge id="105" source="182" sink="183" type="0"/>
+    <edge id="106" source="183" sink="124" type="0"/>
+    <edge id="107" source="183" sink="184" type="0"/>
+    <edge id="108" source="184" sink="120" type="0"/>
+    <edge id="109" source="184" sink="185" type="0"/>
+    <edge id="110" source="185" sink="119" type="0"/>
+    <edge id="111" source="185" sink="186" type="0"/>
+    <edge id="112" source="186" sink="118" type="0"/>
+    <edge id="113" source="186" sink="187" type="0"/>
+    <edge id="114" source="187" sink="116" type="0"/>
+    <edge id="115" source="188" sink="187" type="0"/>
+    <edge id="116" source="188" sink="204" type="0"/>
+    <edge id="117" source="188" sink="205" type="0"/>
+    <edge id="118" source="114" sink="205" type="0"/>
+    <edge id="119" source="206" sink="205" type="0"/>
+    <edge id="120" source="206" sink="115" type="0"/>
+    <edge id="121" source="206" sink="67" type="0"/>
+    <edge id="122" source="67" sink="207" type="0"/>
+    <edge id="123" source="207" sink="161" type="0"/>
+    <edge id="124" source="207" sink="208" type="0"/>
+    <edge id="125" source="208" sink="160" type="0"/>
+    <node id="223" x="522" y="678" type="Entry"/>
+    <node id="224" x="521" y="667" type="branch"/>
+    <edge id="126" source="208" sink="224" type="0"/>
+    <edge id="127" source="224" sink="223" type="0"/>
+    <edge id="128" source="224" sink="217" type="0"/>
+    <edge id="129" source="217" sink="163" type="0"/>
+    <edge id="130" source="217" sink="162" type="0"/>
+    <edge id="131" source="217" sink="167" type="0"/>
+    <edge id="132" source="217" sink="218" type="0"/>
+    <edge id="133" source="218" sink="164" type="0"/>
+    <edge id="134" source="218" sink="165" type="0"/>
+    <edge id="135" source="218" sink="219" type="0"/>
+    <edge id="136" source="219" sink="220" type="0"/>
+    <edge id="137" source="220" sink="168" type="0"/>
+    <edge id="138" source="219" sink="159" type="0"/>
+    <edge id="139" source="220" sink="221" type="0"/>
+    <edge id="140" source="221" sink="166" type="0"/>
+    <edge id="141" source="221" sink="68" type="0"/>
+    <edge id="142" source="214" sink="215" type="0"/>
+    <edge id="143" source="215" sink="112" type="0"/>
+    <edge id="144" source="215" sink="216" type="0"/>
+    <edge id="145" source="216" sink="113" type="0"/>
+    <edge id="146" source="216" sink="68" type="0"/>
+    <edge id="147" source="221" sink="71" type="0"/>
+    <edge id="148" source="71" sink="222" type="0"/>
+    <edge id="149" source="222" sink="169" type="0"/>
+    <edge id="150" source="222" sink="170" type="0"/>
+    <edge id="151" source="222" sink="171" type="0"/>
+    <edge id="152" source="200" sink="202" type="3"/>
+    <edge id="153" source="34" sink="94" type="1"/>
+    <edge id="154" source="94" sink="33" type="1"/>
+    <edge id="155" source="34" sink="95" type="1"/>
+    <edge id="156" source="95" sink="32" type="1"/>
+    <edge id="157" source="62" sink="7" type="1"/>
+    <edge id="158" source="62" sink="6" type="1"/>
+    <node id="225" x="281" y="296" type="Lecturehall" name="EN 1 Labor" roomid="EN 118"/>
+    <edge id="159" source="109" sink="9" type="1"/>
+    <edge id="160" source="108" sink="8" type="1"/>
+    <edge id="161" source="8" sink="107" type="1"/>
+    <edge id="162" source="7" sink="106" type="1"/>
+    <edge id="163" source="105" sink="7" type="1"/>
+    <edge id="164" source="104" sink="6" type="1"/>
+    <edge id="165" source="103" sink="5" type="1"/>
+    <edge id="166" source="102" sink="4" type="1"/>
+    <edge id="167" source="101" sink="4" type="1"/>
+    <edge id="168" source="3" sink="100" type="1"/>
+    <edge id="169" source="3" sink="99" type="1"/>
+    <edge id="170" source="98" sink="2" type="1"/>
+    <edge id="171" source="2" sink="192" type="1"/>
+    <edge id="172" source="97" sink="1" type="1"/>
+    <edge id="173" source="110" sink="61" type="1"/>
+    <edge id="174" source="111" sink="60" type="1"/>
+    <edge id="175" source="112" sink="59" type="1"/>
+    <edge id="176" source="113" sink="58" type="1"/>
+    <edge id="177" source="47" sink="117" type="1"/>
+    <edge id="178" source="47" sink="118" type="1"/>
+    <edge id="179" source="48" sink="119" type="1"/>
+    <edge id="180" source="49" sink="124" type="1"/>
+    <edge id="181" source="50" sink="123" type="1"/>
+    <edge id="182" source="121" sink="21" type="1"/>
+    <edge id="183" source="120" sink="21" type="1"/>
+    <edge id="184" source="116" sink="20" type="1"/>
+    <edge id="185" source="160" sink="19" type="1"/>
+    <edge id="186" source="162" sink="18" type="1"/>
+    <edge id="187" source="115" sink="86" type="1"/>
+    <edge id="188" source="114" sink="57" type="1"/>
+    <edge id="189" source="161" sink="10" type="1"/>
+    <edge id="190" source="122" sink="22" type="1"/>
+    <edge id="191" source="125" sink="23" type="1"/>
+    <edge id="192" source="131" sink="25" type="1"/>
+    <edge id="193" source="126" sink="51" type="1"/>
+    <edge id="194" source="127" sink="52" type="1"/>
+    <edge id="195" source="130" sink="53" type="1"/>
+    <edge id="196" source="129" sink="24" type="1"/>
+    <edge id="197" source="132" sink="26" type="1"/>
+    <edge id="198" source="163" sink="17" type="1"/>
+    <edge id="199" source="164" sink="16" type="1"/>
+    <edge id="200" source="165" sink="15" type="1"/>
+    <edge id="201" source="166" sink="14" type="1"/>
+    <edge id="202" source="169" sink="13" type="1"/>
+    <edge id="203" source="171" sink="12" type="1"/>
+    <edge id="204" source="170" sink="11" type="1"/>
+    <edge id="205" source="56" sink="168" type="1"/>
+    <edge id="206" source="55" sink="167" type="1"/>
+    <edge id="207" source="223" sink="87" type="1"/>
+    <edge id="208" source="27" sink="133" type="1"/>
+    <edge id="209" source="134" sink="28" type="1"/>
+    <edge id="210" source="135" sink="29" type="1"/>
+    <edge id="211" source="136" sink="30" type="1"/>
+    <edge id="212" source="137" sink="31" type="1"/>
+    <edge id="213" source="93" sink="32" type="1"/>
+    <edge id="214" source="91" sink="225" type="1"/>
+    <edge id="215" source="90" sink="84" type="1"/>
+    <edge id="217" source="96" sink="54" type="1"/>
+    <edge id="218" source="89" sink="46" type="1"/>
+    <edge id="219" source="81" sink="34" type="1"/>
+    <edge id="220" source="45" sink="88" type="1"/>
+    <edge id="221" source="44" sink="83" type="1"/>
+    <edge id="222" source="43" sink="82" type="1"/>
+    <edge id="223" source="42" sink="80" type="1"/>
+    <edge id="224" source="79" sink="41" type="1"/>
+    <edge id="225" source="40" sink="78" type="1"/>
+    <edge id="226" source="77" sink="35" type="1"/>
+    <edge id="227" source="73" sink="36" type="1"/>
+    <edge id="228" source="74" sink="37" type="1"/>
+    <edge id="229" source="75" sink="38" type="1"/>
+    <edge id="230" source="76" sink="39" type="1"/>
+    <edge id="231" source="92" sink="85" type="1"/>
+    <edge id="232" source="144" sink="80" type="0"/>
+    <node id="226" x="177" y="121" type="Entry"/>
+    <node id="227" x="142" y="126" type="Office" roomid="EN 128"/>
+    <edge id="233" source="227" sink="226" type="1"/>
+    <node id="228" x="340" y="719" type="branch" name="EN 1 Aufgang A"/>
+    <edge id="234" source="228" sink="158" type="0"/>
+    <edge id="235" source="158" sink="204" type="0"/>
+    <node id="229" x="423" y="718" type="branch" name="EN 1 Fahrstuhl A"/>
+    <edge id="236" source="204" sink="229" type="0"/>
+    <node id="230" x="139" y="312" type="branch" name="EN 1 Aufgang B"/>
+    <edge id="237" source="230" sink="155" type="0"/>
+    <node id="231" x="224" y="313" type="branch" name="EN 1 Fahrstuhl B"/>
+    <edge id="238" source="173" sink="231" type="0"/>
+    <node id="232" x="420" y="293" type="branch" name="EN 1 Aufgang C"/>
+    <edge id="239" source="232" sink="156" type="0"/>
+    <node id="233" x="346" y="298" type="branch" name="EN 1 Fahrstuhl C"/>
+    <edge id="240" source="233" sink="154" type="0"/>
+    <node id="234" x="619" y="700" type="branch" name="EN 1 Aufgang D"/>
+    <edge id="241" source="234" sink="159" type="0"/>
+    <node id="235" x="544" y="705" type="branch" name="EN 1 Fahrstuhl D"/>
+    <edge id="242" source="235" sink="219" type="0"/>
+    <node id="236" x="43" y="481" type="link" filename="E" level="2" nodeid="117"/>
+    <node id="237" x="106" y="989" type="link" filename="E" level="2" nodeid="138"/>
+    <edge id="243" source="189" sink="236" type="0"/>
+    <edge id="244" source="237" sink="213" type="0"/>
+    <node id="238" x="336" y="813" type="GpsLink" lat="52.51474" long="13.32672"/>
+    <edge id="245" source="226" sink="142" type="0"/>
+    <node id="246" x="623" y="604" type="GpsLink" lat="52.51497" long="13.32722"/>
+    <node id="247" x="426" y="197" type="GpsLink" lat="52.51539" long="13.32686"/>
+    <node id="248" x="514" y="920" type="GpsLink" lat="52.51464" long="13.32704"/>
+    <node id="249" x="112" y="315" type="GpsLink" lat="52.51526" long="13.32631"/>
+    <pixelToGK>
+      <xrw>0.11657718014286</xrw>
+      <yrw>0.0047936148335023</yrw>
+      <wrw>4590128.9812564</wrw>
+      <xhw>0.0047936148335023</xhw>
+      <yhw>-0.11657718014286</yhw>
+      <whw>5821096.2976854</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>2.2768463060542E-8</xlat>
+      <ylat>-1.0481974101573E-6</ylat>
+      <wlat>52.515585703636</wlat>
+      <xlon>1.7180544568941E-6</xlon>
+      <ylon>3.8880679962065E-8</ylon>
+      <wlon>13.32611187209</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>0.0025345737135783</xx>
+      <yx>-0.11668480193372</yx>
+      <wx>5846008.2584255</wx>
+      <xy>0.19660565826073</xy>
+      <yy>0.0044504022303483</yy>
+      <wy>1497014.4665606</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="3" storey="2" mapfile="en02_3_neu.jpg" width="677" height="1024">
+    <node id="1" x="370" y="828" type="Lecturehall" name="Fablab" roomid="EN 268"/>
+    <node id="2" x="309" y="705" type="Office" roomid="EN 201"/>
+    <node id="3" x="311" y="672" type="Office" roomid="EN 202"/>
+    <node id="4" x="307" y="647" type="Office" roomid="EN 203"/>
+    <node id="5" x="307" y="611" type="Office" roomid="EN 204"/>
+    <node id="6" x="302" y="549" type="Office" roomid="EN 205 / 206"/>
+    <node id="7" x="296" y="475" type="Office" roomid="EN 207 / 208"/>
+    <node id="8" x="298" y="426" type="Office" roomid="EN 209"/>
+    <node id="9" x="294" y="386" type="Office" roomid="EN 210"/>
+    <node id="10" x="291" y="335" type="Office" roomid="EN 211 / 212"/>
+    <node id="11" x="176" y="357" type="Office" roomid="EN 220"/>
+    <node id="12" x="143" y="359" type="Office" roomid="EN 221"/>
+    <node id="13" x="75" y="366" type="Office" roomid="EN 222"/>
+    <node id="14" x="68" y="200" type="Office" roomid="EN 223 / 224"/>
+    <node id="15" x="79" y="137" type="Office" roomid="EN 225"/>
+    <node id="16" x="76" y="82" type="Office" roomid="EN 226"/>
+    <node id="17" x="115" y="64" type="Office" roomid="EN 227 / 228"/>
+    <node id="18" x="162" y="112" type="Office" roomid="EN 229"/>
+    <node id="19" x="166" y="162" type="Office" roomid="EN 230"/>
+    <node id="20" x="170" y="207" type="Office" roomid="EN 231"/>
+    <node id="21" x="259" y="187" type="Office" roomid="EN 232"/>
+    <node id="22" x="305" y="184" type="Office" roomid="EN 233"/>
+    <node id="23" x="357" y="180" type="Office" roomid="EN 234"/>
+    <node id="24" x="375" y="321" type="Office" roomid="EN 235 / 236"/>
+    <node id="25" x="379" y="384" type="Office" roomid="EN 237"/>
+    <node id="26" x="382" y="434" type="Office" roomid="EN 238"/>
+    <node id="27" x="388" y="479" type="Office" roomid="EN 239"/>
+    <node id="28" x="387" y="530" type="Office" roomid="EN 240"/>
+    <node id="29" x="394" y="564" type="Office" roomid="EN 241"/>
+    <node id="30" x="396" y="600" type="Office" roomid="EN 242"/>
+    <node id="31" x="400" y="661" type="Office" roomid="EN 243 / 44"/>
+    <node id="32" x="491" y="663" type="Office" roomid="EN 245"/>
+    <node id="33" x="537" y="660" type="Office" roomid="EN 246"/>
+    <node id="34" x="563" y="650" type="Office" roomid="EN 247"/>
+    <node id="35" x="590" y="695" type="Office" roomid="EN 247a"/>
+    <node id="36" x="613" y="792" type="Office" roomid="EN 248"/>
+    <node id="37" x="613" y="830" type="Office" roomid="EN 249"/>
+    <node id="38" x="616" y="868" type="Office" roomid="EN 250"/>
+    <node id="39" x="616" y="899" type="Office" roomid="EN 251"/>
+    <node id="40" x="617" y="938" type="Office" roomid="EN 252"/>
+    <node id="41" x="615" y="974" type="Office" name="EN 2 Bib Archiv" roomid="EN 253"/>
+    <node id="42" x="535" y="980" type="Office" roomid="EN 254"/>
+    <node id="43" x="535" y="944" type="Office" roomid="EN 255"/>
+    <node id="44" x="528" y="910" type="Office" roomid="EN 256"/>
+    <node id="45" x="531" y="872" type="Office" roomid="EN 257"/>
+    <node id="46" x="526" y="810" type="Office" roomid="EN 258"/>
+    <node id="47" x="540" y="766" type="branch" roomid="EN 260"/>
+    <node id="48" x="529" y="724" type="branch" roomid="EN 261"/>
+    <node id="49" x="294" y="247" type="branch" roomid="EN 217"/>
+    <node id="50" x="305" y="290" type="branch" roomid="EN 213"/>
+    <node id="51" x="152" y="254" type="branch" roomid="EN 219"/>
+    <node id="52" x="387" y="729" type="branch" roomid="EN 265"/>
+    <node id="53" x="181" y="252" type="Toilet" name="EN 2 Damen WC 1"/>
+    <node id="54" x="273" y="248" type="Toilet" name="EN 2 Herren WC 1" roomid="EN 215"/>
+    <node id="55" x="416" y="732" type="Toilet" name="EN 2 Damen WC 2" roomid="EN 264"/>
+    <node id="56" x="508" y="724" type="Toilet" name="EN 2 Herren WC 2" roomid="EN 262"/>
+    <node id="57" x="293" y="365" type="doorway"/>
+    <node id="58" x="347" y="519" type="doorway"/>
+    <node id="59" x="297" y="401" type="doorway"/>
+    <node id="60" x="424" y="709" type="doorway"/>
+    <node id="61" x="487" y="704" type="doorway"/>
+    <node id="62" x="528" y="842" type="doorway"/>
+    <node id="63" x="587" y="663" type="doorway"/>
+    <node id="64" x="520" y="661" type="doorway"/>
+    <node id="65" x="378" y="359" type="doorway"/>
+    <node id="66" x="381" y="413" type="doorway"/>
+    <node id="67" x="335" y="181" type="doorway"/>
+    <node id="68" x="288" y="185" type="doorway"/>
+    <node id="69" x="160" y="95" type="doorway"/>
+    <node id="70" x="103" y="65" type="doorway"/>
+    <node id="71" x="78" y="113" type="doorway"/>
+    <node id="72" x="190" y="232" type="doorway"/>
+    <node id="73" x="253" y="227" type="doorway"/>
+    <node id="74" x="574" y="958" type="Entry"/>
+    <node id="75" x="587" y="959" type="Entry"/>
+    <node id="76" x="591" y="940" type="Entry"/>
+    <node id="77" x="590" y="917" type="Entry"/>
+    <node id="78" x="565" y="942" type="Entry"/>
+    <node id="79" x="564" y="918" type="Entry"/>
+    <node id="80" x="561" y="870" type="Entry"/>
+    <node id="81" x="585" y="857" type="Entry"/>
+    <node id="82" x="584" y="848" type="Entry"/>
+    <node id="83" x="579" y="788" type="Entry"/>
+    <node id="84" x="554" y="787" type="Entry"/>
+    <node id="85" x="553" y="765" type="Entry"/>
+    <node id="88" x="367" y="788" type="Entry"/>
+    <node id="89" x="507" y="710" type="Entry"/>
+    <node id="90" x="528" y="709" type="Entry"/>
+    <node id="91" x="573" y="696" type="Entry"/>
+    <node id="92" x="566" y="689" type="Entry"/>
+    <node id="93" x="555" y="688" type="Entry"/>
+    <node id="94" x="493" y="692" type="Entry"/>
+    <node id="95" x="349" y="704" type="Entry"/>
+    <node id="96" x="415" y="717" type="Entry"/>
+    <node id="97" x="386" y="721" type="Entry"/>
+    <node id="98" x="346" y="664" type="Entry"/>
+    <node id="99" x="347" y="654" type="Entry"/>
+    <node id="100" x="372" y="685" type="Entry"/>
+    <node id="102" x="365" y="592" type="Entry"/>
+    <node id="103" x="364" y="579" type="Entry"/>
+    <node id="104" x="340" y="594" type="Entry"/>
+    <node id="105" x="340" y="581" type="Entry"/>
+    <node id="106" x="359" y="532" type="Entry"/>
+    <node id="107" x="358" y="498" type="Entry"/>
+    <node id="108" x="334" y="500" type="Entry"/>
+    <node id="110" x="354" y="436" type="Entry"/>
+    <node id="111" x="327" y="408" type="Entry"/>
+    <node id="112" x="326" y="393" type="Entry"/>
+    <node id="113" x="349" y="370" type="Entry"/>
+    <node id="114" x="346" y="356" type="Entry"/>
+    <node id="115" x="318" y="315" type="Entry"/>
+    <node id="116" x="338" y="218" type="Entry"/>
+    <node id="117" x="329" y="210" type="Entry"/>
+    <node id="118" x="262" y="217" type="Entry"/>
+    <node id="119" x="114" y="234" type="Entry"/>
+    <node id="120" x="108" y="121" type="Entry"/>
+    <node id="121" x="105" y="106" type="Entry"/>
+    <node id="122" x="117" y="96" type="Entry"/>
+    <node id="123" x="130" y="114" type="Entry"/>
+    <node id="124" x="130" y="143" type="Entry"/>
+    <node id="125" x="136" y="209" type="Entry"/>
+    <node id="126" x="129" y="334" type="Entry"/>
+    <node id="127" x="115" y="324" type="Entry"/>
+    <node id="128" x="161" y="320" type="Entry"/>
+    <node id="129" x="293" y="234" type="Entry"/>
+    <node id="130" x="272" y="236" type="Entry"/>
+    <node id="131" x="180" y="243" type="Entry"/>
+    <node id="132" x="151" y="244" type="Entry"/>
+    <node id="133" x="348" y="263" type="doorway"/>
+    <node id="134" x="97" y="283" type="doorway"/>
+    <node id="135" x="334" y="757" type="doorway"/>
+    <node id="136" x="585" y="740" type="doorway"/>
+    <node id="137" x="118" y="106" type="branch"/>
+    <edge id="1" source="137" sink="122" type="0"/>
+    <edge id="2" source="137" sink="121" type="0"/>
+    <node id="138" x="119" y="120" type="branch"/>
+    <edge id="3" source="138" sink="137" type="0"/>
+    <edge id="4" source="138" sink="120" type="0"/>
+    <edge id="5" source="138" sink="123" type="0"/>
+    <node id="139" x="121" y="144" type="branch"/>
+    <edge id="6" source="139" sink="138" type="0"/>
+    <edge id="7" source="139" sink="124" type="0"/>
+    <node id="140" x="126" y="210" type="branch"/>
+    <edge id="8" source="140" sink="139" type="0"/>
+    <edge id="9" source="140" sink="125" type="0"/>
+    <node id="141" x="128" y="233" type="branch"/>
+    <edge id="10" source="140" sink="141" type="0"/>
+    <edge id="11" source="141" sink="119" type="0"/>
+    <node id="142" x="125" y="281" type="branch"/>
+    <node id="143" x="128" y="323" type="branch"/>
+    <edge id="12" source="143" sink="142" type="0"/>
+    <edge id="13" source="142" sink="141" type="0"/>
+    <edge id="14" source="143" sink="127" type="0"/>
+    <edge id="15" source="143" sink="126" type="0"/>
+    <edge id="16" source="143" sink="128" type="0"/>
+    <node id="144" x="150" y="232" type="branch"/>
+    <node id="145" x="179" y="229" type="branch"/>
+    <edge id="17" source="141" sink="144" type="0"/>
+    <edge id="18" source="144" sink="132" type="0"/>
+    <edge id="19" source="144" sink="145" type="0"/>
+    <edge id="20" source="145" sink="131" type="0"/>
+    <edge id="21" source="145" sink="72" type="0"/>
+    <edge id="22" source="72" sink="73" type="0"/>
+    <node id="146" x="262" y="226" type="branch"/>
+    <edge id="23" source="73" sink="146" type="0"/>
+    <edge id="24" source="146" sink="118" type="0"/>
+    <node id="147" x="271" y="226" type="branch"/>
+    <node id="148" x="292" y="224" type="branch"/>
+    <node id="149" x="329" y="219" type="branch"/>
+    <edge id="25" source="149" sink="117" type="0"/>
+    <edge id="26" source="149" sink="116" type="0"/>
+    <edge id="27" source="146" sink="147" type="0"/>
+    <edge id="28" source="147" sink="130" type="0"/>
+    <edge id="29" source="147" sink="148" type="0"/>
+    <edge id="30" source="148" sink="129" type="0"/>
+    <edge id="31" source="148" sink="149" type="0"/>
+    <node id="150" x="333" y="264" type="branch"/>
+    <edge id="32" source="149" sink="150" type="0"/>
+    <edge id="33" source="150" sink="133" type="0"/>
+    <node id="151" x="335" y="288" type="branch"/>
+    <edge id="34" source="151" sink="150" type="0"/>
+    <node id="152" x="317" y="290" type="Entry"/>
+    <node id="153" x="332" y="314" type="branch"/>
+    <edge id="35" source="151" sink="152" type="0"/>
+    <edge id="36" source="153" sink="115" type="0"/>
+    <edge id="37" source="153" sink="151" type="0"/>
+    <node id="154" x="335" y="357" type="branch"/>
+    <edge id="38" source="154" sink="114" type="0"/>
+    <edge id="39" source="154" sink="153" type="0"/>
+    <node id="155" x="336" y="371" type="branch"/>
+    <node id="156" x="337" y="392" type="branch"/>
+    <node id="157" x="339" y="407" type="branch"/>
+    <node id="158" x="341" y="437" type="branch"/>
+    <edge id="40" source="154" sink="155" type="0"/>
+    <edge id="41" source="155" sink="113" type="0"/>
+    <edge id="42" source="155" sink="156" type="0"/>
+    <edge id="43" source="156" sink="112" type="0"/>
+    <edge id="44" source="156" sink="157" type="0"/>
+    <edge id="45" source="157" sink="111" type="0"/>
+    <edge id="46" source="157" sink="158" type="0"/>
+    <edge id="47" source="158" sink="110" type="0"/>
+    <node id="159" x="345" y="499" type="branch"/>
+    <edge id="48" source="159" sink="107" type="0"/>
+    <edge id="49" source="159" sink="108" type="0"/>
+    <edge id="50" source="159" sink="158" type="0"/>
+    <edge id="51" source="159" sink="58" type="0"/>
+    <node id="160" x="348" y="533" type="branch"/>
+    <node id="161" x="351" y="580" type="branch"/>
+    <node id="162" x="352" y="593" type="branch"/>
+    <edge id="52" source="58" sink="160" type="0"/>
+    <edge id="53" source="160" sink="106" type="0"/>
+    <edge id="54" source="160" sink="161" type="0"/>
+    <edge id="55" source="161" sink="103" type="0"/>
+    <edge id="56" source="161" sink="105" type="0"/>
+    <edge id="57" source="162" sink="161" type="0"/>
+    <edge id="58" source="162" sink="102" type="0"/>
+    <edge id="59" source="162" sink="104" type="0"/>
+    <node id="163" x="357" y="653" type="branch"/>
+    <node id="164" x="358" y="663" type="branch"/>
+    <edge id="60" source="163" sink="162" type="0"/>
+    <edge id="61" source="163" sink="99" type="0"/>
+    <edge id="62" source="163" sink="164" type="0"/>
+    <edge id="63" source="164" sink="98" type="0"/>
+    <node id="165" x="359" y="686" type="branch"/>
+    <node id="166" x="361" y="703" type="branch"/>
+    <node id="167" x="361" y="713" type="branch"/>
+    <node id="168" x="385" y="711" type="branch"/>
+    <node id="169" x="414" y="709" type="branch"/>
+    <edge id="64" source="164" sink="165" type="0"/>
+    <edge id="65" source="165" sink="100" type="0"/>
+    <edge id="66" source="165" sink="166" type="0"/>
+    <edge id="67" source="166" sink="95" type="0"/>
+    <edge id="68" source="166" sink="167" type="0"/>
+    <edge id="69" source="167" sink="168" type="0"/>
+    <edge id="70" source="168" sink="97" type="0"/>
+    <edge id="71" source="168" sink="169" type="0"/>
+    <edge id="72" source="169" sink="96" type="0"/>
+    <edge id="73" source="169" sink="60" type="0"/>
+    <node id="170" x="364" y="755" type="branch"/>
+    <edge id="74" source="167" sink="170" type="0"/>
+    <edge id="75" source="170" sink="88" type="0"/>
+    <edge id="76" source="170" sink="135" type="0"/>
+    <edge id="77" source="60" sink="61" type="0"/>
+    <node id="171" x="494" y="703" type="branch"/>
+    <node id="172" x="506" y="702" type="branch"/>
+    <node id="173" x="527" y="701" type="branch"/>
+    <node id="174" x="556" y="699" type="branch"/>
+    <node id="175" x="566" y="696" type="branch"/>
+    <edge id="78" source="171" sink="61" type="0"/>
+    <edge id="79" source="171" sink="94" type="0"/>
+    <edge id="80" source="171" sink="172" type="0"/>
+    <edge id="81" source="172" sink="89" type="0"/>
+    <edge id="82" source="172" sink="173" type="0"/>
+    <edge id="83" source="173" sink="90" type="0"/>
+    <edge id="84" source="173" sink="174" type="0"/>
+    <edge id="85" source="174" sink="93" type="0"/>
+    <edge id="86" source="174" sink="175" type="0"/>
+    <edge id="87" source="175" sink="92" type="0"/>
+    <edge id="88" source="175" sink="91" type="0"/>
+    <node id="176" x="570" y="741" type="branch"/>
+    <node id="177" x="564" y="764" type="branch"/>
+    <edge id="89" source="176" sink="175" type="0"/>
+    <edge id="90" source="174" sink="176" type="0"/>
+    <node id="178" x="566" y="789" type="branch"/>
+    <edge id="91" source="178" sink="84" type="0"/>
+    <edge id="92" source="178" sink="83" type="0"/>
+    <edge id="93" source="177" sink="178" type="0"/>
+    <edge id="94" source="176" sink="177" type="0"/>
+    <edge id="95" source="177" sink="85" type="0"/>
+    <node id="179" x="571" y="849" type="branch"/>
+    <node id="180" x="571" y="859" type="branch"/>
+    <node id="181" x="572" y="869" type="branch"/>
+    <node id="182" x="576" y="918" type="branch"/>
+    <node id="183" x="577" y="941" type="branch"/>
+    <edge id="96" source="178" sink="179" type="0"/>
+    <edge id="97" source="179" sink="82" type="0"/>
+    <edge id="98" source="179" sink="180" type="0"/>
+    <edge id="99" source="180" sink="81" type="0"/>
+    <edge id="100" source="181" sink="80" type="0"/>
+    <edge id="101" source="181" sink="180" type="0"/>
+    <edge id="102" source="181" sink="182" type="0"/>
+    <edge id="103" source="182" sink="77" type="0"/>
+    <edge id="104" source="182" sink="79" type="0"/>
+    <edge id="105" source="182" sink="183" type="0"/>
+    <edge id="106" source="183" sink="76" type="0"/>
+    <edge id="107" source="183" sink="78" type="0"/>
+    <edge id="108" source="183" sink="75" type="0"/>
+    <edge id="109" source="183" sink="74" type="0"/>
+    <edge id="110" source="127" sink="13" type="1"/>
+    <edge id="111" source="126" sink="12" type="1"/>
+    <edge id="112" source="128" sink="11" type="1"/>
+    <edge id="113" source="119" sink="14" type="1"/>
+    <edge id="114" source="125" sink="20" type="1"/>
+    <edge id="115" source="124" sink="19" type="1"/>
+    <edge id="116" source="123" sink="18" type="1"/>
+    <edge id="117" source="18" sink="69" type="1"/>
+    <edge id="118" source="17" sink="69" type="1"/>
+    <edge id="119" source="70" sink="17" type="1"/>
+    <edge id="120" source="122" sink="17" type="1"/>
+    <edge id="121" source="70" sink="16" type="1"/>
+    <edge id="122" source="16" sink="71" type="1"/>
+    <edge id="123" source="121" sink="16" type="1"/>
+    <edge id="124" source="71" sink="15" type="1"/>
+    <edge id="125" source="15" sink="120" type="1"/>
+    <edge id="126" source="132" sink="51" type="1"/>
+    <edge id="127" source="131" sink="53" type="1"/>
+    <edge id="128" source="129" sink="49" type="1"/>
+    <edge id="129" source="130" sink="54" type="1"/>
+    <edge id="130" source="118" sink="21" type="1"/>
+    <edge id="131" source="21" sink="68" type="1"/>
+    <edge id="132" source="68" sink="22" type="1"/>
+    <edge id="133" source="22" sink="117" type="1"/>
+    <edge id="134" source="22" sink="67" type="1"/>
+    <edge id="135" source="67" sink="23" type="1"/>
+    <edge id="136" source="23" sink="116" type="1"/>
+    <edge id="137" source="50" sink="152" type="1"/>
+    <edge id="138" source="10" sink="115" type="1"/>
+    <edge id="139" source="10" sink="57" type="1"/>
+    <edge id="140" source="57" sink="9" type="1"/>
+    <edge id="142" source="9" sink="59" type="1"/>
+    <edge id="143" source="9" sink="112" type="1"/>
+    <edge id="144" source="59" sink="8" type="1"/>
+    <edge id="145" source="8" sink="111" type="1"/>
+    <edge id="146" source="7" sink="108" type="1"/>
+    <edge id="147" source="114" sink="24" type="1"/>
+    <edge id="148" source="24" sink="65" type="1"/>
+    <edge id="149" source="65" sink="25" type="1"/>
+    <edge id="150" source="25" sink="66" type="1"/>
+    <edge id="151" source="66" sink="26" type="1"/>
+    <edge id="152" source="26" sink="110" type="1"/>
+    <edge id="153" source="27" sink="107" type="1"/>
+    <edge id="154" source="106" sink="28" type="1"/>
+    <edge id="155" source="103" sink="29" type="1"/>
+    <edge id="156" source="30" sink="102" type="1"/>
+    <edge id="157" source="105" sink="6" type="1"/>
+    <edge id="158" source="5" sink="104" type="1"/>
+    <edge id="159" source="100" sink="31" type="1"/>
+    <edge id="160" source="99" sink="4" type="1"/>
+    <edge id="161" source="3" sink="98" type="1"/>
+    <edge id="162" source="2" sink="95" type="1"/>
+    <edge id="163" source="88" sink="1" type="1"/>
+    <edge id="164" source="52" sink="97" type="1"/>
+    <edge id="165" source="96" sink="55" type="1"/>
+    <edge id="166" source="94" sink="32" type="1"/>
+    <edge id="167" source="32" sink="64" type="1"/>
+    <edge id="168" source="33" sink="93" type="1"/>
+    <edge id="169" source="64" sink="33" type="1"/>
+    <edge id="170" source="89" sink="56" type="1"/>
+    <edge id="171" source="90" sink="48" type="1"/>
+    <edge id="172" source="47" sink="85" type="1"/>
+    <edge id="173" source="46" sink="84" type="1"/>
+    <edge id="174" source="46" sink="62" type="1"/>
+    <edge id="175" source="62" sink="45" type="1"/>
+    <edge id="176" source="45" sink="80" type="1"/>
+    <edge id="177" source="83" sink="36" type="1"/>
+    <edge id="178" source="37" sink="82" type="1"/>
+    <edge id="179" source="81" sink="38" type="1"/>
+    <edge id="180" source="44" sink="79" type="1"/>
+    <edge id="181" source="77" sink="39" type="1"/>
+    <edge id="182" source="76" sink="40" type="1"/>
+    <edge id="183" source="78" sink="43" type="1"/>
+    <edge id="184" source="74" sink="42" type="1"/>
+    <edge id="185" source="75" sink="41" type="1"/>
+    <edge id="186" source="63" sink="34" type="1"/>
+    <edge id="188" source="35" sink="91" type="1"/>
+    <edge id="189" source="92" sink="34" type="1"/>
+    <edge id="190" source="63" sink="35" type="1"/>
+    <edge id="191" source="136" sink="176" type="0"/>
+    <edge id="192" source="134" sink="142" type="0"/>
+    <node id="184" x="143" y="361" type="Office"/>
+    <node id="185" x="61" y="285" type="branch" name="EN 2 Aufgang B"/>
+    <edge id="193" source="134" sink="185" type="0"/>
+    <node id="186" x="390" y="260" type="branch" name="EN 2 Aufgang C"/>
+    <edge id="194" source="133" sink="186" type="0"/>
+    <node id="187" x="292" y="760" type="branch" name="EN 2 Aufgang A"/>
+    <edge id="195" source="187" sink="135" type="0"/>
+    <node id="188" x="628" y="737" type="branch" name="EN 2 Aufgang D"/>
+    <edge id="196" source="188" sink="136" type="0"/>
+    <node id="189" x="390" y="762" type="branch" name="EN 2 Fahrstuhl A"/>
+    <edge id="197" source="170" sink="189" type="0"/>
+    <edge id="198" source="88" sink="189" type="0"/>
+    <node id="190" x="534" y="744" type="branch" name="EN 2 Fahrstuhl D"/>
+    <edge id="199" source="190" sink="176" type="0"/>
+    <node id="191" x="299" y="267" type="branch" name="EN 2 Fahrstuhl C"/>
+    <edge id="200" source="191" sink="150" type="0"/>
+    <node id="192" x="157" y="283" type="branch" name="EN 2 Fahrstuhl B"/>
+    <edge id="201" source="142" sink="192" type="0"/>
+    <node id="193" x="287" y="880" type="GpsLink" lat="52.51474" long="13.32672"/>
+    <node id="202" x="632" y="627" type="GpsLink" lat="52.51497" long="13.32722"/>
+    <node id="203" x="392" y="138" type="GpsLink" lat="52.51539" long="13.32686"/>
+    <node id="204" x="498" y="1013" type="GpsLink" lat="52.51464" long="13.32704"/>
+    <node id="205" x="38" y="278" type="GpsLink" lat="52.51526" long="13.32631"/>
+    <pixelToGK>
+      <xrw>0.097630058617919</xrw>
+      <yrw>0.00493388663252</yrw>
+      <wrw>4590139.6382781</wrw>
+      <xhw>0.00493388663252</xhw>
+      <yhw>-0.097630058617919</yhw>
+      <whw>5821087.3057927</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>2.732783067782E-8</xlat>
+      <ylat>-8.779954751895E-7</ylat>
+      <wlat>52.51550306227</wlat>
+      <xlon>1.4390716244256E-6</xlon>
+      <ylon>4.610039366802E-8</ylon>
+      <wlon>13.326266364595</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>0.0030421201950242</xx>
+      <yx>-0.097738009203642</yx>
+      <wx>5845999.0588307</wx>
+      <xy>0.16468023358232</xy>
+      <yy>0.005276413862079</yy>
+      <wy>1497032.146007</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="4" storey="3" mapfile="en03_3_neu.jpg" width="708" height="1024">
+    <node id="1" x="367" y="357" type="Entry"/>
+    <node id="2" x="379" y="438" type="Entry"/>
+    <node id="3" x="381" y="478" type="Entry"/>
+    <node id="4" x="387" y="549" type="Entry"/>
+    <node id="5" x="391" y="584" type="Entry"/>
+    <node id="6" x="394" y="625" type="Entry"/>
+    <node id="7" x="368" y="645" type="Entry"/>
+    <node id="8" x="369" y="656" type="Entry"/>
+    <node id="9" x="376" y="703" type="Entry"/>
+    <node id="10" x="360" y="562" type="Entry"/>
+    <node id="11" x="362" y="575" type="Entry"/>
+    <node id="12" x="353" y="493" type="Entry"/>
+    <node id="13" x="352" y="458" type="Entry"/>
+    <node id="14" x="348" y="445" type="Entry"/>
+    <node id="15" x="442" y="695" type="Entry"/>
+    <node id="16" x="523" y="691" type="Entry"/>
+    <node id="17" x="582" y="684" type="Entry"/>
+    <node id="18" x="337" y="322" type="Entry"/>
+    <node id="19" x="152" y="321" type="Entry"/>
+    <node id="20" x="355" y="221" type="Entry"/>
+    <node id="21" x="333" y="216" type="Entry"/>
+    <node id="22" x="288" y="222" type="Entry"/>
+    <node id="23" x="384" y="807" type="Entry"/>
+    <node id="24" x="405" y="813" type="Entry"/>
+    <node id="25" x="452" y="808" type="Entry"/>
+    <node id="26" x="126" y="222" type="Entry"/>
+    <node id="27" x="127" y="211" type="Entry"/>
+    <node id="28" x="119" y="163" type="Entry"/>
+    <node id="29" x="119" y="175" type="Entry"/>
+    <node id="30" x="151" y="195" type="Entry"/>
+    <node id="31" x="153" y="208" type="Entry"/>
+    <node id="32" x="122" y="106" type="Entry"/>
+    <node id="33" x="147" y="106" type="Entry"/>
+    <node id="34" x="147" y="127" type="Entry"/>
+    <node id="35" x="104" y="261" type="Entry"/>
+    <node id="36" x="602" y="691" type="Entry"/>
+    <node id="37" x="612" y="781" type="Entry"/>
+    <node id="38" x="615" y="828" type="Entry"/>
+    <node id="39" x="618" y="842" type="Entry"/>
+    <node id="40" x="626" y="902" type="Entry"/>
+    <node id="41" x="623" y="912" type="Entry"/>
+    <node id="42" x="614" y="948" type="Entry"/>
+    <node id="43" x="599" y="933" type="Entry"/>
+    <node id="44" x="592" y="879" type="Entry"/>
+    <node id="45" x="590" y="845" type="Entry"/>
+    <node id="46" x="550" y="800" type="Entry"/>
+    <node id="47" x="584" y="766" type="Entry"/>
+    <node id="48" x="536" y="777" type="Entry"/>
+    <node id="50" x="536" y="712" type="Entry"/>
+    <node id="51" x="504" y="780" type="Entry"/>
+    <node id="52" x="617" y="736" type="doorway"/>
+    <node id="53" x="353" y="765" type="doorway"/>
+    <node id="54" x="552" y="687" type="Entry"/>
+    <node id="55" x="219" y="337" type="Entry"/>
+    <node id="56" x="274" y="331" type="Entry"/>
+    <node id="57" x="145" y="366" type="Entry"/>
+    <node id="58" x="109" y="295" type="doorway"/>
+    <node id="59" x="370" y="268" type="doorway"/>
+    <node id="61" x="221" y="262" type="Entry"/>
+    <node id="62" x="232" y="249" type="Entry"/>
+    <node id="64" x="133" y="125" type="doorway"/>
+    <node id="65" x="443" y="720" type="Entry"/>
+    <node id="66" x="262" y="235" type="doorway"/>
+    <node id="68" x="144" y="239" type="doorway"/>
+    <node id="69" x="452" y="710" type="doorway"/>
+    <node id="70" x="510" y="704" type="doorway"/>
+    <node id="71" x="463" y="796" type="doorway"/>
+    <node id="73" x="533" y="733" type="Toilet" name="EN 3 WC Herren"/>
+    <node id="74" x="445" y="740" type="Toilet" name="EN 3 WC Damen"/>
+    <node id="76" x="526" y="654" type="Office" roomid="EN 352"/>
+    <node id="77" x="570" y="656" type="Office" roomid="EN 353"/>
+    <node id="78" x="632" y="649" type="Office" roomid="EN 354"/>
+    <node id="79" x="647" y="782" type="Office" roomid="EN 355"/>
+    <node id="80" x="654" y="814" type="Office" roomid="EN 356"/>
+    <node id="81" x="657" y="852" type="Office" roomid="EN 357"/>
+    <node id="82" x="553" y="830" type="Office" roomid="EN 364/365"/>
+    <node id="83" x="553" y="860" type="Office" roomid="EN 363"/>
+    <node id="84" x="552" y="901" type="Office" roomid="EN 362"/>
+    <node id="85" x="663" y="885" type="Office" roomid="EN 358"/>
+    <node id="86" x="666" y="921" type="Office" roomid="EN 359"/>
+    <node id="87" x="666" y="961" type="Office" roomid="EN 360"/>
+    <node id="88" x="564" y="963" type="Office" roomid="EN 361"/>
+    <node id="89" x="456" y="839" type="Office" roomid="EN 366"/>
+    <node id="90" x="414" y="843" type="Office" roomid="EN 367"/>
+    <node id="91" x="348" y="840" type="Office" roomid="EN 368"/>
+    <node id="92" x="442" y="676" type="Office" roomid="EN 343"/>
+    <node id="93" x="325" y="720" type="Office" roomid="EN 301"/>
+    <node id="94" x="321" y="680" type="Office" roomid="EN 302"/>
+    <node id="95" x="318" y="637" type="Office" roomid="EN 303"/>
+    <node id="96" x="315" y="599" type="Office" roomid="EN 304"/>
+    <node id="97" x="438" y="621" type="Office" roomid="EN 342"/>
+    <node id="98" x="422" y="566" type="Office" roomid="EN 341"/>
+    <node id="99" x="309" y="549" type="Office" roomid="EN 305"/>
+    <node id="100" x="303" y="510" type="Office" roomid="EN 306"/>
+    <node id="101" x="419" y="531" type="Office" roomid="EN 340"/>
+    <node id="102" x="415" y="485" type="Office" roomid="EN 339"/>
+    <node id="103" x="410" y="417" type="Office" roomid="EN 336-338"/>
+    <node id="104" x="302" y="475" type="Office" roomid="EN 307"/>
+    <node id="105" x="297" y="440" type="Office" roomid="EN 308"/>
+    <node id="106" x="310" y="373" type="Office" roomid="EN 309/310"/>
+    <node id="107" x="399" y="328" type="Office" roomid="EN 334/335"/>
+    <node id="108" x="386" y="198" type="Office" roomid="EN 333"/>
+    <node id="109" x="326" y="187" type="Office" roomid="EN 332"/>
+    <node id="110" x="278" y="191" type="Office" roomid="EN 331"/>
+    <node id="113" x="247" y="255" type="Office" roomid="EN 314"/>
+    <node id="114" x="243" y="279" type="Office" roomid="EN 314A"/>
+    <node id="116" x="80" y="244" type="Office" roomid="EN 321"/>
+    <node id="117" x="96" y="371" type="Office" roomid="EN 319/320"/>
+    <node id="118" x="183" y="361" type="Office" roomid="EN 317/318"/>
+    <node id="119" x="81" y="190" type="Office" roomid="EN 322"/>
+    <node id="120" x="78" y="155" type="Office" roomid="EN 333"/>
+    <node id="121" x="71" y="82" type="Office" roomid="EN 324"/>
+    <node id="122" x="173" y="64" type="Office" roomid="EN 325"/>
+    <node id="123" x="181" y="130" type="Office" roomid="EN 326"/>
+    <node id="124" x="185" y="171" type="Office" roomid="EN 327"/>
+    <node id="125" x="189" y="218" type="Office" roomid="EN 328"/>
+    <node id="128" x="612" y="932" type="branch"/>
+    <node id="129" x="610" y="913" type="branch"/>
+    <node id="130" x="609" y="904" type="branch"/>
+    <node id="131" x="607" y="877" type="branch"/>
+    <node id="132" x="603" y="843" type="branch"/>
+    <node id="133" x="602" y="829" type="branch"/>
+    <node id="134" x="597" y="783" type="branch"/>
+    <node id="135" x="596" y="765" type="branch"/>
+    <node id="136" x="549" y="788" type="branch"/>
+    <node id="137" x="538" y="789" type="branch"/>
+    <node id="138" x="506" y="792" type="branch"/>
+    <node id="139" x="589" y="696" type="branch"/>
+    <node id="140" x="583" y="696" type="branch"/>
+    <node id="141" x="556" y="699" type="branch"/>
+    <node id="142" x="524" y="702" type="branch"/>
+    <node id="143" x="535" y="701" type="branch"/>
+    <node id="144" x="452" y="800" type="branch"/>
+    <node id="145" x="399" y="805" type="branch"/>
+    <node id="146" x="394" y="761" type="branch"/>
+    <node id="147" x="444" y="710" type="branch"/>
+    <node id="148" x="389" y="702" type="branch"/>
+    <node id="149" x="384" y="655" type="branch"/>
+    <node id="150" x="383" y="643" type="branch"/>
+    <node id="151" x="381" y="626" type="branch"/>
+    <node id="152" x="377" y="585" type="branch"/>
+    <node id="154" x="373" y="550" type="branch"/>
+    <node id="155" x="368" y="491" type="branch"/>
+    <node id="156" x="367" y="480" type="branch"/>
+    <node id="157" x="364" y="456" type="branch"/>
+    <node id="158" x="363" y="439" type="branch"/>
+    <node id="159" x="354" y="359" type="branch"/>
+    <node id="160" x="351" y="321" type="branch"/>
+    <node id="161" x="348" y="294" type="branch"/>
+    <node id="162" x="341" y="227" type="branch"/>
+    <node id="163" x="335" y="228" type="branch"/>
+    <node id="164" x="307" y="230" type="branch"/>
+    <node id="165" x="289" y="232" type="branch"/>
+    <node id="166" x="231" y="238" type="branch"/>
+    <node id="167" x="218" y="239" type="branch"/>
+    <node id="169" x="145" y="247" type="branch"/>
+    <node id="170" x="142" y="221" type="branch"/>
+    <node id="171" x="141" y="210" type="branch"/>
+    <node id="172" x="140" y="196" type="branch"/>
+    <node id="173" x="137" y="173" type="branch"/>
+    <node id="174" x="136" y="161" type="branch"/>
+    <node id="175" x="151" y="315" type="branch"/>
+    <node id="176" x="133" y="129" type="branch"/>
+    <node id="177" x="132" y="111" type="branch"/>
+    <node id="178" x="105" y="269" type="branch"/>
+    <node id="180" x="146" y="265" type="branch"/>
+    <node id="181" x="346" y="271" type="branch"/>
+    <node id="182" x="375" y="561" type="branch"/>
+    <node id="183" x="376" y="573" type="branch"/>
+    <node id="184" x="390" y="716" type="branch"/>
+    <node id="185" x="593" y="739" type="branch"/>
+    <edge id="4" source="169" sink="180" type="0"/>
+    <edge id="6" source="170" sink="169" type="0"/>
+    <edge id="7" source="171" sink="170" type="0"/>
+    <edge id="8" source="172" sink="171" type="0"/>
+    <edge id="12" source="167" sink="166" type="0"/>
+    <edge id="13" source="166" sink="62" type="0"/>
+    <edge id="14" source="167" sink="61" type="0"/>
+    <edge id="16" source="171" sink="27" type="0"/>
+    <edge id="17" source="171" sink="31" type="0"/>
+    <edge id="18" source="172" sink="30" type="0"/>
+    <edge id="19" source="170" sink="26" type="0"/>
+    <edge id="20" source="166" sink="66" type="0"/>
+    <edge id="21" source="66" sink="165" type="0"/>
+    <edge id="22" source="165" sink="22" type="0"/>
+    <edge id="24" source="164" sink="165" type="0"/>
+    <edge id="26" source="164" sink="163" type="0"/>
+    <edge id="27" source="163" sink="21" type="0"/>
+    <edge id="28" source="163" sink="162" type="0"/>
+    <edge id="29" source="162" sink="20" type="0"/>
+    <edge id="30" source="162" sink="181" type="0"/>
+    <edge id="31" source="181" sink="161" type="0"/>
+    <edge id="33" source="160" sink="161" type="0"/>
+    <edge id="34" source="160" sink="18" type="0"/>
+    <edge id="35" source="159" sink="160" type="0"/>
+    <edge id="36" source="159" sink="1" type="0"/>
+    <edge id="37" source="181" sink="59" type="0"/>
+    <edge id="38" source="158" sink="2" type="0"/>
+    <edge id="39" source="158" sink="159" type="0"/>
+    <edge id="40" source="158" sink="14" type="0"/>
+    <edge id="41" source="157" sink="158" type="0"/>
+    <edge id="42" source="157" sink="13" type="0"/>
+    <edge id="43" source="156" sink="157" type="0"/>
+    <edge id="44" source="156" sink="3" type="0"/>
+    <edge id="45" source="155" sink="156" type="0"/>
+    <edge id="46" source="155" sink="12" type="0"/>
+    <edge id="49" source="154" sink="4" type="0"/>
+    <edge id="50" source="182" sink="154" type="0"/>
+    <edge id="51" source="182" sink="10" type="0"/>
+    <edge id="52" source="183" sink="182" type="0"/>
+    <edge id="53" source="183" sink="11" type="0"/>
+    <edge id="54" source="152" sink="183" type="0"/>
+    <edge id="55" source="5" sink="152" type="0"/>
+    <edge id="56" source="152" sink="151" type="0"/>
+    <edge id="57" source="151" sink="6" type="0"/>
+    <edge id="58" source="151" sink="150" type="0"/>
+    <edge id="59" source="150" sink="149" type="0"/>
+    <edge id="60" source="150" sink="7" type="0"/>
+    <edge id="61" source="149" sink="8" type="0"/>
+    <edge id="62" source="149" sink="148" type="0"/>
+    <edge id="63" source="148" sink="9" type="0"/>
+    <edge id="64" source="184" sink="148" type="0"/>
+    <edge id="65" source="184" sink="146" type="0"/>
+    <edge id="66" source="146" sink="53" type="0"/>
+    <edge id="67" source="146" sink="145" type="0"/>
+    <edge id="68" source="145" sink="23" type="0"/>
+    <edge id="69" source="145" sink="24" type="0"/>
+    <edge id="70" source="144" sink="145" type="0"/>
+    <edge id="71" source="144" sink="25" type="0"/>
+    <edge id="72" source="144" sink="71" type="0"/>
+    <edge id="73" source="71" sink="138" type="0"/>
+    <edge id="74" source="138" sink="51" type="0"/>
+    <edge id="75" source="65" sink="147" type="0"/>
+    <edge id="76" source="147" sink="15" type="0"/>
+    <edge id="77" source="147" sink="184" type="0"/>
+    <edge id="78" source="147" sink="69" type="0"/>
+    <edge id="79" source="69" sink="70" type="0"/>
+    <edge id="80" source="138" sink="137" type="0"/>
+    <edge id="81" source="137" sink="48" type="0"/>
+    <edge id="82" source="137" sink="136" type="0"/>
+    <edge id="83" source="46" sink="136" type="0"/>
+    <edge id="84" source="143" sink="142" type="0"/>
+    <edge id="85" source="142" sink="70" type="0"/>
+    <edge id="86" source="142" sink="16" type="0"/>
+    <edge id="87" source="143" sink="141" type="0"/>
+    <edge id="89" source="141" sink="140" type="0"/>
+    <edge id="90" source="139" sink="140" type="0"/>
+    <edge id="91" source="140" sink="17" type="0"/>
+    <edge id="92" source="139" sink="36" type="0"/>
+    <edge id="93" source="139" sink="185" type="0"/>
+    <edge id="94" source="185" sink="135" type="0"/>
+    <edge id="95" source="135" sink="47" type="0"/>
+    <edge id="96" source="135" sink="134" type="0"/>
+    <edge id="97" source="134" sink="37" type="0"/>
+    <edge id="98" source="134" sink="136" type="0"/>
+    <edge id="99" source="134" sink="133" type="0"/>
+    <edge id="100" source="133" sink="38" type="0"/>
+    <edge id="101" source="185" sink="52" type="0"/>
+    <edge id="102" source="132" sink="133" type="0"/>
+    <edge id="103" source="132" sink="45" type="0"/>
+    <edge id="104" source="132" sink="39" type="0"/>
+    <edge id="105" source="132" sink="131" type="0"/>
+    <edge id="106" source="131" sink="44" type="0"/>
+    <edge id="107" source="131" sink="130" type="0"/>
+    <edge id="108" source="130" sink="40" type="0"/>
+    <edge id="109" source="129" sink="130" type="0"/>
+    <edge id="110" source="129" sink="41" type="0"/>
+    <edge id="111" source="128" sink="129" type="0"/>
+    <edge id="112" source="128" sink="43" type="0"/>
+    <edge id="113" source="128" sink="42" type="0"/>
+    <edge id="114" source="143" sink="50" type="0"/>
+    <edge id="115" source="175" sink="19" type="0"/>
+    <edge id="116" source="178" sink="35" type="0"/>
+    <edge id="117" source="172" sink="173" type="0"/>
+    <edge id="118" source="173" sink="174" type="0"/>
+    <edge id="119" source="174" sink="28" type="0"/>
+    <edge id="120" source="173" sink="29" type="0"/>
+    <edge id="121" source="174" sink="176" type="0"/>
+    <edge id="122" source="176" sink="64" type="0"/>
+    <edge id="123" source="176" sink="34" type="0"/>
+    <edge id="124" source="64" sink="177" type="0"/>
+    <edge id="125" source="177" sink="32" type="0"/>
+    <edge id="126" source="177" sink="33" type="0"/>
+    <node id="187" x="232" y="218" type="Office" roomid="EN 329/330"/>
+    <node id="188" x="230" y="229" type="Entry"/>
+    <edge id="127" source="166" sink="188" type="0"/>
+    <node id="189" x="346" y="571" type="Entry"/>
+    <node id="190" x="352" y="616" type="Entry"/>
+    <node id="191" x="354" y="653" type="Entry"/>
+    <node id="192" x="361" y="700" type="Entry"/>
+    <edge id="128" source="117" sink="57" type="1"/>
+    <edge id="129" source="57" sink="118" type="1"/>
+    <edge id="130" source="118" sink="55" type="1"/>
+    <edge id="131" source="55" sink="56" type="1"/>
+    <edge id="132" source="56" sink="106" type="1"/>
+    <edge id="133" source="99" sink="189" type="1"/>
+    <edge id="134" source="189" sink="96" type="1"/>
+    <edge id="135" source="96" sink="190" type="1"/>
+    <edge id="136" source="190" sink="95" type="1"/>
+    <edge id="137" source="95" sink="191" type="1"/>
+    <edge id="138" source="191" sink="94" type="1"/>
+    <edge id="139" source="94" sink="192" type="1"/>
+    <edge id="140" source="192" sink="93" type="1"/>
+    <edge id="141" source="76" sink="54" type="1"/>
+    <edge id="142" source="54" sink="77" type="1"/>
+    <node id="193" x="282" y="260" type="Toilet" name="Herren WC" roomid="313"/>
+    <node id="194" x="199" y="273" type="Toilet" name="EN 3 WC Damen"/>
+    <node id="195" x="68" y="300" type="branch"/>
+    <node id="196" x="410" y="264" type="branch"/>
+    <node id="197" x="317" y="769" type="branch"/>
+    <node id="198" x="655" y="734" type="branch"/>
+    <edge id="143" source="53" sink="197" type="0"/>
+    <node id="199" x="417" y="759" type="branch" name="EN 3 Fahrstuhl A"/>
+    <edge id="144" source="199" sink="146" type="0"/>
+    <edge id="145" source="58" sink="195" type="0"/>
+    <edge id="146" source="196" sink="59" type="0"/>
+    <edge id="147" source="198" sink="52" type="0"/>
+    <edge id="148" source="122" sink="33" type="1"/>
+    <edge id="149" source="32" sink="121" type="1"/>
+    <edge id="150" source="34" sink="123" type="1"/>
+    <edge id="151" source="30" sink="124" type="1"/>
+    <edge id="152" source="31" sink="125" type="1"/>
+    <edge id="153" source="120" sink="28" type="1"/>
+    <edge id="154" source="29" sink="119" type="1"/>
+    <edge id="155" source="27" sink="119" type="1"/>
+    <edge id="156" source="26" sink="116" type="1"/>
+    <edge id="157" source="116" sink="35" type="1"/>
+    <edge id="158" source="62" sink="113" type="1"/>
+    <edge id="159" source="61" sink="114" type="1"/>
+    <node id="200" x="196" y="252" type="Entry"/>
+    <edge id="161" source="200" sink="194" type="1"/>
+    <node id="201" x="195" y="243" type="branch"/>
+    <edge id="163" source="201" sink="200" type="0"/>
+    <edge id="164" source="201" sink="167" type="0"/>
+    <edge id="165" source="201" sink="169" type="0"/>
+    <edge id="166" source="118" sink="19" type="1"/>
+    <node id="202" x="173" y="288" type="branch" name="EN 3 Fahrstuhl B"/>
+    <edge id="167" source="18" sink="106" type="1"/>
+    <node id="203" x="316" y="274" type="branch" name="EN 3 Fahrstuhl C"/>
+    <edge id="168" source="110" sink="22" type="1"/>
+    <edge id="169" source="188" sink="187" type="1"/>
+    <edge id="170" source="109" sink="21" type="1"/>
+    <edge id="171" source="20" sink="108" type="1"/>
+    <edge id="172" source="1" sink="107" type="1"/>
+    <edge id="173" source="2" sink="103" type="1"/>
+    <edge id="174" source="14" sink="105" type="1"/>
+    <edge id="175" source="155" sink="154" type="0"/>
+    <edge id="176" source="3" sink="102" type="1"/>
+    <edge id="177" source="101" sink="4" type="1"/>
+    <edge id="178" source="98" sink="5" type="1"/>
+    <edge id="179" source="97" sink="6" type="1"/>
+    <edge id="180" source="92" sink="15" type="1"/>
+    <edge id="181" source="7" sink="95" type="1"/>
+    <edge id="182" source="8" sink="94" type="1"/>
+    <edge id="183" source="9" sink="93" type="1"/>
+    <edge id="184" source="11" sink="96" type="1"/>
+    <edge id="185" source="10" sink="99" type="1"/>
+    <edge id="186" source="12" sink="100" type="1"/>
+    <edge id="187" source="13" sink="104" type="1"/>
+    <node id="204" x="486" y="752" type="Office" roomid="EN 348"/>
+    <edge id="188" source="91" sink="23" type="1"/>
+    <edge id="189" source="24" sink="90" type="1"/>
+    <edge id="190" source="25" sink="89" type="1"/>
+    <edge id="191" source="65" sink="74" type="1"/>
+    <edge id="192" source="16" sink="76" type="1"/>
+    <edge id="193" source="204" sink="51" type="1"/>
+    <edge id="194" source="82" sink="46" type="1"/>
+    <edge id="195" source="37" sink="79" type="1"/>
+    <edge id="196" source="36" sink="78" type="1"/>
+    <edge id="197" source="39" sink="81" type="1"/>
+    <edge id="198" source="45" sink="83" type="1"/>
+    <edge id="199" source="80" sink="38" type="1"/>
+    <edge id="200" source="85" sink="40" type="1"/>
+    <edge id="201" source="41" sink="86" type="1"/>
+    <edge id="202" source="42" sink="87" type="1"/>
+    <edge id="203" source="43" sink="88" type="1"/>
+    <edge id="204" source="44" sink="84" type="1"/>
+    <edge id="205" source="77" sink="17" type="1" name="m"/>
+    <edge id="206" source="50" sink="73" type="1"/>
+    <node id="205" x="564" y="743" type="branch" name="EN 3 Fahrstuhl D"/>
+    <edge id="207" source="185" sink="205" type="0"/>
+    <edge id="208" source="181" sink="203" type="0"/>
+    <node id="206" x="145" y="291" type="branch"/>
+    <edge id="209" source="180" sink="206" type="0"/>
+    <edge id="210" source="206" sink="178" type="0"/>
+    <edge id="211" source="58" sink="206" type="0"/>
+    <edge id="212" source="206" sink="175" type="0"/>
+    <edge id="213" source="206" sink="202" type="0"/>
+    <node id="214" x="316" y="890" type="GpsLink" lat="52.51474" long="13.32672"/>
+    <node id="215" x="656" y="623" type="GpsLink" lat="52.51497" long="13.32722"/>
+    <node id="216" x="401" y="139" type="GpsLink" lat="52.51539" long="13.32686"/>
+    <node id="217" x="534" y="1014" type="GpsLink" lat="52.51464" long="13.32704"/>
+    <node id="218" x="50" y="290" type="GpsLink" lat="52.51526" long="13.32631"/>
+    <pixelToGK>
+      <xrw>0.097202435673797</xrw>
+      <yrw>0.0020508783165793</yrw>
+      <wrw>4590139.3424874</wrw>
+      <xhw>0.0020508783165793</xhw>
+      <yhw>-0.097202435673797</yhw>
+      <whw>5821088.4633662</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>1.500518200889E-9</xlat>
+      <ylat>-8.7365159089082E-7</ylat>
+      <wlat>52.515513513745</wlat>
+      <xlon>1.431990079837E-6</xlon>
+      <ylon>3.7606719997907E-9</ylon>
+      <wlon>13.326262323578</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>0.00016703692192386</xx>
+      <yx>-0.09725445021551</yx>
+      <wx>5846000.2222836</wx>
+      <xy>0.16386988336234</xy>
+      <yy>0.00043126033971718</yy>
+      <wy>1497031.6835621</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="5" storey="4" mapfile="en04_3_neu.jpg" width="682" height="1024">
+    <node id="1" x="574" y="946" type="Entry"/>
+    <node id="2" x="586" y="951" type="Entry"/>
+    <node id="3" x="601" y="933" type="Entry"/>
+    <node id="4" x="597" y="922" type="Entry"/>
+    <node id="5" x="569" y="897" type="Entry"/>
+    <node id="6" x="594" y="888" type="Entry"/>
+    <node id="7" x="592" y="862" type="Entry"/>
+    <node id="8" x="590" y="854" type="Entry"/>
+    <node id="9" x="567" y="864" type="Entry"/>
+    <node id="10" x="565" y="831" type="Entry"/>
+    <node id="11" x="587" y="792" type="Entry"/>
+    <node id="13" x="517" y="718" type="Entry"/>
+    <node id="14" x="504" y="700" type="Entry"/>
+    <node id="15" x="562" y="697" type="Entry"/>
+    <node id="16" x="580" y="701" type="Entry"/>
+    <node id="17" x="487" y="788" type="Entry"/>
+    <node id="18" x="425" y="726" type="Entry"/>
+    <node id="19" x="432" y="811" type="Entry"/>
+    <node id="21" x="366" y="807" type="Entry"/>
+    <node id="23" x="358" y="716" type="Entry"/>
+    <node id="24" x="357" y="671" type="Entry"/>
+    <node id="25" x="352" y="659" type="Entry"/>
+    <node id="26" x="378" y="634" type="Entry"/>
+    <node id="27" x="375" y="622" type="Entry"/>
+    <node id="28" x="352" y="600" type="Entry"/>
+    <node id="29" x="350" y="590" type="Entry"/>
+    <node id="30" x="373" y="588" type="Entry"/>
+    <node id="31" x="373" y="576" type="Entry"/>
+    <node id="32" x="367" y="506" type="Entry"/>
+    <node id="33" x="343" y="508" type="Entry"/>
+    <node id="34" x="341" y="459" type="Entry"/>
+    <node id="35" x="363" y="458" type="Entry"/>
+    <node id="36" x="364" y="446" type="Entry"/>
+    <node id="37" x="340" y="448" type="Entry"/>
+    <node id="38" x="337" y="393" type="Entry"/>
+    <node id="39" x="335" y="380" type="Entry"/>
+    <node id="40" x="359" y="392" type="Entry"/>
+    <node id="41" x="361" y="378" type="Entry"/>
+    <node id="42" x="355" y="321" type="Entry"/>
+    <node id="43" x="329" y="298" type="Entry"/>
+    <node id="45" x="286" y="246" type="Entry"/>
+    <node id="46" x="352" y="225" type="Entry"/>
+    <node id="48" x="319" y="224" type="Entry"/>
+    <node id="49" x="274" y="224" type="Entry"/>
+    <node id="50" x="255" y="312" type="Entry"/>
+    <node id="51" x="195" y="255" type="Entry"/>
+    <node id="52" x="198" y="340" type="Entry"/>
+    <node id="53" x="153" y="345" type="Entry"/>
+    <node id="54" x="133" y="336" type="Entry"/>
+    <node id="55" x="125" y="234" type="Entry"/>
+    <node id="56" x="124" y="222" type="Entry"/>
+    <node id="57" x="151" y="219" type="Entry"/>
+    <node id="58" x="120" y="187" type="Entry"/>
+    <node id="59" x="144" y="124" type="Entry"/>
+    <node id="60" x="141" y="91" type="Entry"/>
+    <node id="61" x="128" y="72" type="Entry"/>
+    <node id="62" x="113" y="82" type="Entry"/>
+    <node id="63" x="114" y="105" type="Entry"/>
+    <node id="64" x="118" y="151" type="Entry"/>
+    <node id="65" x="449" y="723" type="Entry"/>
+    <node id="67" x="382" y="692" type="Entry"/>
+    <node id="68" x="330" y="222" type="Entry"/>
+    <node id="69" x="125" y="57" type="Office" roomid="EN 422"/>
+    <node id="70" x="170" y="69" type="Office" roomid="EN 423"/>
+    <node id="71" x="185" y="171" type="Office" roomid="EN 424"/>
+    <node id="72" x="71" y="68" type="Office" roomid="EN 421"/>
+    <node id="73" x="71" y="105" type="Office" roomid="EN 420"/>
+    <node id="74" x="82" y="146" type="Office" roomid="EN 419"/>
+    <node id="75" x="88" y="179" type="Office" roomid="EN 418"/>
+    <node id="76" x="83" y="209" type="Office" roomid="EN 417"/>
+    <node id="77" x="80" y="244" type="Office" roomid="EN 416"/>
+    <node id="78" x="84" y="363" type="Office" roomid="EN 414/415"/>
+    <node id="79" x="159" y="377" type="Office" roomid="EN 413"/>
+    <node id="80" x="208" y="353" type="Office" roomid="EN 413a"/>
+    <node id="81" x="165" y="261" type="Office"/>
+    <node id="82" x="165" y="252" type="Entry"/>
+    <node id="83" x="268" y="193" type="Office" roomid="EN 433"/>
+    <node id="84" x="302" y="197" type="Office" roomid="EN 434"/>
+    <node id="85" x="361" y="182" type="Office" roomid="EN 435"/>
+    <node id="86" x="381" y="218" type="Office" roomid="EN 435a"/>
+    <node id="87" x="376" y="318" type="Office" roomid="EN 436"/>
+    <node id="88" x="381" y="361" type="Office" roomid="EN 437"/>
+    <node id="89" x="284" y="373" type="Office" roomid="EN 412"/>
+    <node id="90" x="294" y="406" type="Office" roomid="EN 411"/>
+    <node id="91" x="377" y="399" type="Office" roomid="EN 438"/>
+    <node id="92" x="385" y="436" type="Office" roomid="EN 439"/>
+    <node id="93" x="386" y="483" type="Office" roomid="EN 440/441"/>
+    <node id="94" x="306" y="433" type="Office" roomid="EN 410"/>
+    <node id="95" x="298" y="556" type="Office" roomid="EN 407/408"/>
+    <node id="96" x="407" y="670" type="Office" roomid="EN 446/447"/>
+    <node id="97" x="403" y="610" type="Office" roomid="EN 444/445"/>
+    <node id="98" x="386" y="551" type="Office" roomid="EN 442/443"/>
+    <node id="99" x="297" y="494" type="Office" roomid="EN 405/406"/>
+    <node id="100" x="300" y="637" type="Office" roomid="EN 403/404"/>
+    <node id="101" x="314" y="700" type="Office" roomid="EN 401/402"/>
+    <node id="102" x="329" y="840" type="Office" roomid="EN 471"/>
+    <node id="103" x="414" y="838" type="Office" roomid="EN 469/470"/>
+    <node id="104" x="512" y="667" type="Office" roomid="EN 448"/>
+    <node id="105" x="566" y="656" type="Office" roomid="EN 449"/>
+    <node id="106" x="614" y="664" type="Office" roomid="EN 450"/>
+    <node id="107" x="610" y="796" type="Office" roomid="EN 451"/>
+    <node id="108" x="617" y="839" type="Office" roomid="EN 452"/>
+    <node id="109" x="621" y="876" type="Office" roomid="EN 453"/>
+    <node id="110" x="625" y="914" type="Office" roomid="EN 454"/>
+    <node id="111" x="628" y="962" type="Office" roomid="EN 455"/>
+    <node id="112" x="581" y="974" type="Office" roomid="EN 456"/>
+    <node id="113" x="514" y="920" type="Office" roomid="EN 456/457"/>
+    <node id="114" x="518" y="854" type="Office" roomid="EN 459"/>
+    <node id="115" x="525" y="824" type="Office" roomid="EN 460"/>
+    <node id="116" x="469" y="758" type="Office" roomid="EN 466"/>
+    <node id="117" x="358" y="528" type="doorway"/>
+    <node id="118" x="385" y="338" type="doorway"/>
+    <node id="119" x="262" y="239" type="doorway"/>
+    <node id="120" x="201" y="238" type="doorway"/>
+    <node id="121" x="205" y="328" type="doorway"/>
+    <node id="122" x="136" y="359" type="doorway"/>
+    <node id="123" x="90" y="124" type="doorway"/>
+    <node id="124" x="130" y="108" type="doorway"/>
+    <node id="125" x="218" y="264" type="Entry"/>
+    <node id="126" x="496" y="709" type="doorway"/>
+    <node id="127" x="501" y="796" type="doorway"/>
+    <node id="128" x="440" y="800" type="doorway"/>
+    <node id="129" x="616" y="891" type="doorway"/>
+    <node id="130" x="428" y="744" type="Toilet" name="EN 4 Herren WC"/>
+    <node id="131" x="517" y="736" type="Toilet" name="EN 4 Damen WC"/>
+    <node id="132" x="283" y="269" type="Toilet" name="EN 4 Herren WC"/>
+    <node id="133" x="194" y="277" type="Toilet" name="EN 4 Damen WC"/>
+    <node id="134" x="129" y="92" type="branch"/>
+    <node id="135" x="131" y="125" type="branch"/>
+    <node id="136" x="133" y="149" type="branch"/>
+    <node id="137" x="136" y="186" type="branch"/>
+    <node id="138" x="137" y="220" type="branch"/>
+    <node id="139" x="138" y="233" type="branch"/>
+    <node id="140" x="139" y="246" type="branch"/>
+    <node id="142" x="165" y="244" type="branch"/>
+    <node id="143" x="216" y="242" type="branch"/>
+    <node id="144" x="197" y="329" type="branch"/>
+    <node id="145" x="256" y="327" type="branch"/>
+    <node id="146" x="303" y="233" type="branch"/>
+    <node id="147" x="142" y="288" type="branch"/>
+    <node id="148" x="331" y="231" type="branch"/>
+    <node id="149" x="342" y="274" type="branch"/>
+    <node id="150" x="343" y="297" type="branch"/>
+    <node id="151" x="344" y="321" type="branch"/>
+    <node id="152" x="348" y="379" type="branch"/>
+    <node id="153" x="349" y="392" type="branch"/>
+    <node id="154" x="352" y="447" type="branch"/>
+    <node id="155" x="353" y="458" type="branch"/>
+    <node id="156" x="275" y="236" type="branch"/>
+    <node id="157" x="285" y="235" type="branch"/>
+    <node id="158" x="357" y="507" type="branch"/>
+    <node id="159" x="362" y="576" type="branch"/>
+    <node id="160" x="363" y="589" type="branch"/>
+    <node id="161" x="363" y="599" type="branch"/>
+    <node id="162" x="365" y="623" type="branch"/>
+    <node id="163" x="365" y="635" type="branch"/>
+    <node id="164" x="367" y="658" type="branch"/>
+    <node id="165" x="368" y="671" type="branch"/>
+    <node id="166" x="370" y="693" type="branch"/>
+    <node id="167" x="371" y="715" type="branch"/>
+    <node id="168" x="373" y="762" type="branch"/>
+    <node id="169" x="376" y="806" type="branch"/>
+    <node id="170" x="431" y="801" type="branch"/>
+    <node id="171" x="425" y="714" type="branch"/>
+    <node id="172" x="448" y="713" type="branch"/>
+    <node id="173" x="505" y="710" type="branch"/>
+    <node id="174" x="517" y="709" type="branch"/>
+    <node id="175" x="567" y="706" type="branch"/>
+    <node id="176" x="570" y="747" type="branch"/>
+    <node id="177" x="572" y="772" type="branch"/>
+    <node id="178" x="574" y="791" type="branch"/>
+    <node id="179" x="577" y="830" type="branch"/>
+    <node id="180" x="579" y="855" type="branch"/>
+    <node id="181" x="579" y="863" type="branch"/>
+    <node id="182" x="581" y="889" type="branch"/>
+    <node id="183" x="582" y="896" type="branch"/>
+    <node id="184" x="584" y="923" type="branch"/>
+    <node id="185" x="585" y="934" type="branch"/>
+    <node id="186" x="585" y="945" type="branch"/>
+    <node id="187" x="488" y="797" type="branch"/>
+    <node id="188" x="128" y="81" type="branch"/>
+    <node id="189" x="130" y="104" type="branch"/>
+    <edge id="1" source="61" sink="188" type="0"/>
+    <edge id="2" source="188" sink="134" type="0"/>
+    <edge id="3" source="60" sink="134" type="0"/>
+    <edge id="4" source="188" sink="62" type="0"/>
+    <edge id="5" source="134" sink="189" type="0"/>
+    <edge id="6" source="189" sink="63" type="0"/>
+    <edge id="7" source="189" sink="124" type="0"/>
+    <edge id="8" source="124" sink="135" type="0"/>
+    <edge id="9" source="59" sink="135" type="0"/>
+    <edge id="10" source="135" sink="136" type="0"/>
+    <edge id="11" source="136" sink="137" type="0"/>
+    <edge id="12" source="137" sink="138" type="0"/>
+    <edge id="13" source="138" sink="139" type="0"/>
+    <edge id="14" source="139" sink="140" type="0"/>
+    <edge id="15" source="140" sink="147" type="0"/>
+    <edge id="17" source="142" sink="140" type="0"/>
+    <edge id="18" source="139" sink="55" type="0"/>
+    <edge id="19" source="138" sink="56" type="0"/>
+    <edge id="20" source="57" sink="138" type="0"/>
+    <edge id="21" source="137" sink="58" type="0"/>
+    <edge id="22" source="136" sink="64" type="0"/>
+    <node id="190" x="194" y="242" type="branch"/>
+    <edge id="23" source="190" sink="142" type="0"/>
+    <edge id="24" source="142" sink="82" type="0"/>
+    <edge id="25" source="51" sink="190" type="0"/>
+    <edge id="26" source="120" sink="190" type="0"/>
+    <edge id="27" source="143" sink="120" type="0"/>
+    <edge id="28" source="143" sink="125" type="0"/>
+    <edge id="32" source="52" sink="144" type="0"/>
+    <edge id="33" source="121" sink="144" type="0"/>
+    <node id="191" x="105" y="291" type="doorway"/>
+    <edge id="34" source="147" sink="191" type="0"/>
+    <edge id="35" source="119" sink="143" type="0"/>
+    <edge id="36" source="145" sink="121" type="0"/>
+    <edge id="37" source="145" sink="50" type="0"/>
+    <edge id="38" source="151" sink="145" type="0"/>
+    <edge id="39" source="150" sink="151" type="0"/>
+    <edge id="40" source="150" sink="43" type="0"/>
+    <edge id="41" source="149" sink="150" type="0"/>
+    <edge id="42" source="148" sink="149" type="0"/>
+    <node id="192" x="320" y="232" type="branch"/>
+    <edge id="43" source="46" sink="148" type="0"/>
+    <edge id="44" source="68" sink="148" type="0"/>
+    <edge id="45" source="192" sink="148" type="0"/>
+    <edge id="46" source="146" sink="192" type="0"/>
+    <edge id="47" source="157" sink="146" type="0"/>
+    <edge id="49" source="157" sink="156" type="0"/>
+    <edge id="50" source="49" sink="156" type="0"/>
+    <edge id="51" source="119" sink="156" type="0"/>
+    <edge id="53" source="42" sink="151" type="0"/>
+    <edge id="54" source="151" sink="152" type="0"/>
+    <edge id="55" source="153" sink="152" type="0"/>
+    <edge id="56" source="41" sink="152" type="0"/>
+    <edge id="57" source="152" sink="39" type="0"/>
+    <edge id="58" source="40" sink="153" type="0"/>
+    <edge id="59" source="153" sink="38" type="0"/>
+    <edge id="60" source="153" sink="154" type="0"/>
+    <edge id="61" source="154" sink="36" type="0"/>
+    <edge id="62" source="154" sink="37" type="0"/>
+    <edge id="63" source="35" sink="155" type="0"/>
+    <edge id="64" source="154" sink="155" type="0"/>
+    <edge id="65" source="155" sink="34" type="0"/>
+    <edge id="66" source="158" sink="33" type="0"/>
+    <edge id="67" source="155" sink="158" type="0"/>
+    <edge id="68" source="32" sink="158" type="0"/>
+    <edge id="69" source="158" sink="117" type="0"/>
+    <edge id="70" source="117" sink="159" type="0"/>
+    <edge id="71" source="159" sink="160" type="0"/>
+    <edge id="72" source="159" sink="31" type="0"/>
+    <edge id="73" source="160" sink="30" type="0"/>
+    <edge id="74" source="160" sink="29" type="0"/>
+    <edge id="75" source="160" sink="161" type="0"/>
+    <edge id="76" source="161" sink="28" type="0"/>
+    <edge id="77" source="161" sink="162" type="0"/>
+    <edge id="78" source="162" sink="27" type="0"/>
+    <edge id="79" source="162" sink="163" type="0"/>
+    <edge id="80" source="26" sink="163" type="0"/>
+    <edge id="81" source="163" sink="164" type="0"/>
+    <edge id="82" source="164" sink="165" type="0"/>
+    <edge id="83" source="165" sink="24" type="0"/>
+    <edge id="84" source="164" sink="25" type="0"/>
+    <edge id="85" source="165" sink="166" type="0"/>
+    <edge id="86" source="166" sink="67" type="0"/>
+    <edge id="87" source="166" sink="167" type="0"/>
+    <edge id="88" source="167" sink="23" type="0"/>
+    <edge id="89" source="167" sink="168" type="0"/>
+    <edge id="90" source="168" sink="169" type="0"/>
+    <edge id="91" source="169" sink="21" type="0"/>
+    <edge id="93" source="171" sink="167" type="0"/>
+    <edge id="94" source="171" sink="18" type="0"/>
+    <edge id="95" source="172" sink="171" type="0"/>
+    <edge id="96" source="172" sink="65" type="0"/>
+    <edge id="97" source="170" sink="19" type="0"/>
+    <edge id="98" source="170" sink="169" type="0"/>
+    <edge id="99" source="187" sink="170" type="0"/>
+    <edge id="100" source="126" sink="172" type="0"/>
+    <edge id="101" source="174" sink="173" type="0"/>
+    <edge id="102" source="173" sink="126" type="0"/>
+    <edge id="103" source="187" sink="127" type="0"/>
+    <edge id="104" source="174" sink="13" type="0"/>
+    <edge id="105" source="175" sink="174" type="0"/>
+    <edge id="106" source="16" sink="175" type="0"/>
+    <edge id="107" source="175" sink="176" type="0"/>
+    <edge id="108" source="176" sink="177" type="0"/>
+    <edge id="110" source="177" sink="178" type="0"/>
+    <edge id="111" source="178" sink="179" type="0"/>
+    <edge id="112" source="179" sink="10" type="0"/>
+    <edge id="113" source="11" sink="178" type="0"/>
+    <edge id="114" source="179" sink="180" type="0"/>
+    <edge id="115" source="180" sink="8" type="0"/>
+    <edge id="116" source="181" sink="180" type="0"/>
+    <edge id="117" source="7" sink="181" type="0"/>
+    <edge id="118" source="181" sink="182" type="0"/>
+    <edge id="119" source="182" sink="6" type="0"/>
+    <edge id="120" source="182" sink="183" type="0"/>
+    <edge id="121" source="183" sink="5" type="0"/>
+    <edge id="122" source="183" sink="184" type="0"/>
+    <edge id="123" source="184" sink="4" type="0"/>
+    <edge id="124" source="184" sink="185" type="0"/>
+    <edge id="125" source="185" sink="3" type="0"/>
+    <edge id="126" source="185" sink="186" type="0"/>
+    <edge id="127" source="186" sink="1" type="0"/>
+    <edge id="128" source="186" sink="2" type="0"/>
+    <edge id="129" source="127" sink="178" type="0"/>
+    <node id="193" x="145" y="334" type="branch"/>
+    <node id="194" x="152" y="333" type="branch"/>
+    <edge id="130" source="147" sink="193" type="0"/>
+    <edge id="131" source="194" sink="193" type="0"/>
+    <edge id="132" source="54" sink="193" type="0"/>
+    <edge id="133" source="144" sink="194" type="0"/>
+    <edge id="134" source="194" sink="53" type="0"/>
+    <edge id="135" source="48" sink="192" type="0"/>
+    <node id="195" x="385" y="805" type="branch"/>
+    <node id="196" x="386" y="814" type="Entry"/>
+    <edge id="136" source="195" sink="196" type="0"/>
+    <edge id="137" source="14" sink="173" type="0"/>
+    <edge id="138" source="17" sink="187" type="0"/>
+    <edge id="139" source="15" sink="175" type="0"/>
+    <edge id="140" source="181" sink="9" type="0"/>
+    <edge id="141" source="122" sink="78" type="1"/>
+    <edge id="142" source="122" sink="79" type="1"/>
+    <edge id="143" source="79" sink="80" type="1"/>
+    <node id="197" x="67" y="295" type="branch"/>
+    <node id="198" x="402" y="272" type="branch"/>
+    <node id="199" x="300" y="766" type="branch"/>
+    <node id="200" x="636" y="744" type="branch"/>
+    <node id="201" x="338" y="764" type="doorway"/>
+    <edge id="144" source="168" sink="201" type="0"/>
+    <edge id="145" source="201" sink="199" type="0"/>
+    <node id="202" x="400" y="758" type="branch" name="EN 4 Fahrstuhl A"/>
+    <edge id="146" source="202" sink="168" type="0"/>
+    <node id="203" x="599" y="745" type="doorway"/>
+    <edge id="147" source="203" sink="176" type="0"/>
+    <edge id="148" source="200" sink="203" type="0"/>
+    <node id="204" x="364" y="275" type="doorway"/>
+    <edge id="149" source="204" sink="149" type="0"/>
+    <edge id="150" source="198" sink="204" type="0"/>
+    <node id="205" x="311" y="277" type="branch" name="EN 4 Fahrstuhl C"/>
+    <edge id="151" source="191" sink="197" type="0"/>
+    <node id="206" x="166" y="286" type="branch" name="EN 4 Fahrstuhl B"/>
+    <edge id="152" source="206" sink="147" type="0"/>
+    <edge id="153" source="149" sink="205" type="0"/>
+    <edge id="154" source="104" sink="14" type="1"/>
+    <edge id="155" source="105" sink="15" type="1"/>
+    <edge id="156" source="16" sink="106" type="1"/>
+    <edge id="157" source="107" sink="11" type="1"/>
+    <edge id="158" source="108" sink="8" type="1"/>
+    <edge id="159" source="109" sink="7" type="1"/>
+    <edge id="160" source="109" sink="129" type="1"/>
+    <edge id="161" source="129" sink="110" type="1"/>
+    <edge id="162" source="110" sink="4" type="1"/>
+    <edge id="163" source="109" sink="6" type="1"/>
+    <edge id="164" source="111" sink="3" type="1"/>
+    <edge id="165" source="112" sink="2" type="1"/>
+    <edge id="166" source="113" sink="1" type="1"/>
+    <edge id="167" source="5" sink="113" type="1"/>
+    <edge id="168" source="9" sink="114" type="1"/>
+    <edge id="169" source="10" sink="115" type="1"/>
+    <edge id="170" source="116" sink="65" type="1"/>
+    <edge id="171" source="13" sink="131" type="1"/>
+    <edge id="172" source="18" sink="130" type="1"/>
+    <edge id="173" source="103" sink="19" type="1"/>
+    <edge id="174" source="103" sink="196" type="1"/>
+    <edge id="175" source="102" sink="21" type="1"/>
+    <edge id="176" source="23" sink="101" type="1"/>
+    <edge id="177" source="24" sink="101" type="1"/>
+    <edge id="178" source="67" sink="96" type="1"/>
+    <edge id="179" source="26" sink="96" type="1"/>
+    <edge id="180" source="97" sink="27" type="1"/>
+    <edge id="181" source="97" sink="30" type="1"/>
+    <edge id="182" source="98" sink="31" type="1"/>
+    <edge id="183" source="28" sink="100" type="1"/>
+    <edge id="184" source="29" sink="95" type="1"/>
+    <edge id="185" source="88" sink="41" type="1"/>
+    <edge id="186" source="91" sink="40" type="1"/>
+    <edge id="187" source="92" sink="36" type="1"/>
+    <edge id="188" source="93" sink="35" type="1"/>
+    <edge id="189" source="32" sink="93" type="1"/>
+    <edge id="190" source="33" sink="99" type="1"/>
+    <edge id="191" source="34" sink="99" type="1"/>
+    <edge id="192" source="38" sink="90" type="1"/>
+    <edge id="193" source="37" sink="94" type="1"/>
+    <edge id="194" source="39" sink="89" type="1"/>
+    <edge id="195" source="87" sink="42" type="1"/>
+    <edge id="196" source="86" sink="46" type="1"/>
+    <edge id="197" source="85" sink="68" type="1" name="e"/>
+    <edge id="198" source="84" sink="48" type="1"/>
+    <edge id="199" source="83" sink="49" type="1"/>
+    <edge id="200" source="45" sink="132" type="1"/>
+    <edge id="52" source="157" sink="45" type="0"/>
+    <edge id="201" source="71" sink="57" type="1"/>
+    <edge id="202" source="51" sink="133" type="1"/>
+    <edge id="203" source="125" sink="50" type="1"/>
+    <edge id="204" source="52" sink="80" type="1"/>
+    <edge id="205" source="54" sink="78" type="1"/>
+    <edge id="206" source="53" sink="79" type="1"/>
+    <edge id="207" source="55" sink="77" type="1"/>
+    <edge id="208" source="56" sink="76" type="1"/>
+    <edge id="209" source="58" sink="75" type="1"/>
+    <edge id="210" source="82" sink="81" type="1"/>
+    <edge id="211" source="64" sink="74" type="1"/>
+    <edge id="212" source="63" sink="73" type="1"/>
+    <edge id="213" source="59" sink="71" type="1"/>
+    <edge id="214" source="62" sink="72" type="1"/>
+    <edge id="215" source="61" sink="69" type="1"/>
+    <edge id="216" source="60" sink="70" type="1"/>
+    <edge id="217" source="73" sink="123" type="1"/>
+    <edge id="218" source="123" sink="74" type="1"/>
+    <node id="207" x="543" y="751" type="branch" name="EN 4 Fahrstuhl D"/>
+    <edge id="219" source="176" sink="207" type="0"/>
+    <node id="220" x="295" y="885" type="GpsLink" lat="52.51474" long="13.32672"/>
+    <node id="221" x="639" y="633" type="GpsLink" lat="52.51497" long="13.32722"/>
+    <node id="222" x="402" y="149" type="GpsLink" lat="52.51539" long="13.32686"/>
+    <node id="223" x="508" y="1014" type="GpsLink" lat="52.51464" long="13.32704"/>
+    <node id="224" x="50" y="287" type="GpsLink" lat="52.51526" long="13.32631"/>
+    <pixelToGK>
+      <xrw>0.098423623063493</xrw>
+      <yrw>0.0049618213386575</yrw>
+      <wrw>4590138.3717944</wrw>
+      <xhw>0.0049618213386575</xhw>
+      <yhw>-0.098423623063493</yhw>
+      <whw>5821088.3447247</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>2.7440626413474E-8</xlat>
+      <ylat>-8.851299492316E-7</ylat>
+      <wlat>52.515512616856</wlat>
+      <xlon>1.4507654911058E-6</xlon>
+      <ylon>4.6295901732396E-8</ylon>
+      <wlon>13.326247996589</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>0.0030546765588783</xx>
+      <yx>-0.098532215220978</yx>
+      <wx>5846000.1224424</wx>
+      <xy>0.1660184219164</xy>
+      <yy>0.0052987942526108</yy>
+      <wy>1497030.044053</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="6" storey="5" mapfile="en05_3_neu.jpg" width="670" height="1024">
+    <node id="1" x="135" y="125" type="Entry"/>
+    <node id="2" x="123" y="99" type="Entry"/>
+    <node id="3" x="139" y="159" type="Entry"/>
+    <node id="4" x="110" y="185" type="Entry"/>
+    <node id="5" x="143" y="171" type="Entry"/>
+    <node id="6" x="112" y="194" type="Entry"/>
+    <node id="7" x="148" y="230" type="Entry"/>
+    <node id="8" x="116" y="245" type="Entry"/>
+    <node id="9" x="136" y="319" type="Entry"/>
+    <node id="10" x="186" y="254" type="Entry"/>
+    <node id="11" x="266" y="222" type="Entry"/>
+    <node id="12" x="323" y="218" type="Entry"/>
+    <node id="13" x="342" y="229" type="Entry"/>
+    <node id="14" x="278" y="246" type="Entry"/>
+    <node id="15" x="348" y="327" type="Entry"/>
+    <node id="16" x="354" y="376" type="Entry"/>
+    <node id="17" x="352" y="424" type="Entry"/>
+    <node id="18" x="328" y="449" type="Entry"/>
+    <node id="19" x="325" y="389" type="Entry"/>
+    <node id="20" x="325" y="378" type="Entry"/>
+    <node id="21" x="334" y="508" type="Entry"/>
+    <node id="22" x="363" y="504" type="Entry"/>
+    <node id="23" x="365" y="550" type="Entry"/>
+    <node id="24" x="365" y="594" type="Entry"/>
+    <node id="25" x="337" y="586" type="Entry"/>
+    <node id="26" x="341" y="596" type="Entry"/>
+    <node id="27" x="369" y="608" type="Entry"/>
+    <node id="28" x="373" y="690" type="Entry"/>
+    <node id="29" x="343" y="658" type="Entry"/>
+    <node id="30" x="343" y="666" type="Entry"/>
+    <node id="31" x="353" y="717" type="Entry"/>
+    <node id="32" x="352" y="808" type="Entry"/>
+    <node id="33" x="376" y="813" type="Entry"/>
+    <node id="34" x="422" y="811" type="Entry"/>
+    <node id="35" x="505" y="720" type="Entry"/>
+    <node id="36" x="415" y="726" type="Entry"/>
+    <node id="37" x="554" y="861" type="Entry"/>
+    <node id="38" x="558" y="872" type="Entry"/>
+    <node id="39" x="580" y="797" type="Entry"/>
+    <node id="40" x="588" y="946" type="Entry"/>
+    <node id="41" x="575" y="951" type="Entry"/>
+    <node id="42" x="559" y="943" type="Entry"/>
+    <node id="43" x="524" y="869" type="Entry"/>
+    <node id="44" x="531" y="938" type="Entry"/>
+    <node id="45" x="104" y="336" type="Entry"/>
+    <node id="46" x="204" y="329" type="Entry"/>
+    <node id="47" x="254" y="345" type="Entry"/>
+    <node id="48" x="318" y="322" type="Entry"/>
+    <node id="50" x="372" y="458" type="Entry"/>
+    <node id="51" x="552" y="693" type="Entry"/>
+    <node id="52" x="496" y="695" type="Entry"/>
+    <node id="53" x="357" y="274" type="doorway"/>
+    <node id="54" x="97" y="288" type="doorway"/>
+    <node id="55" x="326" y="761" type="doorway"/>
+    <node id="56" x="589" y="741" type="doorway"/>
+    <node id="57" x="482" y="708" type="doorway"/>
+    <node id="58" x="490" y="793" type="doorway"/>
+    <node id="59" x="432" y="797" type="doorway"/>
+    <node id="60" x="194" y="239" type="doorway"/>
+    <node id="61" x="254" y="237" type="doorway"/>
+    <node id="62" x="349" y="526" type="doorway"/>
+    <node id="63" x="241" y="222" type="Entry"/>
+    <node id="64" x="610" y="832" type="Office" roomid="EN 548"/>
+    <node id="65" x="599" y="662" type="Office" roomid="EN 547"/>
+    <node id="66" x="541" y="660" type="Office" roomid="EN 546"/>
+    <node id="67" x="496" y="665" type="Office" roomid="EN 545"/>
+    <node id="68" x="516" y="835" type="Office" roomid="EN 554"/>
+    <node id="69" x="520" y="912" type="Office" roomid="EN 553"/>
+    <node id="70" x="612" y="915" type="Office" roomid="EN 550"/>
+    <node id="71" x="583" y="973" type="Office" roomid="EN 551"/>
+    <node id="72" x="528" y="971" type="Office" roomid="EN 552"/>
+    <node id="73" x="420" y="841" type="Office" roomid="EN 564"/>
+    <node id="74" x="375" y="842" type="Office" roomid="EN 565"/>
+    <node id="75" x="321" y="813" type="Office" roomid="EN 566"/>
+    <node id="76" x="306" y="626" type="Office" roomid="EN 503"/>
+    <node id="77" x="310" y="565" type="Office" roomid="EN 505"/>
+    <node id="78" x="390" y="534" type="Office" roomid="EN 540"/>
+    <node id="79" x="381" y="485" type="Office" roomid="EN 539"/>
+    <node id="80" x="380" y="423" type="Office" roomid="EN 538"/>
+    <node id="81" x="297" y="421" type="Office" roomid="EN 509"/>
+    <node id="82" x="375" y="352" type="Office" roomid="EN 537"/>
+    <node id="83" x="386" y="313" type="Office"/>
+    <node id="84" x="291" y="371" type="Office" roomid="EN 511"/>
+    <node id="85" x="398" y="649" type="Office" roomid="EN 542"/>
+    <node id="86" x="398" y="587" type="Office" roomid="EN 541"/>
+    <node id="87" x="309" y="701" type="Office" roomid="EN 501"/>
+    <node id="88" x="416" y="742" type="Toilet" name="EN 5 WC Damen"/>
+    <node id="89" x="504" y="734" type="Toilet" name="EN 5 WC Herren"/>
+    <node id="90" x="367" y="201" type="Office" roomid="EN 535"/>
+    <node id="91" x="266" y="193" type="Office" roomid="EN 533"/>
+    <node id="92" x="316" y="193" type="Office" roomid="EN 534"/>
+    <node id="93" x="143" y="349" type="Office" roomid="EN 519"/>
+    <node id="94" x="77" y="343" type="Office" roomid="EN 520"/>
+    <node id="95" x="165" y="197" type="Office" roomid="EN 530"/>
+    <node id="96" x="185" y="277" type="Toilet" name="EN 5 WC Damen"/>
+    <node id="97" x="276" y="265" type="Toilet" name="EN 5 WC Herren"/>
+    <node id="98" x="91" y="221" type="Office" roomid="EN 521"/>
+    <node id="99" x="74" y="151" type="Office" roomid="EN 523"/>
+    <node id="100" x="160" y="106" type="Office" roomid="EN 527"/>
+    <node id="101" x="164" y="149" type="Office" roomid="EN 528"/>
+    <node id="102" x="97" y="65" type="Office" name="EN 5 Labor" roomid="EN 525/526"/>
+    <node id="103" x="297" y="490" type="Office" roomid="EN 507"/>
+    <node id="104" x="326" y="460" type="Entry"/>
+    <node id="105" x="378" y="380" type="Entry"/>
+    <node id="106" x="572" y="700" type="Entry"/>
+    <node id="108" x="569" y="871" type="branch"/>
+    <node id="109" x="568" y="860" type="branch"/>
+    <node id="110" x="563" y="787" type="branch"/>
+    <node id="111" x="560" y="744" type="branch"/>
+    <node id="112" x="557" y="703" type="branch"/>
+    <node id="113" x="504" y="706" type="branch"/>
+    <node id="114" x="497" y="707" type="branch"/>
+    <node id="115" x="421" y="798" type="branch"/>
+    <node id="116" x="375" y="802" type="branch"/>
+    <node id="117" x="414" y="713" type="branch"/>
+    <node id="118" x="361" y="716" type="branch"/>
+    <node id="119" x="359" y="691" type="branch"/>
+    <node id="120" x="367" y="802" type="branch"/>
+    <node id="121" x="364" y="758" type="branch"/>
+    <node id="122" x="357" y="665" type="branch"/>
+    <node id="123" x="357" y="657" type="branch"/>
+    <node id="124" x="354" y="609" type="branch"/>
+    <node id="125" x="353" y="595" type="branch"/>
+    <node id="126" x="352" y="585" type="branch"/>
+    <node id="127" x="351" y="551" type="branch"/>
+    <node id="128" x="348" y="505" type="branch"/>
+    <node id="129" x="343" y="459" type="branch"/>
+    <node id="130" x="342" y="448" type="branch"/>
+    <node id="131" x="340" y="425" type="branch"/>
+    <node id="132" x="337" y="377" type="branch"/>
+    <node id="133" x="338" y="388" type="branch"/>
+    <node id="134" x="336" y="328" type="branch"/>
+    <node id="135" x="335" y="321" type="branch"/>
+    <node id="136" x="332" y="276" type="branch"/>
+    <node id="137" x="324" y="230" type="branch"/>
+    <node id="138" x="277" y="233" type="branch"/>
+    <node id="139" x="267" y="234" type="branch"/>
+    <node id="140" x="242" y="237" type="branch"/>
+    <node id="141" x="185" y="240" type="branch"/>
+    <node id="142" x="132" y="244" type="branch"/>
+    <node id="143" x="131" y="231" type="branch"/>
+    <node id="144" x="134" y="285" type="branch"/>
+    <node id="145" x="135" y="305" type="branch"/>
+    <node id="146" x="128" y="184" type="branch"/>
+    <node id="147" x="128" y="193" type="branch"/>
+    <node id="148" x="128" y="172" type="branch"/>
+    <node id="149" x="127" y="160" type="branch"/>
+    <node id="150" x="125" y="125" type="branch"/>
+    <edge id="1" source="2" sink="150" type="0"/>
+    <edge id="2" source="150" sink="149" type="0"/>
+    <edge id="3" source="148" sink="149" type="0"/>
+    <edge id="4" source="146" sink="148" type="0"/>
+    <edge id="5" source="147" sink="146" type="0"/>
+    <edge id="6" source="143" sink="147" type="0"/>
+    <edge id="7" source="142" sink="143" type="0"/>
+    <edge id="8" source="7" sink="143" type="0"/>
+    <edge id="11" source="4" sink="146" type="0"/>
+    <edge id="12" source="6" sink="147" type="0"/>
+    <edge id="13" source="1" sink="150" type="0"/>
+    <edge id="14" source="149" sink="3" type="0"/>
+    <edge id="15" source="5" sink="148" type="0"/>
+    <edge id="16" source="141" sink="142" type="0"/>
+    <edge id="17" source="141" sink="10" type="0"/>
+    <edge id="18" source="142" sink="8" type="0"/>
+    <edge id="19" source="142" sink="144" type="0"/>
+    <edge id="20" source="145" sink="9" type="0"/>
+    <edge id="21" source="144" sink="145" type="0"/>
+    <edge id="22" source="144" sink="54" type="0"/>
+    <edge id="24" source="141" sink="60" type="0"/>
+    <edge id="25" source="140" sink="60" type="0"/>
+    <edge id="26" source="139" sink="61" type="0"/>
+    <edge id="27" source="140" sink="63" type="0"/>
+    <edge id="28" source="140" sink="61" type="0"/>
+    <edge id="29" source="11" sink="139" type="0"/>
+    <edge id="30" source="12" sink="137" type="0"/>
+    <edge id="31" source="13" sink="137" type="0"/>
+    <edge id="32" source="138" sink="137" type="0"/>
+    <edge id="33" source="139" sink="138" type="0"/>
+    <edge id="34" source="138" sink="14" type="0"/>
+    <edge id="35" source="137" sink="136" type="0"/>
+    <edge id="36" source="136" sink="135" type="0"/>
+    <edge id="37" source="53" sink="136" type="0"/>
+    <edge id="38" source="135" sink="134" type="0"/>
+    <edge id="39" source="135" sink="48" type="0"/>
+    <edge id="40" source="132" sink="133" type="0"/>
+    <edge id="41" source="132" sink="20" type="0"/>
+    <edge id="42" source="132" sink="134" type="0"/>
+    <edge id="43" source="15" sink="134" type="0"/>
+    <edge id="44" source="16" sink="132" type="0"/>
+    <edge id="45" source="133" sink="19" type="0"/>
+    <edge id="46" source="131" sink="133" type="0"/>
+    <edge id="47" source="131" sink="17" type="0"/>
+    <edge id="48" source="131" sink="130" type="0"/>
+    <edge id="49" source="130" sink="18" type="0"/>
+    <edge id="50" source="130" sink="129" type="0"/>
+    <edge id="51" source="129" sink="104" type="0"/>
+    <edge id="52" source="129" sink="128" type="0"/>
+    <edge id="53" source="22" sink="128" type="0"/>
+    <edge id="54" source="21" sink="128" type="0"/>
+    <edge id="55" source="62" sink="127" type="0"/>
+    <edge id="56" source="23" sink="127" type="0"/>
+    <edge id="57" source="128" sink="62" type="0"/>
+    <edge id="58" source="127" sink="126" type="0"/>
+    <edge id="59" source="126" sink="25" type="0"/>
+    <edge id="60" source="126" sink="125" type="0"/>
+    <edge id="61" source="125" sink="26" type="0"/>
+    <edge id="62" source="24" sink="125" type="0"/>
+    <edge id="63" source="124" sink="125" type="0"/>
+    <edge id="64" source="27" sink="124" type="0"/>
+    <edge id="65" source="124" sink="123" type="0"/>
+    <edge id="67" source="30" sink="122" type="0"/>
+    <edge id="68" source="123" sink="122" type="0"/>
+    <edge id="69" source="122" sink="119" type="0"/>
+    <edge id="70" source="123" sink="29" type="0"/>
+    <edge id="71" source="28" sink="119" type="0"/>
+    <edge id="72" source="119" sink="118" type="0"/>
+    <edge id="74" source="118" sink="31" type="0"/>
+    <edge id="75" source="117" sink="118" type="0"/>
+    <edge id="76" source="117" sink="36" type="0"/>
+    <edge id="77" source="118" sink="121" type="0"/>
+    <edge id="79" source="121" sink="120" type="0"/>
+    <edge id="80" source="116" sink="120" type="0"/>
+    <edge id="81" source="120" sink="32" type="0"/>
+    <edge id="82" source="116" sink="33" type="0"/>
+    <edge id="83" source="115" sink="116" type="0"/>
+    <edge id="84" source="115" sink="34" type="0"/>
+    <edge id="85" source="59" sink="115" type="0"/>
+    <edge id="86" source="57" sink="117" type="0"/>
+    <edge id="87" source="114" sink="57" type="0"/>
+    <edge id="88" source="52" sink="114" type="0"/>
+    <edge id="89" source="113" sink="114" type="0"/>
+    <edge id="90" source="113" sink="35" type="0"/>
+    <edge id="91" source="112" sink="113" type="0"/>
+    <edge id="92" source="51" sink="112" type="0"/>
+    <edge id="93" source="106" sink="112" type="0"/>
+    <edge id="94" source="112" sink="111" type="0"/>
+    <edge id="95" source="39" sink="110" type="0"/>
+    <edge id="96" source="111" sink="110" type="0"/>
+    <edge id="97" source="110" sink="58" type="0"/>
+    <edge id="98" source="58" sink="59" type="0"/>
+    <edge id="99" source="110" sink="109" type="0"/>
+    <edge id="100" source="109" sink="37" type="0"/>
+    <edge id="101" source="109" sink="108" type="0"/>
+    <edge id="102" source="108" sink="38" type="0"/>
+    <node id="151" x="575" y="939" type="Areanode"/>
+    <edge id="103" source="108" sink="151" type="0"/>
+    <edge id="104" source="151" sink="40" type="0"/>
+    <edge id="105" source="151" sink="41" type="0"/>
+    <edge id="106" source="151" sink="42" type="0"/>
+    <edge id="107" source="56" sink="111" type="0"/>
+    <edge id="109" source="90" sink="13" type="1"/>
+    <edge id="110" source="92" sink="12" type="1"/>
+    <edge id="111" source="91" sink="11" type="1"/>
+    <edge id="112" source="83" sink="15" type="1"/>
+    <edge id="113" source="82" sink="105" type="1"/>
+    <edge id="114" source="105" sink="80" type="1"/>
+    <edge id="115" source="50" sink="80" type="1"/>
+    <edge id="116" source="50" sink="79" type="1"/>
+    <edge id="117" source="80" sink="17" type="1"/>
+    <edge id="118" source="79" sink="22" type="1"/>
+    <edge id="119" source="82" sink="16" type="1"/>
+    <edge id="120" source="78" sink="23" type="1"/>
+    <edge id="121" source="86" sink="24" type="1"/>
+    <edge id="122" source="27" sink="85" type="1"/>
+    <edge id="123" source="85" sink="28" type="1"/>
+    <edge id="124" source="25" sink="77" type="1"/>
+    <edge id="125" source="26" sink="76" type="1"/>
+    <edge id="126" source="104" sink="103" type="1"/>
+    <edge id="127" source="21" sink="103" type="1"/>
+    <edge id="128" source="19" sink="81" type="1"/>
+    <edge id="129" source="18" sink="81" type="1"/>
+    <edge id="130" source="20" sink="84" type="1"/>
+    <edge id="132" source="47" sink="46" type="1"/>
+    <edge id="133" source="46" sink="93" type="1"/>
+    <edge id="134" source="93" sink="9" type="1"/>
+    <edge id="135" source="93" sink="45" type="1"/>
+    <edge id="136" source="45" sink="94" type="1"/>
+    <edge id="137" source="14" sink="97" type="1"/>
+    <edge id="138" source="10" sink="96" type="1"/>
+    <edge id="139" source="95" sink="7" type="1"/>
+    <edge id="140" source="8" sink="98" type="1"/>
+    <edge id="141" source="6" sink="98" type="1"/>
+    <edge id="142" source="29" sink="76" type="1"/>
+    <edge id="143" source="30" sink="87" type="1"/>
+    <edge id="144" source="31" sink="87" type="1"/>
+    <edge id="145" source="100" sink="1" type="1"/>
+    <edge id="146" source="2" sink="102" type="1"/>
+    <edge id="147" source="4" sink="99" type="1"/>
+    <edge id="148" source="3" sink="101" type="1"/>
+    <edge id="149" source="5" sink="95" type="1"/>
+    <edge id="150" source="32" sink="75" type="1"/>
+    <edge id="151" source="33" sink="74" type="1"/>
+    <edge id="152" source="34" sink="73" type="1"/>
+    <edge id="153" source="52" sink="67" type="1"/>
+    <edge id="155" source="51" sink="66" type="1"/>
+    <edge id="156" source="43" sink="68" type="1"/>
+    <edge id="157" source="37" sink="68" type="1"/>
+    <edge id="158" source="38" sink="69" type="1"/>
+    <edge id="159" source="44" sink="69" type="1"/>
+    <edge id="160" source="72" sink="44" type="1"/>
+    <edge id="161" source="42" sink="72" type="1"/>
+    <edge id="162" source="39" sink="64" type="1"/>
+    <edge id="163" source="65" sink="106" type="1"/>
+    <edge id="164" source="40" sink="70" type="1"/>
+    <edge id="165" source="41" sink="71" type="1"/>
+    <node id="152" x="602" y="888" type="Entry"/>
+    <edge id="166" source="64" sink="152" type="1"/>
+    <edge id="167" source="152" sink="70" type="1"/>
+    <edge id="168" source="43" sink="69" type="1"/>
+    <edge id="154" source="35" sink="89" type="1"/>
+    <edge id="169" source="36" sink="88" type="1"/>
+    <edge id="170" source="121" sink="55" type="0"/>
+    <node id="153" x="278" y="333" type="Office" roomid="EN 512"/>
+    <edge id="171" source="153" sink="47" type="1"/>
+    <edge id="172" source="48" sink="153" type="1"/>
+    <node id="154" x="57" y="293" type="branch"/>
+    <node id="155" x="392" y="270" type="branch"/>
+    <node id="156" x="287" y="767" type="branch"/>
+    <node id="157" x="624" y="742" type="branch"/>
+    <edge id="173" source="55" sink="156" type="0"/>
+    <node id="158" x="390" y="758" type="branch" name="EN 5 Fahrstuhl A"/>
+    <edge id="174" source="158" sink="121" type="0"/>
+    <edge id="175" source="155" sink="53" type="0"/>
+    <edge id="176" source="54" sink="154" type="0"/>
+    <edge id="177" source="56" sink="157" type="0"/>
+    <node id="159" x="301" y="275" type="branch" name="EN 5 Fahrstuhl B"/>
+    <node id="160" x="158" y="283" type="branch" name="EN 5 Fahrstuhl"/>
+    <edge id="178" source="160" sink="144" type="0"/>
+    <edge id="179" source="159" sink="136" type="0"/>
+    <node id="161" x="530" y="746" type="branch" name="EN 5 Fahrstuhl D"/>
+    <edge id="180" source="111" sink="161" type="0"/>
+    <node id="181" x="286" y="884" type="GpsLink" lat="52.51474" long="13.32672"/>
+    <node id="182" x="627" y="633" type="GpsLink" lat="52.51497" long="13.32722"/>
+    <node id="183" x="390" y="148" type="GpsLink" lat="52.51539" long="13.32686"/>
+    <node id="184" x="496" y="1015" type="GpsLink" lat="52.51464" long="13.32704"/>
+    <node id="185" x="40" y="285" type="GpsLink" lat="52.51526" long="13.32631"/>
+    <pixelToGK>
+      <xrw>0.09852865378798</xrw>
+      <yrw>0.005046616816168</yrw>
+      <wrw>4590139.3685174</wrw>
+      <xhw>0.005046616816168</xhw>
+      <yhw>-0.09852865378798</yhw>
+      <whw>5821088.371346</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>2.818416499592E-8</xlat>
+      <ylat>-8.8608834012884E-7</ylat>
+      <wlat>52.515512682477</wlat>
+      <xlon>1.4523352712433E-6</xlon>
+      <ylon>4.7516054703326E-8</ylon>
+      <wlon>13.326262681871</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>0.0031374468952499</xx>
+      <yx>-0.098638902807626</yx>
+      <wx>5846000.1297473</wx>
+      <xy>0.1661980590438</xy>
+      <yy>0.0054384235387672</yy>
+      <wy>1497031.7245642</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="7" storey="6" mapfile="en06_3_neu.jpg" width="674" height="1024">
+    <node id="1" x="620" y="945" type="Office" roomid="EN 642"/>
+    <node id="2" x="547" y="970" type="Office" roomid="EN 643/644"/>
+    <node id="3" x="533" y="928" type="Office" roomid="EN 645"/>
+    <node id="4" x="527" y="898" type="Office" roomid="EN 646"/>
+    <node id="5" x="612" y="888" type="Office" roomid="EN 641"/>
+    <node id="6" x="611" y="860" type="Office" roomid="EN 640"/>
+    <node id="7" x="607" y="822" type="Office" roomid="EN 639"/>
+    <node id="8" x="604" y="784" type="Office" roomid="EN 638"/>
+    <node id="9" x="516" y="827" type="Office" roomid="EN 648"/>
+    <node id="10" x="525" y="854" type="Office" roomid="EN 647"/>
+    <node id="11" x="536" y="796" type="Office" roomid="EN 649"/>
+    <node id="12" x="602" y="677" type="Office" roomid="EN 637"/>
+    <node id="13" x="555" y="662" type="Office" roomid="EN 636"/>
+    <node id="14" x="520" y="667" type="Office" roomid="EN 635"/>
+    <node id="15" x="489" y="667" type="Office" roomid="EN 634"/>
+    <node id="16" x="464" y="792" type="Office" departid="EN 653"/>
+    <node id="17" x="375" y="833" type="Office" roomid="EN 656"/>
+    <node id="18" x="321" y="705" type="Office" roomid="EN 601/601"/>
+    <node id="19" x="316" y="636" type="Office" roomid="EN 603/604"/>
+    <node id="20" x="403" y="669" type="Office" roomid="EN 630/631"/>
+    <node id="21" x="405" y="608" type="Office" roomid="EN 629"/>
+    <node id="22" x="406" y="573" type="Office" roomid="EN 628"/>
+    <node id="23" x="403" y="537" type="Office" roomid="EN 627"/>
+    <node id="24" x="395" y="483" type="Office" roomid="EN 626"/>
+    <node id="25" x="395" y="437" type="Office" roomid="EN 624/625"/>
+    <node id="26" x="310" y="546" type="Office" roomid="EN 605/606"/>
+    <node id="27" x="302" y="517" type="Office" roomid="EN 607"/>
+    <node id="28" x="296" y="478" type="Office" roomid="EN 608"/>
+    <node id="29" x="316" y="444" type="Office" roomid="EN 609"/>
+    <node id="30" x="308" y="396" type="Office" roomid="EN 610/611"/>
+    <node id="31" x="386" y="362" type="Office" roomid="EN 623"/>
+    <node id="32" x="385" y="328" type="Office" roomid="EN 622"/>
+    <node id="33" x="329" y="194" type="Office" roomid="EN 620"/>
+    <node id="34" x="301" y="202" type="Office" roomid="EN 619"/>
+    <node id="35" x="266" y="204" type="Office" roomid="EN 618"/>
+    <node id="36" x="241" y="286" type="Office" name="Bibliothek" roomid="EN 616/17"/>
+    <node id="37" x="284" y="268" type="Toilet" name="EN 6 WC Herren" roomid="EN 615"/>
+    <node id="38" x="310" y="259" type="Office" roomid="EN 648"/>
+    <node id="39" x="300" y="339" type="Office" roomid="EN 612"/>
+    <node id="40" x="424" y="733" type="Toilet" name="EN 6 WC Herren" roomid="EN 654"/>
+    <node id="41" x="492" y="727" type="Toilet" name="EN 6 WC Damen" roomid="EN 652"/>
+    <node id="42" x="592" y="743" type="doorway"/>
+    <node id="43" x="432" y="708" type="doorway"/>
+    <node id="44" x="360" y="529" type="doorway"/>
+    <node id="45" x="366" y="277" type="doorway"/>
+    <node id="46" x="333" y="758" type="doorway"/>
+    <node id="47" x="379" y="388" type="Entry"/>
+    <node id="48" x="360" y="383" type="Entry"/>
+    <node id="49" x="359" y="338" type="Entry"/>
+    <node id="50" x="373" y="341" type="Entry"/>
+    <node id="51" x="365" y="427" type="Entry"/>
+    <node id="52" x="380" y="462" type="Entry"/>
+    <node id="53" x="367" y="472" type="Entry"/>
+    <node id="54" x="385" y="557" type="Entry"/>
+    <node id="55" x="390" y="594" type="Entry"/>
+    <node id="56" x="392" y="624" type="Entry"/>
+    <node id="57" x="379" y="633" type="Entry"/>
+    <node id="58" x="378" y="620" type="Entry"/>
+    <node id="59" x="370" y="565" type="Entry"/>
+    <node id="60" x="347" y="588" type="Entry"/>
+    <node id="61" x="332" y="561" type="Entry"/>
+    <node id="62" x="351" y="657" type="Entry"/>
+    <node id="63" x="353" y="668" type="Entry"/>
+    <node id="64" x="355" y="713" type="Entry"/>
+    <node id="65" x="373" y="787" type="Entry"/>
+    <node id="66" x="440" y="798" type="Entry"/>
+    <node id="67" x="422" y="718" type="Entry"/>
+    <node id="68" x="492" y="716" type="Entry"/>
+    <node id="69" x="495" y="692" type="Entry"/>
+    <node id="70" x="530" y="692" type="Entry"/>
+    <node id="71" x="549" y="689" type="Entry"/>
+    <node id="72" x="575" y="697" type="Entry"/>
+    <node id="73" x="583" y="801" type="Entry"/>
+    <node id="74" x="585" y="832" type="Entry"/>
+    <node id="75" x="586" y="846" type="Entry"/>
+    <node id="76" x="589" y="901" type="Entry"/>
+    <node id="77" x="591" y="912" type="Entry"/>
+    <node id="78" x="580" y="946" type="Entry"/>
+    <node id="79" x="562" y="914" type="Entry"/>
+    <node id="80" x="562" y="903" type="Entry"/>
+    <node id="81" x="557" y="859" type="Entry"/>
+    <node id="82" x="557" y="814" type="Entry"/>
+    <node id="83" x="555" y="803" type="Entry"/>
+    <node id="84" x="446" y="734" type="Entry"/>
+    <node id="85" x="334" y="228" type="Entry"/>
+    <node id="86" x="288" y="231" type="Entry"/>
+    <node id="87" x="275" y="231" type="Entry"/>
+    <node id="88" x="263" y="243" type="Entry"/>
+    <node id="89" x="266" y="329" type="Entry"/>
+    <node id="90" x="326" y="327" type="Entry"/>
+    <node id="91" x="285" y="258" type="Entry"/>
+    <node id="92" x="307" y="247" type="Entry"/>
+    <node id="93" x="340" y="451" type="Entry"/>
+    <node id="94" x="343" y="462" type="Entry"/>
+    <node id="95" x="342" y="512" type="Entry"/>
+    <node id="96" x="335" y="421" type="Entry"/>
+    <node id="97" x="334" y="364" type="Entry"/>
+    <node id="98" x="421" y="698" type="Entry"/>
+    <edge id="1" source="33" sink="85" type="1"/>
+    <edge id="2" source="34" sink="86" type="1"/>
+    <edge id="3" source="35" sink="87" type="1"/>
+    <edge id="4" source="88" sink="36" type="1"/>
+    <edge id="5" source="89" sink="36" type="1"/>
+    <edge id="6" source="90" sink="39" type="1"/>
+    <edge id="7" source="39" sink="89" type="1"/>
+    <edge id="8" source="91" sink="37" type="1"/>
+    <edge id="9" source="92" sink="38" type="1"/>
+    <edge id="10" source="97" sink="30" type="1"/>
+    <edge id="11" source="30" sink="96" type="1"/>
+    <edge id="12" source="48" sink="31" type="1"/>
+    <edge id="13" source="31" sink="47" type="1"/>
+    <edge id="14" source="50" sink="31" type="1"/>
+    <edge id="15" source="32" sink="49" type="1"/>
+    <edge id="16" source="32" sink="50" type="1"/>
+    <edge id="17" source="47" sink="25" type="1"/>
+    <edge id="18" source="51" sink="25" type="1"/>
+    <edge id="19" source="25" sink="52" type="1"/>
+    <edge id="20" source="93" sink="29" type="1"/>
+    <edge id="21" source="94" sink="28" type="1"/>
+    <edge id="22" source="53" sink="24" type="1"/>
+    <edge id="23" source="24" sink="52" type="1"/>
+    <edge id="24" source="95" sink="27" type="1"/>
+    <edge id="25" source="61" sink="26" type="1"/>
+    <edge id="26" source="54" sink="23" type="1"/>
+    <edge id="27" source="22" sink="54" type="1"/>
+    <edge id="28" source="22" sink="59" type="1"/>
+    <edge id="29" source="54" sink="59" type="1"/>
+    <node id="99" x="371" y="551" type="Entry"/>
+    <edge id="30" source="23" sink="99" type="1"/>
+    <node id="100" x="335" y="238" type="branch"/>
+    <node id="101" x="306" y="240" type="branch"/>
+    <node id="102" x="289" y="241" type="branch"/>
+    <node id="103" x="275" y="242" type="branch"/>
+    <node id="104" x="342" y="326" type="branch"/>
+    <node id="105" x="343" y="339" type="branch"/>
+    <node id="106" x="339" y="279" type="branch"/>
+    <node id="107" x="344" y="363" type="branch"/>
+    <node id="108" x="346" y="384" type="branch"/>
+    <node id="109" x="348" y="420" type="branch"/>
+    <node id="110" x="349" y="428" type="branch"/>
+    <node id="111" x="351" y="450" type="branch"/>
+    <node id="112" x="351" y="461" type="branch"/>
+    <node id="113" x="352" y="473" type="branch"/>
+    <node id="114" x="355" y="511" type="branch"/>
+    <node id="115" x="360" y="552" type="branch"/>
+    <node id="116" x="361" y="566" type="branch"/>
+    <node id="117" x="362" y="587" type="branch"/>
+    <edge id="32" source="102" sink="101" type="0"/>
+    <edge id="33" source="100" sink="101" type="0"/>
+    <edge id="34" source="101" sink="92" type="0"/>
+    <edge id="35" source="100" sink="106" type="0"/>
+    <edge id="36" source="106" sink="45" type="0"/>
+    <edge id="37" source="106" sink="104" type="0"/>
+    <edge id="38" source="104" sink="105" type="0"/>
+    <edge id="39" source="105" sink="107" type="0"/>
+    <edge id="40" source="107" sink="108" type="0"/>
+    <edge id="41" source="108" sink="109" type="0"/>
+    <edge id="42" source="109" sink="110" type="0"/>
+    <edge id="43" source="110" sink="111" type="0"/>
+    <edge id="44" source="111" sink="112" type="0"/>
+    <edge id="45" source="112" sink="113" type="0"/>
+    <edge id="46" source="113" sink="114" type="0"/>
+    <edge id="47" source="114" sink="44" type="0"/>
+    <edge id="48" source="44" sink="115" type="0"/>
+    <edge id="49" source="116" sink="115" type="0"/>
+    <edge id="50" source="117" sink="116" type="0"/>
+    <edge id="51" source="103" sink="102" type="0"/>
+    <edge id="52" source="87" sink="103" type="0"/>
+    <edge id="53" source="88" sink="103" type="0"/>
+    <edge id="54" source="91" sink="102" type="0"/>
+    <edge id="31" source="102" sink="86" type="0"/>
+    <edge id="55" source="104" sink="90" type="0"/>
+    <edge id="56" source="105" sink="49" type="0"/>
+    <edge id="57" source="85" sink="100" type="0"/>
+    <edge id="58" source="107" sink="97" type="0"/>
+    <edge id="59" source="108" sink="48" type="0"/>
+    <edge id="60" source="109" sink="96" type="0"/>
+    <edge id="61" source="110" sink="51" type="0"/>
+    <edge id="62" source="112" sink="94" type="0"/>
+    <edge id="63" source="113" sink="53" type="0"/>
+    <edge id="64" source="114" sink="95" type="0"/>
+    <edge id="65" source="115" sink="99" type="0"/>
+    <edge id="66" source="116" sink="59" type="0"/>
+    <edge id="67" source="117" sink="60" type="0"/>
+    <edge id="68" source="93" sink="111" type="0"/>
+    <node id="118" x="347" y="599" type="Entry"/>
+    <edge id="69" source="22" sink="55" type="1"/>
+    <edge id="70" source="55" sink="21" type="1"/>
+    <edge id="72" source="56" sink="20" type="1"/>
+    <edge id="73" source="20" sink="98" type="1"/>
+    <edge id="71" source="56" sink="21" type="1"/>
+    <edge id="74" source="21" sink="58" type="1"/>
+    <edge id="75" source="57" sink="20" type="1"/>
+    <edge id="76" source="62" sink="19" type="1"/>
+    <edge id="77" source="118" sink="19" type="1"/>
+    <edge id="78" source="61" sink="60" type="1"/>
+    <edge id="79" source="63" sink="18" type="1"/>
+    <edge id="80" source="18" sink="64" type="1"/>
+    <edge id="81" source="65" sink="17" type="1"/>
+    <edge id="82" source="66" sink="17" type="1"/>
+    <edge id="84" source="16" sink="66" type="1"/>
+    <edge id="85" source="84" sink="16" type="1"/>
+    <edge id="86" source="67" sink="40" type="1"/>
+    <edge id="87" source="69" sink="15" type="1"/>
+    <node id="119" x="365" y="621" type="branch"/>
+    <node id="120" x="366" y="634" type="branch"/>
+    <node id="121" x="366" y="656" type="branch"/>
+    <node id="122" x="363" y="598" type="branch"/>
+    <node id="123" x="366" y="667" type="branch"/>
+    <node id="124" x="369" y="713" type="branch"/>
+    <node id="125" x="372" y="756" type="branch"/>
+    <node id="126" x="373" y="777" type="branch"/>
+    <node id="127" x="421" y="709" type="branch"/>
+    <node id="128" x="444" y="707" type="branch"/>
+    <node id="129" x="495" y="704" type="branch"/>
+    <edge id="88" source="117" sink="122" type="0"/>
+    <edge id="89" source="122" sink="119" type="0"/>
+    <edge id="90" source="119" sink="120" type="0"/>
+    <edge id="91" source="122" sink="118" type="0"/>
+    <edge id="92" source="58" sink="119" type="0"/>
+    <edge id="93" source="57" sink="120" type="0"/>
+    <edge id="94" source="120" sink="121" type="0"/>
+    <edge id="95" source="121" sink="123" type="0"/>
+    <edge id="96" source="121" sink="62" type="0"/>
+    <edge id="97" source="123" sink="63" type="0"/>
+    <edge id="98" source="123" sink="124" type="0"/>
+    <edge id="99" source="124" sink="64" type="0"/>
+    <edge id="100" source="124" sink="127" type="0"/>
+    <edge id="101" source="127" sink="98" type="0"/>
+    <edge id="102" source="127" sink="67" type="0"/>
+    <edge id="103" source="43" sink="127" type="0"/>
+    <edge id="104" source="128" sink="43" type="0"/>
+    <edge id="105" source="128" sink="84" type="0"/>
+    <edge id="106" source="129" sink="128" type="0"/>
+    <edge id="107" source="69" sink="129" type="0"/>
+    <edge id="108" source="129" sink="68" type="0"/>
+    <edge id="109" source="124" sink="125" type="0"/>
+    <edge id="110" source="125" sink="126" type="0"/>
+    <edge id="111" source="126" sink="65" type="0"/>
+    <edge id="112" source="125" sink="46" type="0"/>
+    <node id="130" x="530" y="701" type="branch"/>
+    <node id="131" x="549" y="700" type="branch"/>
+    <node id="132" x="564" y="699" type="branch"/>
+    <node id="133" x="567" y="745" type="branch"/>
+    <node id="134" x="571" y="802" type="branch"/>
+    <node id="135" x="572" y="813" type="branch"/>
+    <node id="136" x="573" y="833" type="branch"/>
+    <node id="137" x="574" y="847" type="branch"/>
+    <node id="138" x="575" y="858" type="branch"/>
+    <node id="139" x="577" y="902" type="branch"/>
+    <node id="140" x="578" y="913" type="branch"/>
+    <node id="141" x="579" y="936" type="branch"/>
+    <edge id="113" source="83" sink="11" type="1"/>
+    <edge id="114" source="82" sink="9" type="1"/>
+    <edge id="115" source="81" sink="10" type="1"/>
+    <edge id="116" source="8" sink="73" type="1"/>
+    <edge id="117" source="7" sink="74" type="1"/>
+    <edge id="118" source="75" sink="6" type="1"/>
+    <edge id="119" source="5" sink="76" type="1"/>
+    <edge id="120" source="77" sink="1" type="1"/>
+    <edge id="121" source="78" sink="2" type="1"/>
+    <edge id="122" source="79" sink="3" type="1"/>
+    <edge id="123" source="80" sink="4" type="1"/>
+    <edge id="124" source="12" sink="72" type="1"/>
+    <edge id="125" source="71" sink="13" type="1"/>
+    <edge id="126" source="70" sink="14" type="1"/>
+    <edge id="127" source="68" sink="41" type="1"/>
+    <edge id="128" source="130" sink="129" type="0"/>
+    <edge id="129" source="70" sink="130" type="0"/>
+    <edge id="130" source="71" sink="131" type="0"/>
+    <edge id="131" source="132" sink="131" type="0"/>
+    <edge id="132" source="72" sink="132" type="0"/>
+    <edge id="133" source="132" sink="133" type="0"/>
+    <edge id="134" source="131" sink="130" type="0"/>
+    <edge id="135" source="42" sink="133" type="0"/>
+    <edge id="136" source="133" sink="134" type="0"/>
+    <edge id="137" source="134" sink="73" type="0"/>
+    <edge id="138" source="134" sink="83" type="0"/>
+    <edge id="139" source="134" sink="135" type="0"/>
+    <edge id="140" source="135" sink="82" type="0"/>
+    <edge id="141" source="135" sink="136" type="0"/>
+    <edge id="142" source="136" sink="74" type="0"/>
+    <edge id="143" source="136" sink="137" type="0"/>
+    <edge id="144" source="137" sink="75" type="0"/>
+    <edge id="145" source="137" sink="138" type="0"/>
+    <edge id="146" source="138" sink="81" type="0"/>
+    <edge id="147" source="138" sink="139" type="0"/>
+    <edge id="148" source="139" sink="76" type="0"/>
+    <edge id="149" source="139" sink="80" type="0"/>
+    <edge id="150" source="139" sink="140" type="0"/>
+    <edge id="151" source="140" sink="77" type="0"/>
+    <edge id="152" source="140" sink="79" type="0"/>
+    <edge id="153" source="140" sink="141" type="0"/>
+    <edge id="154" source="141" sink="78" type="0"/>
+    <node id="142" x="402" y="275" type="branch"/>
+    <node id="143" x="298" y="764" type="branch"/>
+    <node id="144" x="627" y="742" type="branch"/>
+    <edge id="155" source="46" sink="143" type="0"/>
+    <node id="145" x="397" y="757" type="branch" name="EN 6 Fahrstuhl A"/>
+    <edge id="156" source="145" sink="125" type="0"/>
+    <edge id="157" source="142" sink="45" type="0"/>
+    <edge id="158" source="144" sink="42" type="0"/>
+    <node id="146" x="313" y="282" type="branch" name="EN 6 Fahrstuhl B"/>
+    <edge id="159" source="146" sink="106" type="0"/>
+    <node id="147" x="375" y="197" type="Office" roomid="EN 621"/>
+    <node id="148" x="350" y="234" type="Entry"/>
+    <edge id="160" source="148" sink="147" type="1"/>
+    <edge id="161" source="148" sink="100" type="0"/>
+    <node id="162" x="295" y="876" type="GpsLink" lat="52.51474" long="13.32672"/>
+    <node id="163" x="632" y="631" type="GpsLink" lat="52.51497" long="13.32722"/>
+    <node id="164" x="404" y="158" type="GpsLink" lat="52.51539" long="13.32686"/>
+    <node id="165" x="501" y="1003" type="GpsLink" lat="52.51464" long="13.32704"/>
+    <node id="166" x="61" y="292" type="GpsLink" lat="52.51526" long="13.32631"/>
+    <pixelToGK>
+      <xrw>0.1009419792377</xrw>
+      <yrw>0.0057510806716813</yrw>
+      <wrw>4590136.9787269</wrw>
+      <xhw>0.0057510806716813</xhw>
+      <yhw>-0.1009419792377</yhw>
+      <whw>5821089.3802926</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>3.4093054822259E-8</xlat>
+      <ylat>-9.0789300949726E-7</ylat>
+      <wlat>52.515522163259</wlat>
+      <xlon>1.4880662545066E-6</xlon>
+      <ylon>5.7233723533241E-8</ylon>
+      <wlon>13.326227763556</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>0.0037952215017799</xx>
+      <yx>-0.10106618749831</yx>
+      <wx>5846001.1851431</wx>
+      <xy>0.17028693047376</xy>
+      <yy>0.0065504883022161</yy>
+      <wy>1497027.7286746</wy>
+    </pixelToEPSG3857>
+  </level>
+  <leveledge id="1" sourcelevel="1" sinklevel="2" sourcenode="231" sinknode="230" type="Stairs"/>
+  <leveledge id="2" sourcelevel="2" sinklevel="1" sourcenode="230" sinknode="231" type="Stairs"/>
+  <leveledge id="3" sourcelevel="2" sinklevel="1" sourcenode="228" sinknode="225" type="Stairs"/>
+  <leveledge id="4" sourcelevel="1" sinklevel="2" sourcenode="225" sinknode="228" type="Stairs"/>
+  <leveledge id="5" sourcelevel="1" sinklevel="2" sourcenode="229" sinknode="232" type="Stairs"/>
+  <leveledge id="6" sourcelevel="2" sinklevel="1" sourcenode="232" sinknode="229" type="Stairs"/>
+  <leveledge id="7" sourcelevel="2" sinklevel="1" sourcenode="234" sinknode="227" type="Stairs"/>
+  <leveledge id="8" sourcelevel="1" sinklevel="2" sourcenode="227" sinknode="234" type="Stairs"/>
+  <leveledge id="9" sourcelevel="2" sinklevel="3" sourcenode="228" sinknode="187" type="Stairs"/>
+  <leveledge id="10" sourcelevel="3" sinklevel="2" sourcenode="187" sinknode="228" type="Stairs"/>
+  <leveledge id="11" sourcelevel="2" sinklevel="3" sourcenode="234" sinknode="188" type="Stairs"/>
+  <leveledge id="12" sourcelevel="3" sinklevel="2" sourcenode="188" sinknode="234" type="Stairs"/>
+  <leveledge id="13" sourcelevel="3" sinklevel="2" sourcenode="186" sinknode="232" type="Stairs"/>
+  <leveledge id="14" sourcelevel="2" sinklevel="3" sourcenode="232" sinknode="186" type="Stairs"/>
+  <leveledge id="15" sourcelevel="2" sinklevel="3" sourcenode="230" sinknode="185" type="Stairs"/>
+  <leveledge id="16" sourcelevel="3" sinklevel="2" sourcenode="185" sinknode="230" type="Stairs"/>
+  <leveledge id="17" sourcelevel="1" sinklevel="2" sourcenode="232" sinknode="231" type="Elevator"/>
+  <leveledge id="18" sourcelevel="2" sinklevel="1" sourcenode="231" sinknode="232" type="Elevator"/>
+  <leveledge id="19" sourcelevel="2" sinklevel="1" sourcenode="233" sinknode="230" type="Elevator"/>
+  <leveledge id="20" sourcelevel="1" sinklevel="2" sourcenode="230" sinknode="233" type="Elevator"/>
+  <leveledge id="21" sourcelevel="1" sinklevel="2" sourcenode="228" sinknode="235" type="Elevator"/>
+  <leveledge id="22" sourcelevel="2" sinklevel="1" sourcenode="235" sinknode="228" type="Elevator"/>
+  <leveledge id="23" sourcelevel="2" sinklevel="1" sourcenode="229" sinknode="226" type="Elevator"/>
+  <leveledge id="24" sourcelevel="1" sinklevel="2" sourcenode="226" sinknode="229" type="Elevator"/>
+  <leveledge id="25" sourcelevel="2" sinklevel="3" sourcenode="229" sinknode="189" type="Elevator"/>
+  <leveledge id="26" sourcelevel="3" sinklevel="2" sourcenode="189" sinknode="229" type="Elevator"/>
+  <leveledge id="27" sourcelevel="3" sinklevel="2" sourcenode="190" sinknode="235" type="Elevator"/>
+  <leveledge id="28" sourcelevel="2" sinklevel="3" sourcenode="235" sinknode="190" type="Elevator"/>
+  <leveledge id="29" sourcelevel="2" sinklevel="3" sourcenode="233" sinknode="191" type="Elevator"/>
+  <leveledge id="30" sourcelevel="3" sinklevel="2" sourcenode="191" sinknode="233" type="Elevator"/>
+  <leveledge id="31" sourcelevel="3" sinklevel="2" sourcenode="192" sinknode="231" type="Elevator"/>
+  <leveledge id="32" sourcelevel="2" sinklevel="3" sourcenode="231" sinknode="192" type="Elevator"/>
+  <level id="8" storey="7" mapfile="en07_3_neu.jpg" width="535" height="1024">
+    <node id="1" x="321" y="676" type="Office" roomid="EN 732/734"/>
+    <node id="2" x="313" y="781" type="Office" roomid="EN 738"/>
+    <node id="3" x="227" y="819" type="Office" roomid="EN 739"/>
+    <node id="4" x="187" y="825" type="Office" roomid="EN 740"/>
+    <node id="5" x="153" y="823" type="Office" roomid="EN 741"/>
+    <node id="6" x="108" y="812" type="Office" roomid="EN 742"/>
+    <node id="7" x="124" y="676" type="Office" roomid="EN 701"/>
+    <node id="8" x="116" y="627" type="Office" roomid="EN 702"/>
+    <node id="9" x="111" y="576" type="Office" roomid="EN 703"/>
+    <node id="10" x="110" y="544" type="Office" roomid="EN 704"/>
+    <node id="11" x="104" y="492" type="Office" roomid="EN 705/706"/>
+    <node id="12" x="99" y="430" type="Office" roomid="EN 707"/>
+    <node id="13" x="96" y="378" type="Office" roomid="EN 708"/>
+    <node id="14" x="93" y="348" type="Office" roomid="EN 709"/>
+    <node id="15" x="83" y="283" type="Office" roomid="EN 710/711"/>
+    <node id="16" x="74" y="225" type="Office" roomid="EN 712"/>
+    <node id="17" x="55" y="73" type="Office" roomid="EN 716/717"/>
+    <node id="18" x="111" y="71" type="Office" roomid="EN 718"/>
+    <node id="19" x="170" y="83" type="Office" roomid="EN 719/720"/>
+    <node id="20" x="178" y="216" type="Office" roomid="EN 721"/>
+    <node id="21" x="187" y="252" type="Office" roomid="EN 722"/>
+    <node id="22" x="188" y="297" type="Office" roomid="EN 723"/>
+    <node id="23" x="188" y="334" type="Office" roomid="EN 724"/>
+    <node id="24" x="200" y="373" type="Office" roomid="EN 725"/>
+    <node id="25" x="204" y="413" type="Office" roomid="EN 726"/>
+    <node id="26" x="192" y="456" type="Office" roomid="EN 727"/>
+    <node id="27" x="203" y="499" type="Office" roomid="EN 728"/>
+    <node id="28" x="207" y="555" type="Office" roomid="EN 729"/>
+    <node id="29" x="217" y="622" type="Office" roomid="EN 730/731"/>
+    <node id="30" x="237" y="721" type="Toilet" name="EN 7 WC Damen"/>
+    <node id="31" x="53" y="149" type="Toilet" name="EN 7 WC Herren"/>
+    <node id="32" x="120" y="112" type="branch"/>
+    <node id="33" x="44" y="118" type="branch"/>
+    <node id="34" x="150" y="452" type="doorway"/>
+    <node id="35" x="171" y="672" type="branch"/>
+    <node id="36" x="274" y="662" type="branch"/>
+    <node id="37" x="281" y="738" type="branch"/>
+    <node id="38" x="175" y="726" type="branch"/>
+    <edge id="7" source="36" sink="37" type="3"/>
+    <node id="40" x="226" y="770" type="branch"/>
+    <node id="41" x="145" y="777" type="branch"/>
+    <node id="42" x="179" y="774" type="branch"/>
+    <edge id="8" source="38" sink="42" type="0"/>
+    <node id="43" x="299" y="736" type="branch"/>
+    <edge id="11" source="37" sink="43" type="0"/>
+    <node id="44" x="119" y="100" type="Entry"/>
+    <node id="45" x="90" y="86" type="Entry"/>
+    <node id="46" x="85" y="106" type="Entry"/>
+    <node id="47" x="62" y="134" type="Entry"/>
+    <node id="48" x="142" y="217" type="Entry"/>
+    <node id="49" x="113" y="220" type="Entry"/>
+    <node id="50" x="147" y="270" type="Entry"/>
+    <node id="51" x="119" y="282" type="Entry"/>
+    <node id="52" x="150" y="309" type="Entry"/>
+    <node id="53" x="151" y="325" type="Entry"/>
+    <node id="54" x="125" y="354" type="Entry"/>
+    <node id="55" x="159" y="389" type="Entry"/>
+    <node id="56" x="159" y="407" type="Entry"/>
+    <node id="57" x="127" y="366" type="Entry"/>
+    <node id="58" x="131" y="433" type="Entry"/>
+    <node id="59" x="165" y="471" type="Entry"/>
+    <node id="60" x="168" y="511" type="Entry"/>
+    <node id="61" x="185" y="476" type="Entry"/>
+    <node id="62" x="189" y="527" type="Entry"/>
+    <node id="63" x="176" y="576" type="Entry"/>
+    <node id="64" x="176" y="591" type="Entry"/>
+    <node id="65" x="181" y="644" type="Entry"/>
+    <node id="66" x="228" y="658" type="Entry"/>
+    <node id="67" x="135" y="514" type="Entry"/>
+    <node id="68" x="136" y="529" type="Entry"/>
+    <node id="69" x="146" y="594" type="Entry"/>
+    <node id="70" x="145" y="607" type="Entry"/>
+    <node id="71" x="153" y="674" type="Entry"/>
+    <node id="72" x="122" y="779" type="Entry"/>
+    <node id="73" x="146" y="789" type="Entry"/>
+    <node id="74" x="186" y="786" type="Entry"/>
+    <node id="75" x="227" y="782" type="Entry"/>
+    <node id="76" x="300" y="753" type="Entry"/>
+    <node id="77" x="297" y="721" type="Entry"/>
+    <node id="78" x="230" y="682" type="Entry"/>
+    <edge id="12" source="2" sink="76" type="1"/>
+    <edge id="13" source="1" sink="77" type="1"/>
+    <edge id="14" source="75" sink="3" type="1"/>
+    <edge id="15" source="74" sink="4" type="1"/>
+    <edge id="16" source="73" sink="5" type="1"/>
+    <edge id="17" source="72" sink="6" type="1"/>
+    <edge id="18" source="78" sink="30" type="1"/>
+    <edge id="19" source="66" sink="29" type="1"/>
+    <edge id="20" source="65" sink="29" type="1"/>
+    <edge id="21" source="64" sink="29" type="1"/>
+    <edge id="22" source="63" sink="28" type="1"/>
+    <edge id="23" source="62" sink="27" type="1"/>
+    <edge id="24" source="60" sink="27" type="1"/>
+    <edge id="25" source="71" sink="7" type="1"/>
+    <edge id="26" source="70" sink="8" type="1"/>
+    <edge id="27" source="69" sink="9" type="1"/>
+    <edge id="28" source="68" sink="10" type="1"/>
+    <edge id="29" source="67" sink="11" type="1"/>
+    <edge id="30" source="26" sink="61" type="1"/>
+    <edge id="31" source="27" sink="61" type="1"/>
+    <edge id="32" source="59" sink="26" type="1"/>
+    <edge id="33" source="12" sink="58" type="1"/>
+    <edge id="34" source="56" sink="25" type="1"/>
+    <edge id="35" source="55" sink="24" type="1"/>
+    <edge id="36" source="57" sink="13" type="1"/>
+    <edge id="37" source="14" sink="54" type="1"/>
+    <edge id="38" source="53" sink="23" type="1"/>
+    <edge id="39" source="52" sink="22" type="1"/>
+    <edge id="40" source="15" sink="51" type="1"/>
+    <edge id="41" source="50" sink="21" type="1"/>
+    <edge id="42" source="49" sink="16" type="1"/>
+    <edge id="43" source="48" sink="20" type="1"/>
+    <edge id="44" source="44" sink="18" type="1"/>
+    <edge id="45" source="45" sink="18" type="1"/>
+    <edge id="46" source="45" sink="17" type="1"/>
+    <edge id="47" source="45" sink="46" type="1"/>
+    <edge id="48" source="47" sink="31" type="1"/>
+    <node id="79" x="134" y="111" type="Entry"/>
+    <edge id="49" source="19" sink="79" type="1"/>
+    <edge id="50" source="79" sink="32" type="0"/>
+    <edge id="51" source="44" sink="32" type="0"/>
+    <node id="80" x="86" y="115" type="branch"/>
+    <node id="81" x="130" y="218" type="branch"/>
+    <node id="82" x="134" y="271" type="branch"/>
+    <node id="83" x="135" y="281" type="branch"/>
+    <node id="84" x="138" y="310" type="branch"/>
+    <node id="85" x="139" y="326" type="branch"/>
+    <node id="86" x="142" y="352" type="branch"/>
+    <node id="87" x="143" y="364" type="branch"/>
+    <node id="88" x="145" y="390" type="branch"/>
+    <node id="89" x="147" y="408" type="branch"/>
+    <node id="90" x="152" y="472" type="branch"/>
+    <node id="91" x="149" y="431" type="branch"/>
+    <node id="92" x="155" y="512" type="branch"/>
+    <node id="93" x="158" y="527" type="branch"/>
+    <node id="94" x="162" y="578" type="branch"/>
+    <node id="95" x="163" y="592" type="branch"/>
+    <node id="96" x="165" y="605" type="branch"/>
+    <node id="97" x="168" y="645" type="branch"/>
+    <node id="98" x="229" y="666" type="branch"/>
+    <node id="99" x="185" y="774" type="branch"/>
+    <edge id="52" source="77" sink="43" type="0"/>
+    <edge id="53" source="43" sink="76" type="0"/>
+    <edge id="54" source="98" sink="78" type="0"/>
+    <edge id="55" source="98" sink="66" type="0"/>
+    <edge id="56" source="40" sink="75" type="0"/>
+    <edge id="57" source="99" sink="74" type="0"/>
+    <edge id="58" source="41" sink="73" type="0"/>
+    <edge id="59" source="41" sink="72" type="0"/>
+    <edge id="60" source="71" sink="35" type="0"/>
+    <edge id="61" source="97" sink="65" type="0"/>
+    <edge id="62" source="96" sink="70" type="0"/>
+    <edge id="63" source="95" sink="69" type="0"/>
+    <edge id="64" source="94" sink="63" type="0"/>
+    <edge id="65" source="93" sink="68" type="0"/>
+    <edge id="66" source="92" sink="67" type="0"/>
+    <edge id="67" source="92" sink="60" type="0"/>
+    <edge id="68" source="90" sink="59" type="0"/>
+    <edge id="69" source="91" sink="58" type="0"/>
+    <edge id="70" source="89" sink="56" type="0"/>
+    <edge id="71" source="88" sink="55" type="0"/>
+    <edge id="72" source="57" sink="87" type="0"/>
+    <edge id="73" source="86" sink="54" type="0"/>
+    <edge id="74" source="85" sink="53" type="0"/>
+    <edge id="75" source="84" sink="52" type="0"/>
+    <edge id="76" source="83" sink="51" type="0"/>
+    <edge id="77" source="82" sink="50" type="0"/>
+    <edge id="78" source="81" sink="48" type="0"/>
+    <edge id="79" source="81" sink="49" type="0"/>
+    <edge id="80" source="80" sink="46" type="0" name="a"/>
+    <node id="100" x="60" y="117" type="branch"/>
+    <edge id="81" source="100" sink="47" type="0"/>
+    <node id="101" x="154" y="161" type="doorway"/>
+    <node id="102" x="129" y="730" type="doorway"/>
+    <node id="103" x="125" y="164" type="branch"/>
+    <edge id="82" source="101" sink="103" type="0"/>
+    <edge id="83" source="38" sink="102" type="0"/>
+    <edge id="84" source="33" sink="100" type="0" name="a"/>
+    <edge id="85" source="100" sink="80" type="0"/>
+    <edge id="86" source="80" sink="32" type="0"/>
+    <edge id="87" source="32" sink="103" type="0"/>
+    <edge id="88" source="103" sink="81" type="0"/>
+    <edge id="89" source="81" sink="82" type="0"/>
+    <edge id="90" source="82" sink="83" type="0"/>
+    <edge id="91" source="83" sink="84" type="0"/>
+    <edge id="92" source="84" sink="85" type="0"/>
+    <edge id="93" source="85" sink="86" type="0"/>
+    <edge id="94" source="87" sink="88" type="0" name="a"/>
+    <edge id="95" source="87" sink="86" type="0"/>
+    <edge id="96" source="88" sink="89" type="0"/>
+    <edge id="97" source="89" sink="91" type="0"/>
+    <edge id="98" source="91" sink="34" type="0"/>
+    <edge id="99" source="34" sink="90" type="0"/>
+    <edge id="100" source="90" sink="92" type="0" name="a"/>
+    <edge id="101" source="92" sink="93" type="0"/>
+    <edge id="102" source="93" sink="94" type="0"/>
+    <edge id="103" source="94" sink="95" type="0"/>
+    <edge id="104" source="95" sink="96" type="0"/>
+    <edge id="105" source="96" sink="97" type="0"/>
+    <edge id="106" source="97" sink="35" type="0"/>
+    <edge id="107" source="35" sink="98" type="0"/>
+    <edge id="108" source="98" sink="36" type="0"/>
+    <edge id="109" source="35" sink="38" type="0"/>
+    <edge id="110" source="42" sink="99" type="0"/>
+    <edge id="111" source="99" sink="40" type="0"/>
+    <edge id="112" source="42" sink="41" type="0"/>
+    <node id="104" x="90" y="734" type="branch"/>
+    <edge id="113" source="102" sink="104" type="0"/>
+    <node id="105" x="202" y="724" type="branch" name="EN 7 Fahrstuhl A"/>
+    <edge id="114" source="38" sink="105" type="0"/>
+    <node id="106" x="182" y="159" type="branch"/>
+    <edge id="115" source="106" sink="101" type="0"/>
+    <node id="107" x="89" y="167" type="branch" name="EN 7 Fahrstuhl B"/>
+    <edge id="116" source="107" sink="103" type="0"/>
+    <edge id="117" source="28" sink="62" type="1"/>
+    <node id="118" x="97" y="859" type="GpsLink" lat="52.51474" long="13.32672"/>
+    <node id="119" x="479" y="575" type="GpsLink" lat="52.51497" long="13.32722"/>
+    <node id="120" x="211" y="29" type="GpsLink" lat="52.51539" long="13.32686"/>
+    <node id="121" x="332" y="1004" type="GpsLink" lat="52.51464" long="13.32704"/>
+    <pixelToGK>
+      <xrw>0.086281638723942</xrw>
+      <yrw>0.0026903092382631</yrw>
+      <wrw>4590161.7034633</wrw>
+      <xhw>0.0026903092382631</xhw>
+      <yhw>-0.086281638723942</yhw>
+      <whw>5821077.2115867</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>9.1469081338712E-9</xlat>
+      <ylat>-7.7564736676389E-7</ylat>
+      <wlat>52.515408530984</wlat>
+      <xlon>1.2713410904432E-6</xlon>
+      <ylon>1.6147817670258E-8</ylon>
+      <wlon>13.326588557281</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>0.0010182291555663</xx>
+      <yx>-0.086344669891591</yx>
+      <wx>5845988.5356561</wx>
+      <xy>0.14548599708403</xy>
+      <yy>0.0018486824108784</yy>
+      <wy>1497069.0162478</wy>
+    </pixelToEPSG3857>
+  </level>
+  <leveledge id="33" sourcelevel="3" sinklevel="4" sourcenode="185" sinknode="195" type="Stairs"/>
+  <leveledge id="34" sourcelevel="4" sinklevel="3" sourcenode="195" sinknode="185" type="Stairs"/>
+  <leveledge id="35" sourcelevel="4" sinklevel="3" sourcenode="197" sinknode="187" type="Stairs"/>
+  <leveledge id="36" sourcelevel="3" sinklevel="4" sourcenode="187" sinknode="197" type="Stairs"/>
+  <leveledge id="37" sourcelevel="4" sinklevel="5" sourcenode="197" sinknode="199" type="Stairs"/>
+  <leveledge id="38" sourcelevel="5" sinklevel="4" sourcenode="199" sinknode="197" type="Stairs"/>
+  <leveledge id="39" sourcelevel="5" sinklevel="6" sourcenode="199" sinknode="156" type="Stairs"/>
+  <leveledge id="40" sourcelevel="6" sinklevel="5" sourcenode="156" sinknode="199" type="Stairs"/>
+  <leveledge id="41" sourcelevel="6" sinklevel="7" sourcenode="156" sinknode="143" type="Stairs"/>
+  <leveledge id="42" sourcelevel="7" sinklevel="6" sourcenode="143" sinknode="156" type="Stairs"/>
+  <leveledge id="43" sourcelevel="8" sinklevel="7" sourcenode="104" sinknode="143" type="Stairs"/>
+  <leveledge id="44" sourcelevel="7" sinklevel="8" sourcenode="143" sinknode="104" type="Stairs"/>
+  <leveledge id="45" sourcelevel="8" sinklevel="7" sourcenode="105" sinknode="145" type="Elevator"/>
+  <leveledge id="46" sourcelevel="7" sinklevel="8" sourcenode="145" sinknode="105" type="Elevator"/>
+  <leveledge id="47" sourcelevel="7" sinklevel="6" sourcenode="145" sinknode="158" type="Elevator"/>
+  <leveledge id="48" sourcelevel="6" sinklevel="7" sourcenode="158" sinknode="145" type="Elevator"/>
+  <leveledge id="49" sourcelevel="6" sinklevel="5" sourcenode="158" sinknode="202" type="Elevator"/>
+  <leveledge id="50" sourcelevel="5" sinklevel="6" sourcenode="202" sinknode="158" type="Elevator"/>
+  <leveledge id="51" sourcelevel="5" sinklevel="4" sourcenode="202" sinknode="199" type="Elevator"/>
+  <leveledge id="52" sourcelevel="4" sinklevel="5" sourcenode="199" sinknode="202" type="Elevator"/>
+  <leveledge id="53" sourcelevel="3" sinklevel="4" sourcenode="189" sinknode="199" type="Elevator"/>
+  <leveledge id="54" sourcelevel="4" sinklevel="3" sourcenode="199" sinknode="189" type="Elevator"/>
+  <leveledge id="59" sourcelevel="3" sinklevel="4" sourcenode="188" sinknode="198" type="Stairs"/>
+  <leveledge id="60" sourcelevel="4" sinklevel="3" sourcenode="198" sinknode="188" type="Stairs"/>
+  <leveledge id="61" sourcelevel="4" sinklevel="3" sourcenode="205" sinknode="190" type="Elevator"/>
+  <leveledge id="62" sourcelevel="3" sinklevel="4" sourcenode="190" sinknode="205" type="Elevator"/>
+  <leveledge id="63" sourcelevel="3" sinklevel="4" sourcenode="186" sinknode="196" type="Stairs"/>
+  <leveledge id="64" sourcelevel="4" sinklevel="3" sourcenode="196" sinknode="186" type="Stairs"/>
+  <leveledge id="65" sourcelevel="4" sinklevel="3" sourcenode="203" sinknode="191" type="Elevator"/>
+  <leveledge id="66" sourcelevel="3" sinklevel="4" sourcenode="191" sinknode="203" type="Elevator"/>
+  <leveledge id="67" sourcelevel="3" sinklevel="4" sourcenode="192" sinknode="202" type="Elevator"/>
+  <leveledge id="68" sourcelevel="4" sinklevel="3" sourcenode="202" sinknode="192" type="Elevator"/>
+  <leveledge id="69" sourcelevel="4" sinklevel="5" sourcenode="198" sinknode="200" type="Stairs"/>
+  <leveledge id="70" sourcelevel="5" sinklevel="4" sourcenode="200" sinknode="198" type="Stairs"/>
+  <leveledge id="71" sourcelevel="5" sinklevel="4" sourcenode="198" sinknode="196" type="Stairs"/>
+  <leveledge id="72" sourcelevel="4" sinklevel="5" sourcenode="196" sinknode="198" type="Stairs"/>
+  <leveledge id="73" sourcelevel="4" sinklevel="5" sourcenode="195" sinknode="197" type="Stairs"/>
+  <leveledge id="74" sourcelevel="5" sinklevel="4" sourcenode="197" sinknode="195" type="Stairs"/>
+  <leveledge id="75" sourcelevel="5" sinklevel="4" sourcenode="206" sinknode="202" type="Elevator"/>
+  <leveledge id="76" sourcelevel="4" sinklevel="5" sourcenode="202" sinknode="206" type="Elevator"/>
+  <leveledge id="77" sourcelevel="4" sinklevel="5" sourcenode="203" sinknode="205" type="Elevator"/>
+  <leveledge id="78" sourcelevel="5" sinklevel="4" sourcenode="205" sinknode="203" type="Elevator"/>
+  <leveledge id="79" sourcelevel="5" sinklevel="4" sourcenode="207" sinknode="205" type="Elevator"/>
+  <leveledge id="80" sourcelevel="4" sinklevel="5" sourcenode="205" sinknode="207" type="Elevator"/>
+  <leveledge id="81" sourcelevel="6" sinklevel="5" sourcenode="161" sinknode="207" type="Elevator"/>
+  <leveledge id="82" sourcelevel="5" sinklevel="6" sourcenode="207" sinknode="161" type="Elevator"/>
+  <leveledge id="83" sourcelevel="5" sinklevel="6" sourcenode="200" sinknode="157" type="Stairs"/>
+  <leveledge id="84" sourcelevel="6" sinklevel="5" sourcenode="157" sinknode="200" type="Stairs"/>
+  <leveledge id="85" sourcelevel="6" sinklevel="5" sourcenode="154" sinknode="197" type="Stairs"/>
+  <leveledge id="86" sourcelevel="5" sinklevel="6" sourcenode="197" sinknode="154" type="Stairs"/>
+  <leveledge id="87" sourcelevel="5" sinklevel="6" sourcenode="206" sinknode="160" type="Elevator"/>
+  <leveledge id="88" sourcelevel="6" sinklevel="5" sourcenode="160" sinknode="206" type="Elevator"/>
+  <leveledge id="89" sourcelevel="6" sinklevel="5" sourcenode="159" sinknode="205" type="Elevator"/>
+  <leveledge id="90" sourcelevel="5" sinklevel="6" sourcenode="205" sinknode="159" type="Elevator"/>
+  <leveledge id="91" sourcelevel="5" sinklevel="6" sourcenode="198" sinknode="155" type="Stairs"/>
+  <leveledge id="92" sourcelevel="6" sinklevel="5" sourcenode="155" sinknode="198" type="Stairs"/>
+  <leveledge id="93" sourcelevel="7" sinklevel="6" sourcenode="146" sinknode="159" type="Elevator"/>
+  <leveledge id="94" sourcelevel="6" sinklevel="7" sourcenode="159" sinknode="146" type="Elevator"/>
+  <leveledge id="95" sourcelevel="6" sinklevel="7" sourcenode="155" sinknode="142" type="Stairs"/>
+  <leveledge id="96" sourcelevel="7" sinklevel="6" sourcenode="142" sinknode="155" type="Stairs"/>
+  <leveledge id="97" sourcelevel="7" sinklevel="6" sourcenode="144" sinknode="157" type="Stairs"/>
+  <leveledge id="98" sourcelevel="6" sinklevel="7" sourcenode="157" sinknode="144" type="Stairs"/>
+  <leveledge id="99" sourcelevel="7" sinklevel="8" sourcenode="142" sinknode="106" type="Stairs"/>
+  <leveledge id="100" sourcelevel="8" sinklevel="7" sourcenode="106" sinknode="142" type="Stairs"/>
+  <leveledge id="101" sourcelevel="8" sinklevel="7" sourcenode="107" sinknode="146" type="Elevator"/>
+  <leveledge id="102" sourcelevel="7" sinklevel="8" sourcenode="146" sinknode="107" type="Elevator"/>
+</graph>

@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph territory="TU Berlin">
+  <level id="2" storey="1" mapfile="e_1_neu.jpg" width="468" height="1024">
+    <node id="1" x="289" y="316" type="Entry"/>
+    <node id="2" x="304" y="288" type="doorway"/>
+    <node id="3" x="289" y="329" type="Entry"/>
+    <node id="4" x="301" y="391" type="Entry"/>
+    <node id="5" x="307" y="469" type="Entry"/>
+    <node id="6" x="311" y="509" type="Entry"/>
+    <node id="7" x="316" y="559" type="Entry"/>
+    <node id="8" x="324" y="360" type="Entry"/>
+    <node id="9" x="327" y="393" type="Entry"/>
+    <node id="10" x="329" y="407" type="Entry"/>
+    <node id="11" x="337" y="442" type="Entry"/>
+    <node id="12" x="341" y="505" type="Entry"/>
+    <node id="13" x="347" y="562" type="Entry"/>
+    <node id="14" x="319" y="322" type="Entry"/>
+    <node id="15" x="322" y="620" type="Entry"/>
+    <node id="16" x="354" y="619" type="Entry"/>
+    <node id="17" x="357" y="667" type="Entry"/>
+    <node id="18" x="366" y="727" type="Entry"/>
+    <node id="19" x="333" y="722" type="Entry"/>
+    <node id="20" x="328" y="672" type="Entry"/>
+    <node id="21" x="242" y="793" type="Entry"/>
+    <node id="22" x="190" y="799" type="Entry"/>
+    <node id="23" x="48" y="865" type="Entry"/>
+    <node id="24" x="55" y="934" type="Entry"/>
+    <node id="25" x="136" y="802" type="Entry"/>
+    <node id="26" x="365" y="808" type="Entry"/>
+    <node id="27" x="337" y="823" type="Entry"/>
+    <node id="28" x="282" y="84" type="Entry"/>
+    <node id="29" x="299" y="102" type="Entry"/>
+    <node id="30" x="297" y="121" type="Entry"/>
+    <node id="31" x="305" y="181" type="Entry"/>
+    <node id="32" x="301" y="150" type="Entry"/>
+    <node id="33" x="272" y="153" type="Entry"/>
+    <node id="34" x="270" y="123" type="Entry"/>
+    <node id="35" x="263" y="42" type="Entry"/>
+    <node id="36" x="252" y="83" type="Entry"/>
+    <node id="37" x="258" y="138" type="Entry"/>
+    <node id="38" x="285" y="377" type="Entry"/>
+    <node id="39" x="278" y="323" type="Entry"/>
+    <node id="40" x="293" y="194" type="doorway"/>
+    <node id="41" x="330" y="535" type="doorway"/>
+    <node id="42" x="354" y="755" type="doorway"/>
+    <node id="43" x="289" y="775" type="doorway"/>
+    <node id="44" x="267" y="790" type="doorway"/>
+    <node id="45" x="270" y="814" type="doorway"/>
+    <node id="46" x="94" y="795" type="doorway"/>
+    <node id="47" x="94" y="990" type="doorway"/>
+    <node id="48" x="72" y="1004" type="doorway"/>
+    <node id="49" x="260" y="357" type="Office" roomid="E 125"/>
+    <node id="50" x="259" y="313" type="Office" roomid="E 126"/>
+    <node id="52" x="277" y="477" type="Office" roomid="E 123"/>
+    <node id="53" x="290" y="517" type="Office" roomid="E 122"/>
+    <node id="54" x="291" y="573" type="Office" roomid="E 121"/>
+    <node id="55" x="361" y="497" type="Office" roomid="E 113"/>
+    <node id="56" x="370" y="565" type="Office" roomid="E 114"/>
+    <node id="57" x="352" y="386" type="Office" roomid="E 110"/>
+    <node id="58" x="352" y="414" type="Office" roomid="E 111"/>
+    <node id="59" x="376" y="617" type="Office" roomid="E 115"/>
+    <node id="60" x="380" y="667" type="Office" roomid="E 116"/>
+    <node id="61" x="385" y="723" type="Office" roomid="E 117"/>
+    <node id="62" x="291" y="618" type="Office" roomid="E 120"/>
+    <node id="63" x="298" y="679" type="Office" roomid="E 119"/>
+    <node id="64" x="224" y="808" type="Office" roomid="E 127"/>
+    <node id="65" x="177" y="810" type="Office" roomid="E 128"/>
+    <node id="66" x="129" y="817" type="Office" roomid="E 129"/>
+    <node id="67" x="87" y="929" type="Office" roomid="E 131"/>
+    <node id="68" x="234" y="62" type="Office" roomid="E 103"/>
+    <node id="69" x="240" y="116" type="Office" roomid="E 102"/>
+    <node id="71" x="331" y="171" type="Toilet" name="E 1 WC Damen"/>
+    <node id="72" x="349" y="324" type="Toilet" name="E 1 WC Herren"/>
+    <node id="74" x="313" y="51" type="Lecturehall" name="Seminar" roomid="E 104" isdestination=""/>
+    <node id="77" x="252" y="162" type="Office" name="Besprechung" roomid="E 101"/>
+    <node id="80" x="279" y="416" type="Lecturehall" name="Seminar" roomid="E 124" isdestination=""/>
+    <node id="82" x="317" y="91" type="Office" roomid="E 105"/>
+    <node id="83" x="337" y="118" type="Lecturehall" name="Bibliothek" roomid="E 106" isdestination=""/>
+    <node id="84" x="302" y="731" type="Lecturehall" name="Besprechung" roomid="E 118" isdestination="Besprechungsraum"/>
+    <edge id="1" source="68" sink="35" type="1"/>
+    <edge id="2" source="74" sink="35" type="1"/>
+    <edge id="3" source="74" sink="28" type="1"/>
+    <edge id="4" source="68" sink="36" type="1"/>
+    <edge id="5" source="35" sink="36" type="1"/>
+    <edge id="6" source="36" sink="37" type="1"/>
+    <edge id="7" source="69" sink="36" type="1"/>
+    <edge id="8" source="69" sink="37" type="1"/>
+    <edge id="9" source="69" sink="34" type="1"/>
+    <edge id="11" source="37" sink="33" type="1"/>
+    <edge id="12" source="77" sink="33" type="1"/>
+    <edge id="13" source="82" sink="29" type="1"/>
+    <edge id="14" source="83" sink="30" type="1"/>
+    <edge id="15" source="50" sink="1" type="1"/>
+    <edge id="16" source="50" sink="39" type="1"/>
+    <edge id="17" source="39" sink="49" type="1"/>
+    <edge id="18" source="39" sink="1" type="1"/>
+    <edge id="19" source="39" sink="3" type="1"/>
+    <edge id="20" source="39" sink="38" type="1"/>
+    <edge id="21" source="49" sink="3" type="1"/>
+    <edge id="22" source="49" sink="38" type="1"/>
+    <edge id="23" source="38" sink="80" type="1"/>
+    <edge id="25" source="4" sink="38" type="1"/>
+    <edge id="26" source="52" sink="5" type="1"/>
+    <edge id="27" source="6" sink="53" type="1"/>
+    <edge id="28" source="57" sink="9" type="1"/>
+    <edge id="29" source="58" sink="10" type="1"/>
+    <edge id="30" source="55" sink="12" type="1"/>
+    <edge id="31" source="56" sink="13" type="1"/>
+    <edge id="32" source="59" sink="16" type="1"/>
+    <edge id="33" source="60" sink="17" type="1"/>
+    <edge id="34" source="61" sink="18" type="1"/>
+    <edge id="35" source="62" sink="15" type="1"/>
+    <edge id="36" source="84" sink="19" type="1"/>
+    <edge id="37" source="63" sink="20" type="1"/>
+    <edge id="38" source="54" sink="7" type="1"/>
+    <edge id="39" source="64" sink="21" type="1"/>
+    <edge id="40" source="65" sink="22" type="1"/>
+    <edge id="41" source="66" sink="25" type="1"/>
+    <edge id="42" source="67" sink="24" type="1"/>
+    <node id="86" x="68" y="856" type="Lecturehall" name="Labor C" roomid="E 130"/>
+    <edge id="43" source="86" sink="23" type="1"/>
+    <edge id="44" source="28" sink="87" type="0"/>
+    <node id="87" x="284" y="103" type="branch"/>
+    <edge id="45" source="87" sink="88" type="0"/>
+    <node id="88" x="286" y="123" type="branch"/>
+    <edge id="46" source="88" sink="89" type="0"/>
+    <node id="89" x="289" y="153" type="branch"/>
+    <edge id="47" source="89" sink="90" type="0"/>
+    <node id="90" x="292" y="184" type="branch"/>
+    <edge id="48" source="90" sink="40" type="0"/>
+    <edge id="49" source="29" sink="87" type="0"/>
+    <edge id="50" source="30" sink="88" type="0"/>
+    <edge id="51" source="34" sink="88" type="0"/>
+    <edge id="52" source="32" sink="89" type="0"/>
+    <edge id="53" source="33" sink="89" type="0"/>
+    <edge id="54" source="90" sink="31" type="0"/>
+    <edge id="55" source="2" sink="91" type="0"/>
+    <node id="91" x="308" y="320" type="branch"/>
+    <edge id="56" source="91" sink="92" type="0"/>
+    <node id="92" x="312" y="360" type="branch"/>
+    <edge id="57" source="92" sink="93" type="0"/>
+    <node id="93" x="315" y="392" type="branch"/>
+    <edge id="58" source="93" sink="94" type="0"/>
+    <node id="94" x="317" y="411" type="branch"/>
+    <edge id="59" source="94" sink="95" type="0"/>
+    <node id="95" x="320" y="444" type="branch"/>
+    <edge id="60" source="95" sink="96" type="0"/>
+    <node id="96" x="323" y="470" type="branch"/>
+    <edge id="61" source="96" sink="97" type="0"/>
+    <node id="97" x="327" y="508" type="branch"/>
+    <edge id="62" source="97" sink="41" type="0"/>
+    <edge id="63" source="91" sink="1" type="0"/>
+    <edge id="64" source="91" sink="3" type="0"/>
+    <edge id="65" source="14" sink="91" type="0"/>
+    <edge id="66" source="8" sink="92" type="0"/>
+    <edge id="67" source="9" sink="93" type="0"/>
+    <edge id="68" source="4" sink="93" type="0"/>
+    <edge id="69" source="10" sink="94" type="0"/>
+    <edge id="70" source="11" sink="95" type="0"/>
+    <edge id="71" source="5" sink="96" type="0"/>
+    <edge id="72" source="97" sink="6" type="0"/>
+    <edge id="73" source="12" sink="97" type="0"/>
+    <edge id="74" source="41" sink="98" type="0"/>
+    <node id="98" x="332" y="562" type="branch"/>
+    <edge id="75" source="98" sink="99" type="0"/>
+    <node id="99" x="339" y="621" type="branch"/>
+    <edge id="76" source="99" sink="100" type="0"/>
+    <node id="100" x="345" y="669" type="branch"/>
+    <edge id="77" source="100" sink="101" type="0"/>
+    <node id="101" x="351" y="726" type="branch"/>
+    <edge id="79" source="7" sink="98" type="0"/>
+    <edge id="80" source="13" sink="98" type="0"/>
+    <edge id="81" source="15" sink="99" type="0"/>
+    <edge id="82" source="16" sink="99" type="0"/>
+    <edge id="83" source="17" sink="100" type="0"/>
+    <edge id="84" source="20" sink="100" type="0"/>
+    <edge id="85" source="18" sink="101" type="0"/>
+    <edge id="86" source="19" sink="101" type="0"/>
+    <edge id="87" source="43" sink="103" type="0"/>
+    <node id="102" x="241" y="780" type="branch"/>
+    <edge id="88" source="102" sink="104" type="0"/>
+    <node id="103" x="267" y="777" type="branch"/>
+    <edge id="89" source="103" sink="102" type="0"/>
+    <node id="104" x="188" y="785" type="branch"/>
+    <edge id="90" source="104" sink="105" type="0"/>
+    <node id="105" x="133" y="791" type="branch"/>
+    <edge id="91" source="105" sink="46" type="0"/>
+    <edge id="92" source="103" sink="44" type="0"/>
+    <edge id="93" source="102" sink="21" type="0"/>
+    <edge id="94" source="104" sink="22" type="0"/>
+    <edge id="95" source="105" sink="25" type="0"/>
+    <edge id="96" source="44" sink="45" type="0"/>
+    <node id="106" x="30" y="803" type="branch"/>
+    <node id="107" x="53" y="988" type="branch"/>
+    <edge id="97" source="46" sink="106" type="0"/>
+    <edge id="98" source="106" sink="109" type="0"/>
+    <edge id="99" source="47" sink="107" type="0"/>
+    <edge id="100" source="48" sink="107" type="0"/>
+    <edge id="101" source="48" sink="47" type="0"/>
+    <node id="108" x="47" y="934" type="branch"/>
+    <edge id="102" source="108" sink="107" type="0"/>
+    <node id="109" x="38" y="866" type="branch"/>
+    <edge id="103" source="109" sink="108" type="0"/>
+    <edge id="104" source="23" sink="109" type="0"/>
+    <edge id="105" source="24" sink="108" type="0"/>
+    <node id="110" x="385" y="881" type="Lecturehall" name="LVR" roomid="E 020" isdestination=""/>
+    <edge id="106" source="26" sink="110" type="1"/>
+    <edge id="107" source="27" sink="110" type="1"/>
+    <node id="111" x="360" y="439" type="branch" name="EDV" roomid="E 112"/>
+    <edge id="108" source="111" sink="11" type="1"/>
+    <edge id="109" source="14" sink="72" type="1"/>
+    <node id="112" x="348" y="359" type="branch" name="Teeküche" roomid="E 109"/>
+    <edge id="110" source="8" sink="112" type="1"/>
+    <edge id="111" source="31" sink="71" type="1"/>
+    <node id="113" x="312" y="150" type="branch" name="Teeküche" roomid="E 107"/>
+    <edge id="112" source="32" sink="113" type="1"/>
+    <node id="114" x="322" y="241" type="branch"/>
+    <node id="115" x="330" y="301" type="branch"/>
+    <node id="116" x="359" y="789" type="branch"/>
+    <edge id="118" source="116" sink="26" type="0"/>
+    <node id="117" x="345" y="214" type="link" filename="EN" level="2" nodeid="236"/>
+    <node id="118" x="343" y="196" type="branch"/>
+    <node id="119" x="328" y="197" type="branch"/>
+    <edge id="120" source="119" sink="118" type="0"/>
+    <edge id="121" source="118" sink="117" type="0"/>
+    <node id="120" x="336" y="275" type="branch"/>
+    <node id="121" x="351" y="274" type="branch"/>
+    <edge id="122" source="120" sink="121" type="0"/>
+    <edge id="123" source="117" sink="121" type="0"/>
+    <node id="122" x="328" y="287" type="branch"/>
+    <edge id="124" source="115" sink="122" type="0"/>
+    <node id="123" x="284" y="237" type="Areanode"/>
+    <edge id="125" source="119" sink="123" type="0"/>
+    <edge id="126" source="123" sink="114" type="0"/>
+    <edge id="127" source="123" sink="120" type="0"/>
+    <edge id="128" source="123" sink="122" type="0"/>
+    <edge id="129" source="2" sink="123" type="0"/>
+    <edge id="130" source="123" sink="40" type="0"/>
+    <node id="131" x="431" y="946" type="GpsLink" lat="52.51437" long="13.32635"/>
+    <node id="132" x="302" y="959" type="GpsLink" lat="52.51436" long="13.32613"/>
+    <node id="133" x="348" y="16" type="GpsLink" lat="52.51528" long="13.3262"/>
+    <node id="134" x="208" y="30" type="GpsLink" lat="52.51527" long="13.32597"/>
+    <node id="135" x="15" y="793" type="GpsLink" lat="52.51455" long="13.32567"/>
+    <pixelToGK>
+      <xrw>0.10927440038797</xrw>
+      <yrw>0.0017778142615586</yrw>
+      <wrw>4590097.5255719</wrw>
+      <xhw>0.0017778142615586</xhw>
+      <yhw>-0.10927440038797</yhw>
+      <whw>5821064.306137</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-3.0851502359159E-9</xlat>
+      <ylat>-9.820276526866E-7</ylat>
+      <wlat>52.515306727051</wlat>
+      <xlon>1.609571907419E-6</xlon>
+      <ylon>-3.4333550046177E-9</ylon>
+      <wlon>13.325649472652</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00034343735227424</xx>
+      <yx>-0.10931881822776</yx>
+      <wx>5845977.2028941</wx>
+      <xy>0.18419118951764</xy>
+      <yy>-0.00039187931981442</yy>
+      <wy>1496961.564848</wy>
+    </pixelToEPSG3857>
+    <edge id="131" source="37" sink="77" type="1"/>
+    <node id="136" x="306" y="1017" type="link" filename="MA" level="2" nodeid="94"/>
+    <edge id="132" source="45" sink="136" type="0"/>
+    <node id="137" x="365" y="771" type="branch"/>
+    <edge id="133" source="137" sink="116" type="0"/>
+    <node id="138" x="427" y="768" type="link" filename="EN" level="2" nodeid="237"/>
+    <edge id="134" source="137" sink="138" type="3"/>
+    <node id="139" x="348" y="773" type="Areanode"/>
+    <edge id="135" source="139" sink="137" type="0"/>
+    <edge id="136" source="139" sink="116" type="0"/>
+    <edge id="137" source="139" sink="43" type="0"/>
+    <node id="140" x="353" y="744" type="branch"/>
+    <edge id="138" source="101" sink="140" type="0"/>
+    <edge id="139" source="140" sink="42" type="20"/>
+    <edge id="140" source="42" sink="139" type="0"/>
+  </level>
+  <level id="3" storey="2" mapfile="og_2_neu.jpg" width="267" height="1024">
+    <node id="1" x="36" y="57" type="Office" roomid="E 203"/>
+    <node id="2" x="43" y="112" type="Office" roomid="E 202"/>
+    <node id="3" x="56" y="174" type="Office" roomid="E 201"/>
+    <node id="4" x="135" y="104" type="Office" roomid="E 205"/>
+    <node id="5" x="139" y="146" type="Office" roomid="E 206"/>
+    <node id="6" x="77" y="334" type="Office" roomid="E 223"/>
+    <node id="7" x="81" y="401" type="Office" roomid="E 222"/>
+    <node id="8" x="87" y="436" type="Office" roomid="E 221"/>
+    <node id="9" x="91" y="462" type="Office" roomid="E 220a"/>
+    <node id="10" x="96" y="533" type="Office" roomid="E 220"/>
+    <node id="11" x="103" y="592" type="Office" roomid="E 219"/>
+    <node id="12" x="110" y="651" type="Office" roomid="E 218"/>
+    <node id="13" x="119" y="712" type="Office" roomid="E 217"/>
+    <node id="14" x="195" y="698" type="Office" roomid="E 214"/>
+    <node id="15" x="189" y="640" type="Office" roomid="E 213"/>
+    <node id="16" x="188" y="583" type="Office" roomid="E 212"/>
+    <node id="17" x="179" y="511" type="Office" roomid="E 211"/>
+    <node id="18" x="175" y="456" type="Office" roomid="E 210"/>
+    <node id="19" x="165" y="415" type="Office" roomid="E 209"/>
+    <node id="20" x="162" y="372" type="Office" roomid="E 208"/>
+    <node id="21" x="201" y="757" type="Office" roomid="E 215"/>
+    <node id="22" x="125" y="764" type="Office" roomid="E 216"/>
+    <node id="23" x="178" y="927" type="Lecturehall" name="Vorlesungsraum" roomid="E 224" isdestination=""/>
+    <node id="24" x="117" y="47" type="Lecturehall" name="Praktika" roomid="E 204" isdestination=""/>
+    <node id="25" x="67" y="37" type="Entry"/>
+    <node id="26" x="87" y="84" type="Entry"/>
+    <node id="27" x="57" y="84" type="Entry"/>
+    <node id="28" x="63" y="142" type="Entry"/>
+    <node id="29" x="75" y="126" type="Entry"/>
+    <node id="30" x="106" y="122" type="Entry"/>
+    <node id="31" x="110" y="156" type="Entry"/>
+    <node id="32" x="112" y="189" type="Entry"/>
+    <node id="33" x="77" y="157" type="Entry"/>
+    <node id="34" x="102" y="341" type="Entry"/>
+    <node id="35" x="90" y="365" type="Entry"/>
+    <node id="36" x="111" y="405" type="Entry"/>
+    <node id="37" x="110" y="426" type="Entry"/>
+    <node id="38" x="118" y="470" type="Entry"/>
+    <node id="39" x="118" y="485" type="Entry"/>
+    <node id="40" x="124" y="546" type="Entry"/>
+    <node id="41" x="156" y="543" type="Entry"/>
+    <node id="42" x="150" y="482" type="Entry"/>
+    <node id="43" x="147" y="462" type="Entry"/>
+    <node id="44" x="142" y="403" type="Entry"/>
+    <node id="45" x="133" y="370" type="Entry"/>
+    <node id="46" x="158" y="570" type="Entry"/>
+    <node id="47" x="126" y="573" type="Entry"/>
+    <node id="48" x="100" y="203" type="doorway"/>
+    <node id="49" x="109" y="300" type="doorway"/>
+    <node id="50" x="138" y="559" type="doorway"/>
+    <node id="51" x="163" y="789" type="doorway"/>
+    <node id="52" x="163" y="626" type="Entry"/>
+    <node id="53" x="133" y="629" type="Entry"/>
+    <node id="54" x="139" y="689" type="Entry"/>
+    <node id="55" x="172" y="686" type="Entry"/>
+    <node id="56" x="176" y="741" type="Entry"/>
+    <node id="57" x="147" y="745" type="Entry"/>
+    <node id="58" x="179" y="844" type="Entry"/>
+    <edge id="1" source="24" sink="25" type="1"/>
+    <edge id="2" source="24" sink="26" type="1"/>
+    <edge id="3" source="25" sink="26" type="1"/>
+    <edge id="4" source="1" sink="27" type="1"/>
+    <edge id="5" source="25" sink="1" type="1"/>
+    <edge id="6" source="27" sink="29" type="1"/>
+    <edge id="7" source="28" sink="29" type="1"/>
+    <edge id="8" source="27" sink="2" type="1"/>
+    <edge id="9" source="28" sink="2" type="1"/>
+    <edge id="10" source="27" sink="25" type="1"/>
+    <edge id="11" source="27" sink="28" type="1"/>
+    <edge id="12" source="3" sink="28" type="1"/>
+    <edge id="13" source="3" sink="33" type="1"/>
+    <edge id="14" source="28" sink="33" type="1"/>
+    <edge id="15" source="30" sink="4" type="1"/>
+    <edge id="16" source="31" sink="5" type="1"/>
+    <edge id="17" source="6" sink="34" type="1"/>
+    <edge id="18" source="34" sink="35" type="1"/>
+    <edge id="19" source="6" sink="35" type="1"/>
+    <edge id="20" source="36" sink="7" type="1"/>
+    <edge id="21" source="35" sink="7" type="1"/>
+    <edge id="22" source="36" sink="35" type="1"/>
+    <edge id="23" source="37" sink="8" type="1"/>
+    <edge id="24" source="38" sink="9" type="1"/>
+    <edge id="25" source="39" sink="10" type="1"/>
+    <edge id="26" source="40" sink="10" type="1"/>
+    <edge id="27" source="45" sink="20" type="1"/>
+    <edge id="28" source="44" sink="19" type="1"/>
+    <edge id="29" source="43" sink="18" type="1"/>
+    <edge id="30" source="42" sink="17" type="1"/>
+    <edge id="31" source="41" sink="17" type="1"/>
+    <edge id="32" source="46" sink="16" type="1"/>
+    <edge id="33" source="47" sink="11" type="1"/>
+    <edge id="34" source="52" sink="15" type="1"/>
+    <edge id="35" source="53" sink="12" type="1"/>
+    <edge id="36" source="54" sink="13" type="1"/>
+    <edge id="37" source="14" sink="55" type="1"/>
+    <edge id="38" source="21" sink="56" type="1"/>
+    <edge id="39" source="57" sink="22" type="1"/>
+    <edge id="40" source="58" sink="23" type="1"/>
+    <edge id="41" source="26" sink="59" type="0"/>
+    <node id="59" x="91" y="124" type="branch"/>
+    <edge id="42" source="59" sink="60" type="0"/>
+    <node id="60" x="95" y="158" type="branch"/>
+    <edge id="43" source="60" sink="61" type="0"/>
+    <node id="61" x="99" y="191" type="branch"/>
+    <edge id="44" source="61" sink="48" type="0"/>
+    <edge id="45" source="30" sink="59" type="0"/>
+    <edge id="46" source="29" sink="59" type="0"/>
+    <edge id="47" source="31" sink="60" type="0"/>
+    <edge id="48" source="33" sink="60" type="0"/>
+    <edge id="49" source="61" sink="32" type="0"/>
+    <edge id="50" source="49" sink="62" type="0"/>
+    <node id="62" x="114" y="340" type="branch"/>
+    <edge id="51" source="62" sink="64" type="0"/>
+    <node id="63" x="121" y="406" type="branch"/>
+    <edge id="52" source="63" sink="65" type="0"/>
+    <node id="64" x="117" y="371" type="branch"/>
+    <edge id="53" source="64" sink="63" type="0"/>
+    <node id="65" x="123" y="425" type="branch"/>
+    <edge id="54" source="65" sink="66" type="0"/>
+    <node id="66" x="127" y="464" type="branch"/>
+    <edge id="55" source="66" sink="67" type="0"/>
+    <node id="67" x="129" y="484" type="branch"/>
+    <edge id="56" source="67" sink="68" type="0"/>
+    <node id="68" x="136" y="545" type="branch"/>
+    <edge id="57" source="68" sink="50" type="0"/>
+    <edge id="58" source="62" sink="34" type="0"/>
+    <edge id="59" source="64" sink="45" type="0"/>
+    <edge id="60" source="63" sink="36" type="0"/>
+    <edge id="61" source="44" sink="63" type="0"/>
+    <edge id="62" source="65" sink="37" type="0"/>
+    <edge id="63" source="66" sink="38" type="0"/>
+    <edge id="64" source="43" sink="66" type="0"/>
+    <edge id="65" source="42" sink="67" type="0"/>
+    <edge id="66" source="39" sink="67" type="0"/>
+    <edge id="67" source="68" sink="40" type="0"/>
+    <edge id="68" source="41" sink="68" type="0"/>
+    <edge id="69" source="50" sink="69" type="0"/>
+    <node id="69" x="139" y="572" type="branch"/>
+    <edge id="70" source="69" sink="70" type="0"/>
+    <node id="70" x="145" y="628" type="branch"/>
+    <edge id="71" source="70" sink="71" type="0"/>
+    <node id="71" x="152" y="688" type="branch"/>
+    <edge id="72" source="71" sink="72" type="0"/>
+    <node id="72" x="158" y="743" type="branch"/>
+    <edge id="74" source="46" sink="69" type="0"/>
+    <edge id="75" source="47" sink="69" type="0"/>
+    <edge id="76" source="52" sink="70" type="0"/>
+    <edge id="77" source="53" sink="70" type="0"/>
+    <edge id="78" source="55" sink="71" type="0"/>
+    <edge id="79" source="54" sink="71" type="0"/>
+    <edge id="80" source="56" sink="72" type="0"/>
+    <edge id="81" source="57" sink="72" type="0"/>
+    <node id="73" x="153" y="335" type="Toilet" name="E 2 WC Herren" roomid="E 207"/>
+    <node id="74" x="127" y="336" type="Entry"/>
+    <edge id="82" source="74" sink="62" type="0"/>
+    <edge id="83" source="73" sink="74" type="1"/>
+    <node id="75" x="137" y="177" type="Toilet" name="E 2 WC Damen"/>
+    <edge id="84" source="32" sink="75" type="1"/>
+    <node id="76" x="102" y="250" type="branch"/>
+    <node id="77" x="131" y="246" type="branch"/>
+    <node id="78" x="139" y="313" type="branch"/>
+    <edge id="85" source="48" sink="76" type="0"/>
+    <edge id="86" source="76" sink="49" type="0"/>
+    <edge id="87" source="76" sink="77" type="0"/>
+    <edge id="88" source="76" sink="78" type="0"/>
+    <edge id="89" source="78" sink="77" type="0"/>
+    <node id="79" x="176" y="822" type="branch"/>
+    <edge id="90" source="79" sink="58" type="0"/>
+    <node id="91" x="249" y="991" type="GpsLink" lat="52.51437" long="13.32635"/>
+    <node id="92" x="114" y="1005" type="GpsLink" lat="52.51436" long="13.32613"/>
+    <node id="93" x="156" y="15" type="GpsLink" lat="52.51528" long="13.3262"/>
+    <node id="94" x="11" y="31" type="GpsLink" lat="52.51527" long="13.32597"/>
+    <pixelToGK>
+      <xrw>0.10483719470678</xrw>
+      <yrw>0.001768817319258</yrw>
+      <wrw>4590118.7060905</wrw>
+      <xhw>0.001768817319258</xhw>
+      <yhw>-0.10483719470678</yhw>
+      <whw>5821064.2850196</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-2.3921493088989E-9</xlat>
+      <ylat>-9.4216237413908E-7</ylat>
+      <wlat>52.515302843544</wlat>
+      <xlon>1.544230616989E-6</xlon>
+      <ylon>-2.3634067428813E-9</ylon>
+      <wlon>13.325961354833</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.0002662928420086</xx>
+      <yx>-0.1048810357201</yx>
+      <wx>5845976.7705841</wx>
+      <xy>0.17671386533028</xy>
+      <yy>-0.00026948116278078</yy>
+      <wy>1496997.2550554</wy>
+    </pixelToEPSG3857>
+    <node id="95" x="161" y="764" type="branch"/>
+    <edge id="91" source="72" sink="95" type="0"/>
+    <edge id="92" source="95" sink="51" type="20"/>
+    <edge id="93" source="51" sink="79" type="0"/>
+  </level>
+  <level id="4" storey="3" mapfile="og_3_neu.jpg" width="282" height="1024">
+    <node id="1" x="153" y="405" type="Entry"/>
+    <node id="2" x="159" y="484" type="Entry"/>
+    <node id="3" x="166" y="542" type="Entry"/>
+    <node id="4" x="170" y="566" type="Entry"/>
+    <node id="5" x="138" y="566" type="Entry"/>
+    <node id="6" x="126" y="459" type="Entry"/>
+    <node id="7" x="176" y="630" type="Entry"/>
+    <node id="8" x="186" y="711" type="Entry"/>
+    <node id="9" x="188" y="737" type="Entry"/>
+    <node id="10" x="191" y="769" type="Entry"/>
+    <node id="11" x="162" y="772" type="Entry"/>
+    <node id="12" x="150" y="652" type="Entry"/>
+    <node id="13" x="135" y="797" type="Entry"/>
+    <node id="14" x="146" y="844" type="Entry"/>
+    <node id="15" x="125" y="428" type="Entry"/>
+    <node id="16" x="148" y="370" type="Entry"/>
+    <node id="17" x="117" y="373" type="Entry"/>
+    <node id="18" x="112" y="345" type="Entry"/>
+    <node id="19" x="143" y="334" type="Entry"/>
+    <node id="20" x="93" y="158" type="Entry"/>
+    <node id="21" x="125" y="151" type="Entry"/>
+    <node id="22" x="129" y="188" type="Entry"/>
+    <node id="23" x="123" y="123" type="Entry"/>
+    <node id="24" x="122" y="103" type="Entry"/>
+    <node id="25" x="101" y="82" type="Entry"/>
+    <node id="26" x="73" y="85" type="Entry"/>
+    <node id="27" x="114" y="199" type="doorway"/>
+    <node id="28" x="127" y="297" type="doorway"/>
+    <node id="29" x="154" y="557" type="doorway"/>
+    <node id="30" x="179" y="786" type="doorway"/>
+    <node id="31" x="96" y="503" type="Entry"/>
+    <node id="32" x="108" y="615" type="Entry"/>
+    <node id="33" x="126" y="786" type="Entry"/>
+    <node id="34" x="82" y="38" type="Entry"/>
+    <node id="35" x="61" y="115" type="Office" roomid="E 302"/>
+    <node id="36" x="66" y="173" type="Office" roomid="E 301"/>
+    <node id="37" x="58" y="59" type="Office" roomid="E 303"/>
+    <node id="38" x="158" y="120" type="Office" roomid="E 306"/>
+    <node id="39" x="161" y="149" type="Office" roomid="E 307"/>
+    <node id="40" x="178" y="403" type="Office" roomid="E 309"/>
+    <node id="41" x="185" y="470" type="Office" roomid="E 310"/>
+    <node id="42" x="191" y="525" type="Office" roomid="E 311"/>
+    <node id="43" x="199" y="581" type="Office" roomid="E 311a"/>
+    <node id="44" x="203" y="638" type="Office" roomid="E 312"/>
+    <node id="45" x="212" y="696" type="Office" roomid="E 312a"/>
+    <node id="46" x="219" y="749" type="Office" roomid="E 313"/>
+    <node id="47" x="169" y="336" type="Toilet" name="E 3 WC Herren" roomid="E 308"/>
+    <node id="48" x="141" y="49" type="Lecturehall" name="Bibliothek" roomid="E 304"/>
+    <edge id="1" source="40" sink="1" type="1"/>
+    <edge id="2" source="41" sink="2" type="1"/>
+    <edge id="3" source="47" sink="19" type="1"/>
+    <edge id="4" source="40" sink="16" type="1"/>
+    <edge id="5" source="42" sink="3" type="1"/>
+    <edge id="6" source="43" sink="4" type="1"/>
+    <edge id="7" source="44" sink="7" type="1"/>
+    <edge id="8" source="45" sink="8" type="1"/>
+    <edge id="9" source="46" sink="9" type="1"/>
+    <edge id="10" source="46" sink="10" type="1"/>
+    <edge id="11" source="36" sink="20" type="1"/>
+    <edge id="12" source="37" sink="26" type="1"/>
+    <edge id="13" source="37" sink="34" type="1"/>
+    <edge id="14" source="34" sink="48" type="1"/>
+    <edge id="15" source="48" sink="25" type="1"/>
+    <edge id="16" source="38" sink="23" type="1"/>
+    <edge id="17" source="39" sink="21" type="1"/>
+    <edge id="18" source="35" sink="26" type="1"/>
+    <node id="49" x="104" y="105" type="branch"/>
+    <node id="50" x="106" y="126" type="branch"/>
+    <node id="51" x="109" y="153" type="branch"/>
+    <edge id="19" source="25" sink="49" type="0"/>
+    <edge id="20" source="24" sink="49" type="0"/>
+    <edge id="21" source="23" sink="50" type="0"/>
+    <edge id="22" source="21" sink="51" type="0"/>
+    <edge id="23" source="49" sink="50" type="0"/>
+    <edge id="24" source="51" sink="50" type="0"/>
+    <edge id="25" source="20" sink="51" type="0"/>
+    <edge id="26" source="51" sink="27" type="0"/>
+    <node id="52" x="75" y="108" type="branch"/>
+    <edge id="27" source="26" sink="52" type="0"/>
+    <edge id="28" source="52" sink="49" type="0"/>
+    <node id="61" x="156" y="568" type="branch"/>
+    <node id="62" x="163" y="633" type="branch"/>
+    <node id="63" x="165" y="650" type="branch"/>
+    <node id="64" x="172" y="712" type="branch"/>
+    <node id="65" x="175" y="738" type="branch"/>
+    <node id="66" x="178" y="770" type="branch"/>
+    <edge id="46" source="29" sink="61" type="0"/>
+    <edge id="47" source="61" sink="62" type="0"/>
+    <edge id="48" source="62" sink="63" type="0"/>
+    <edge id="50" source="5" sink="61" type="0"/>
+    <edge id="51" source="4" sink="61" type="0"/>
+    <edge id="52" source="62" sink="7" type="0"/>
+    <edge id="53" source="63" sink="12" type="0"/>
+    <edge id="54" source="63" sink="64" type="0"/>
+    <edge id="55" source="64" sink="65" type="0"/>
+    <edge id="56" source="65" sink="66" type="0"/>
+    <edge id="57" source="8" sink="64" type="0"/>
+    <edge id="58" source="9" sink="65" type="0"/>
+    <edge id="59" source="10" sink="66" type="0"/>
+    <edge id="60" source="11" sink="66" type="0"/>
+    <node id="67" x="117" y="247" type="branch"/>
+    <node id="68" x="156" y="183" type="Toilet" name="E 3 WC Damen"/>
+    <edge id="62" source="22" sink="68" type="1"/>
+    <node id="69" x="113" y="189" type="branch"/>
+    <edge id="63" source="22" sink="69" type="0"/>
+    <node id="70" x="85" y="337" type="Lecturehall" name="Labor" roomid="E 319"/>
+    <node id="71" x="91" y="379" type="Lecturehall" name="Labor" roomid="E 318"/>
+    <node id="72" x="94" y="422" type="Lecturehall" name="Labor" roomid="E 317"/>
+    <node id="73" x="99" y="474" type="Lecturehall" name="Labor" roomid="E 316"/>
+    <edge id="64" source="70" sink="18" type="1"/>
+    <edge id="66" source="72" sink="15" type="1"/>
+    <edge id="67" source="73" sink="6" type="1"/>
+    <edge id="68" source="73" sink="31" type="1"/>
+    <node id="74" x="107" y="561" type="Lecturehall" name="Labor" roomid="E 315"/>
+    <edge id="69" source="31" sink="74" type="1"/>
+    <edge id="70" source="74" sink="5" type="1"/>
+    <edge id="71" source="74" sink="32" type="1"/>
+    <node id="75" x="129" y="710" type="Lecturehall" name="Labor" roomid="E 314"/>
+    <edge id="72" source="32" sink="75" type="1"/>
+    <edge id="73" source="75" sink="12" type="1"/>
+    <edge id="74" source="75" sink="11" type="1"/>
+    <edge id="75" source="75" sink="33" type="1"/>
+    <node id="76" x="126" y="820" type="Lecturehall" name="Werkstatt" roomid="E 320"/>
+    <edge id="76" source="33" sink="76" type="1"/>
+    <edge id="77" source="76" sink="13" type="1"/>
+    <node id="77" x="147" y="248" type="branch"/>
+    <node id="78" x="156" y="314" type="branch"/>
+    <edge id="78" source="27" sink="67" type="0"/>
+    <edge id="79" source="69" sink="27" type="0"/>
+    <edge id="80" source="67" sink="28" type="0"/>
+    <edge id="81" source="77" sink="67" type="0"/>
+    <edge id="82" source="67" sink="78" type="0"/>
+    <edge id="83" source="78" sink="77" type="0"/>
+    <node id="79" x="193" y="824" type="branch"/>
+    <edge id="84" source="28" sink="80" type="0"/>
+    <node id="80" x="131" y="335" type="branch"/>
+    <edge id="85" source="80" sink="81" type="0"/>
+    <node id="81" x="132" y="343" type="branch"/>
+    <edge id="86" source="81" sink="82" type="0"/>
+    <node id="82" x="135" y="371" type="branch"/>
+    <edge id="87" source="82" sink="83" type="0"/>
+    <node id="83" x="138" y="407" type="branch"/>
+    <edge id="88" source="83" sink="84" type="0"/>
+    <node id="84" x="140" y="426" type="branch"/>
+    <edge id="89" source="84" sink="85" type="0"/>
+    <node id="85" x="144" y="458" type="branch"/>
+    <edge id="90" source="85" sink="86" type="0"/>
+    <node id="86" x="147" y="485" type="branch"/>
+    <edge id="91" source="86" sink="87" type="0"/>
+    <node id="87" x="153" y="543" type="branch"/>
+    <edge id="92" source="87" sink="29" type="0"/>
+    <edge id="93" source="19" sink="80" type="0"/>
+    <edge id="94" source="81" sink="18" type="0"/>
+    <edge id="95" source="16" sink="82" type="0"/>
+    <edge id="96" source="82" sink="17" type="0"/>
+    <edge id="97" source="1" sink="83" type="0"/>
+    <edge id="98" source="84" sink="15" type="0"/>
+    <edge id="99" source="85" sink="6" type="0"/>
+    <edge id="100" source="86" sink="2" type="0"/>
+    <edge id="101" source="3" sink="87" type="0"/>
+    <edge id="102" source="17" sink="71" type="1"/>
+    <node id="103" x="264" y="985" type="GpsLink" lat="52.51437" long="13.32635"/>
+    <node id="104" x="128" y="1000" type="GpsLink" lat="52.51436" long="13.32613"/>
+    <node id="105" x="172" y="19" type="GpsLink" lat="52.51528" long="13.3262"/>
+    <node id="106" x="27" y="35" type="GpsLink" lat="52.51527" long="13.32597"/>
+    <pixelToGK>
+      <xrw>0.10536316678092</xrw>
+      <yrw>0.0018266718978306</yrw>
+      <wrw>4590117.0014461</wrw>
+      <xhw>0.0018266718978305</xhw>
+      <yhw>-0.10536316678092</yhw>
+      <whw>5821064.4389835</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.9641128997714E-9</xlat>
+      <ylat>-9.4689777949304E-7</ylat>
+      <wlat>52.515304524033</wlat>
+      <xlon>1.5519913520711E-6</xlon>
+      <ylon>-1.6540172632908E-9</ylon>
+      <wlon>13.325936295283</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.0002186440469051</xx>
+      <yx>-0.10540817863273</yx>
+      <wx>5845976.9576552</wx>
+      <xy>0.17760196376313</xy>
+      <yy>-0.00018829735416151</yy>
+      <wy>1496994.3873669</wy>
+    </pixelToEPSG3857>
+    <node id="107" x="174" y="806" type="Areanode"/>
+    <edge id="103" source="107" sink="13" type="0"/>
+    <edge id="104" source="107" sink="14" type="0"/>
+    <edge id="105" source="107" sink="79" type="0"/>
+    <edge id="106" source="107" sink="30" type="0"/>
+    <edge id="107" source="66" sink="30" type="20"/>
+  </level>
+  <level id="5" storey="4" mapfile="og_4_neu.jpg" width="636" height="909">
+    <node id="1" x="330" y="417" type="branch"/>
+    <node id="2" x="549" y="788" type="GpsLink" lat="52.51437" long="13.32635"/>
+    <node id="3" x="181" y="835" type="GpsLink" lat="52.51436" long="13.32613"/>
+    <node id="4" x="446" y="67" type="GpsLink" lat="52.51528" long="13.3262"/>
+    <node id="5" x="84" y="112" type="GpsLink" lat="52.51527" long="13.32597"/>
+    <pixelToGK>
+      <xrw>0.10208488878554</xrw>
+      <yrw>-0.0022572164427674</yrw>
+      <wrw>4590102.360136</wrw>
+      <xhw>-0.0022572164427675</xhw>
+      <yhw>-0.10208488878554</yhw>
+      <whw>5821057.7002656</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-3.8081913815554E-8</xlat>
+      <ylat>-9.1673362591639E-7</ylat>
+      <wlat>52.515246536993</wlat>
+      <xlon>1.5026112852854E-6</xlon>
+      <ylon>-6.0901817699127E-8</ylon>
+      <wlon>13.325718872584</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.0042392592529293</xx>
+      <yx>-0.10205032041684</yx>
+      <wx>5845970.5025675</wx>
+      <xy>0.1719511985641</xy>
+      <yy>-0.0069683441754751</yy>
+      <wy>1496969.5066839</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="6" storey="-1" mapfile="ug_neu.jpg" width="437" height="1024">
+    <node id="1" x="297" y="370" type="doorway"/>
+    <node id="2" x="286" y="285" type="doorway"/>
+    <node id="3" x="278" y="187" type="doorway"/>
+    <node id="4" x="320" y="607" type="doorway"/>
+    <node id="5" x="343" y="810" type="doorway"/>
+    <node id="6" x="349" y="763" type="Entry"/>
+    <node id="7" x="327" y="789" type="Entry"/>
+    <node id="8" x="343" y="713" type="Entry"/>
+    <node id="9" x="357" y="625" type="Entry"/>
+    <node id="10" x="330" y="588" type="Entry"/>
+    <node id="11" x="320" y="487" type="Entry"/>
+    <node id="12" x="319" y="466" type="Entry"/>
+    <node id="13" x="316" y="438" type="Entry"/>
+    <node id="14" x="312" y="404" type="Entry"/>
+    <node id="15" x="306" y="294" type="Entry"/>
+    <node id="16" x="298" y="267" type="Entry"/>
+    <node id="17" x="295" y="244" type="Entry"/>
+    <node id="18" x="337" y="224" type="Entry"/>
+    <node id="19" x="293" y="213" type="Entry"/>
+    <node id="20" x="317" y="164" type="Entry"/>
+    <node id="21" x="299" y="155" type="Entry"/>
+    <node id="22" x="339" y="460" type="Office" roomid="E 007"/>
+    <node id="23" x="301" y="405" type="branch"/>
+    <node id="24" x="305" y="437" type="branch"/>
+    <node id="25" x="308" y="467" type="branch"/>
+    <node id="26" x="311" y="490" type="branch"/>
+    <node id="27" x="321" y="585" type="branch"/>
+    <node id="28" x="333" y="713" type="branch"/>
+    <node id="29" x="338" y="762" type="branch"/>
+    <node id="30" x="341" y="786" type="branch"/>
+    <node id="31" x="279" y="214" type="branch"/>
+    <node id="32" x="283" y="243" type="branch"/>
+    <node id="33" x="284" y="267" type="branch"/>
+    <edge id="1" source="3" sink="31" type="0"/>
+    <edge id="2" source="31" sink="32" type="0"/>
+    <edge id="3" source="32" sink="33" type="0"/>
+    <edge id="4" source="33" sink="2" type="0"/>
+    <edge id="5" source="16" sink="33" type="0"/>
+    <edge id="6" source="17" sink="32" type="0"/>
+    <edge id="7" source="19" sink="31" type="0"/>
+    <edge id="8" source="1" sink="23" type="0"/>
+    <edge id="9" source="23" sink="24" type="0"/>
+    <edge id="10" source="24" sink="25" type="0"/>
+    <edge id="11" source="25" sink="26" type="0"/>
+    <edge id="12" source="26" sink="27" type="0"/>
+    <edge id="13" source="27" sink="4" type="0"/>
+    <edge id="14" source="27" sink="10" type="0"/>
+    <edge id="15" source="25" sink="12" type="0"/>
+    <edge id="16" source="24" sink="13" type="0"/>
+    <edge id="17" source="26" sink="11" type="0"/>
+    <edge id="18" source="23" sink="14" type="0"/>
+    <edge id="19" source="4" sink="28" type="0"/>
+    <edge id="20" source="28" sink="29" type="0"/>
+    <edge id="21" source="29" sink="30" type="0"/>
+    <edge id="22" source="30" sink="5" type="0"/>
+    <edge id="23" source="30" sink="7" type="0"/>
+    <edge id="24" source="29" sink="6" type="0"/>
+    <edge id="25" source="28" sink="8" type="0"/>
+    <node id="34" x="295" y="333" type="branch"/>
+    <node id="35" x="336" y="260" type="branch" name="Werkstatt E" roomid="E 004"/>
+    <node id="36" x="322" y="201" type="branch" name="Werkstatt E" roomid="E 003"/>
+    <edge id="26" source="36" sink="19" type="1"/>
+    <edge id="27" source="36" sink="18" type="1"/>
+    <edge id="28" source="18" sink="35" type="1"/>
+    <edge id="29" source="35" sink="16" type="1"/>
+    <node id="37" x="263" y="363" type="Lecturehall" name="Labor " roomid="E 013"/>
+    <node id="38" x="352" y="565" type="Lecturehall" name="Labor E" roomid="E 009"/>
+    <node id="39" x="362" y="644" type="Lecturehall" name="Labor E" roomid="E 010e"/>
+    <node id="40" x="374" y="727" type="Lecturehall" name="Labor E" roomid="E 010d"/>
+    <node id="41" x="88" y="899" type="branch" name="EDV" roomid="E 015"/>
+    <node id="42" x="70" y="917" type="Entry"/>
+    <edge id="30" source="41" sink="42" type="1"/>
+    <edge id="31" source="38" sink="10" type="1"/>
+    <edge id="32" source="10" sink="9" type="1"/>
+    <edge id="33" source="40" sink="8" type="1"/>
+    <node id="43" x="355" y="704" type="Entry"/>
+    <edge id="34" source="39" sink="43" type="1"/>
+    <edge id="35" source="9" sink="43" type="1"/>
+    <edge id="36" source="39" sink="9" type="1"/>
+    <edge id="37" source="40" sink="43" type="1"/>
+    <edge id="38" source="43" sink="8" type="1"/>
+    <edge id="39" source="38" sink="9" type="1"/>
+    <edge id="40" source="37" sink="7" type="1"/>
+    <node id="44" x="317" y="334" type="branch"/>
+    <node id="45" x="323" y="381" type="branch"/>
+    <edge id="41" source="34" sink="44" type="0"/>
+    <edge id="42" source="34" sink="2" type="0"/>
+    <edge id="43" source="34" sink="1" type="0"/>
+    <edge id="44" source="44" sink="45" type="0"/>
+    <edge id="45" source="34" sink="45" type="0"/>
+    <node id="46" x="415" y="986" type="GpsLink" lat="52.51437" long="13.32635"/>
+    <node id="47" x="299" y="997" type="GpsLink" lat="52.51436" long="13.32613"/>
+    <node id="48" x="354" y="105" type="GpsLink" lat="52.51528" long="13.3262"/>
+    <node id="49" x="207" y="120" type="GpsLink" lat="52.51527" long="13.32597"/>
+    <node id="50" x="22" y="843" type="GpsLink" lat="52.51455" long="13.32567"/>
+    <pixelToGK>
+      <xrw>0.11480144640087</xrw>
+      <yrw>0.0027473147287917</yrw>
+      <wrw>4590095.5440934</wrw>
+      <xhw>0.0027473147287917</xhw>
+      <yhw>-0.11480144640087</yhw>
+      <whw>5821074.1391892</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>4.6609174701676E-9</xlat>
+      <ylat>-1.0318515284273E-6</ylat>
+      <wlat>52.515395412428</wlat>
+      <xlon>1.691221627126E-6</xlon>
+      <ylon>9.3449934840834E-9</ylon>
+      <wlon>13.325622959575</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>0.00051885096035391</xx>
+      <yx>-0.11486518670384</yx>
+      <wx>5845987.0753052</wx>
+      <xy>0.19353475830372</xy>
+      <yy>0.0010704611630099</yy>
+      <wy>1496958.5307351</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="1" storey="0" mapfile="e_eg_neu.jpg" width="466" height="1024">
+    <node id="1" x="311" y="422" type="Entry"/>
+    <node id="2" x="303" y="344" type="Entry"/>
+    <node id="3" x="337" y="380" type="Entry"/>
+    <node id="4" x="332" y="342" type="Entry"/>
+    <node id="5" x="340" y="410" type="Entry"/>
+    <node id="6" x="347" y="466" type="Entry"/>
+    <node id="7" x="322" y="549" type="Entry"/>
+    <node id="8" x="361" y="593" type="Entry"/>
+    <node id="9" x="364" y="650" type="Entry"/>
+    <node id="10" x="370" y="705" type="Entry"/>
+    <node id="11" x="375" y="749" type="Entry"/>
+    <node id="12" x="339" y="751" type="Entry"/>
+    <node id="13" x="334" y="662" type="Entry"/>
+    <node id="14" x="337" y="915" type="Entry"/>
+    <node id="15" x="387" y="841" type="Entry"/>
+    <node id="16" x="319" y="194" type="Entry"/>
+    <node id="17" x="312" y="132" type="Entry"/>
+    <node id="18" x="310" y="111" type="Entry"/>
+    <node id="19" x="308" y="45" type="Entry"/>
+    <node id="20" x="276" y="50" type="Entry"/>
+    <node id="21" x="260" y="92" type="Entry"/>
+    <node id="22" x="267" y="155" type="Entry"/>
+    <node id="23" x="274" y="176" type="Entry"/>
+    <node id="24" x="285" y="164" type="Entry"/>
+    <node id="25" x="282" y="134" type="Entry"/>
+    <node id="26" x="296" y="90" type="Entry"/>
+    <node id="27" x="324" y="84" type="Entry"/>
+    <node id="28" x="332" y="108" type="Entry"/>
+    <node id="29" x="329" y="121" type="Entry"/>
+    <node id="30" x="305" y="207" type="doorway"/>
+    <node id="31" x="315" y="304" type="doorway"/>
+    <node id="32" x="339" y="560" type="doorway"/>
+    <node id="33" x="363" y="787" type="doorway"/>
+    <node id="34" x="67" y="939" type="Lecturehall" name="Seminar" roomid="E 027"/>
+    <node id="35" x="396" y="699" type="Office" roomid="E 013a"/>
+    <node id="36" x="399" y="756" type="Office" roomid="E 014"/>
+    <node id="37" x="389" y="637" type="Office" roomid="E 013"/>
+    <node id="38" x="365" y="412" type="Office" roomid="E 010"/>
+    <node id="39" x="373" y="470" type="Office" roomid="E 011"/>
+    <node id="40" x="287" y="428" type="Office" roomid="E 018"/>
+    <node id="41" x="281" y="358" type="Office" roomid="E 019"/>
+    <node id="42" x="263" y="195" type="Office" roomid="E 001a"/>
+    <edge id="1" source="41" sink="2" type="1"/>
+    <edge id="2" source="40" sink="1" type="1"/>
+    <edge id="3" source="38" sink="5" type="1"/>
+    <edge id="4" source="39" sink="6" type="1"/>
+    <edge id="5" source="37" sink="9" type="1"/>
+    <edge id="6" source="35" sink="10" type="1"/>
+    <edge id="7" source="36" sink="11" type="1"/>
+    <edge id="8" source="42" sink="23" type="1"/>
+    <node id="43" x="298" y="110" type="branch"/>
+    <node id="44" x="299" y="131" type="branch"/>
+    <node id="45" x="301" y="163" type="branch"/>
+    <node id="46" x="306" y="195" type="branch"/>
+    <node id="47" x="318" y="340" type="branch"/>
+    <node id="48" x="321" y="382" type="branch"/>
+    <node id="49" x="326" y="412" type="branch"/>
+    <node id="50" x="327" y="423" type="branch"/>
+    <node id="51" x="332" y="467" type="branch"/>
+    <node id="52" x="338" y="546" type="branch"/>
+    <node id="53" x="343" y="590" type="branch"/>
+    <node id="54" x="349" y="650" type="branch"/>
+    <node id="55" x="351" y="663" type="branch"/>
+    <node id="56" x="354" y="704" type="branch"/>
+    <node id="57" x="359" y="749" type="branch"/>
+    <edge id="10" source="56" sink="57" type="0"/>
+    <edge id="11" source="55" sink="56" type="0"/>
+    <edge id="12" source="54" sink="55" type="0"/>
+    <edge id="13" source="12" sink="57" type="0"/>
+    <edge id="14" source="11" sink="57" type="0"/>
+    <edge id="15" source="56" sink="10" type="0"/>
+    <edge id="16" source="55" sink="13" type="0"/>
+    <edge id="17" source="54" sink="9" type="0"/>
+    <edge id="18" source="53" sink="8" type="0"/>
+    <edge id="19" source="52" sink="7" type="0"/>
+    <edge id="20" source="52" sink="53" type="0"/>
+    <edge id="21" source="53" sink="54" type="0"/>
+    <edge id="22" source="52" sink="51" type="0"/>
+    <edge id="23" source="51" sink="6" type="0"/>
+    <edge id="24" source="50" sink="51" type="0"/>
+    <edge id="25" source="50" sink="49" type="0"/>
+    <edge id="26" source="49" sink="48" type="0"/>
+    <edge id="27" source="48" sink="47" type="0"/>
+    <edge id="28" source="4" sink="47" type="0"/>
+    <edge id="29" source="2" sink="47" type="0"/>
+    <edge id="30" source="1" sink="50" type="0"/>
+    <edge id="31" source="49" sink="5" type="0"/>
+    <edge id="32" source="48" sink="3" type="0"/>
+    <edge id="33" source="47" sink="31" type="0"/>
+    <edge id="34" source="46" sink="30" type="0"/>
+    <edge id="35" source="46" sink="45" type="0"/>
+    <edge id="36" source="45" sink="44" type="0"/>
+    <edge id="37" source="44" sink="43" type="0"/>
+    <edge id="38" source="24" sink="45" type="0"/>
+    <edge id="39" source="25" sink="44" type="0"/>
+    <edge id="40" source="17" sink="44" type="0"/>
+    <edge id="41" source="18" sink="43" type="0"/>
+    <edge id="42" source="26" sink="43" type="0"/>
+    <node id="58" x="306" y="254" type="branch"/>
+    <node id="59" x="342" y="59" type="branch" name="Werkstatt E" roomid="E 005"/>
+    <node id="60" x="350" y="99" type="branch" name="Werkstatt E" roomid="E 006"/>
+    <node id="62" x="354" y="141" type="branch" name="Werkstatt E" roomid="E 007"/>
+    <node id="63" x="295" y="64" type="branch" name="Werkstatt E" roomid="E 004"/>
+    <node id="64" x="251" y="68" type="branch" name="Werkstatt E" roomid="E 003"/>
+    <node id="65" x="254" y="126" type="branch" name="Werkstatt E" roomid="E 002"/>
+    <node id="66" x="259" y="164" type="branch" name="Pausenraum" roomid="E 001"/>
+    <edge id="43" source="19" sink="59" type="1"/>
+    <edge id="44" source="59" sink="27" type="1"/>
+    <edge id="45" source="19" sink="27" type="1"/>
+    <edge id="46" source="20" sink="63" type="1"/>
+    <edge id="47" source="63" sink="26" type="1"/>
+    <edge id="48" source="19" sink="63" type="1"/>
+    <edge id="49" source="20" sink="19" type="1"/>
+    <edge id="50" source="20" sink="64" type="1"/>
+    <edge id="51" source="64" sink="21" type="1"/>
+    <edge id="52" source="21" sink="65" type="1"/>
+    <edge id="53" source="65" sink="25" type="1"/>
+    <edge id="54" source="66" sink="24" type="1"/>
+    <edge id="55" source="66" sink="23" type="1"/>
+    <edge id="56" source="23" sink="24" type="1"/>
+    <edge id="57" source="27" sink="28" type="1"/>
+    <edge id="58" source="28" sink="60" type="1"/>
+    <edge id="59" source="28" sink="18" type="1"/>
+    <edge id="60" source="27" sink="29" type="1"/>
+    <edge id="61" source="29" sink="18" type="1"/>
+    <edge id="62" source="27" sink="18" type="1"/>
+    <edge id="63" source="29" sink="62" type="1"/>
+    <edge id="64" source="16" sink="46" type="0"/>
+    <node id="67" x="357" y="377" type="branch" name="Teeküche" roomid="E 009"/>
+    <edge id="65" source="67" sink="3" type="1"/>
+    <node id="68" x="298" y="483" type="Lecturehall" name="Labor E" roomid="E 017"/>
+    <node id="70" x="306" y="583" type="Lecturehall" name="Labor E" roomid="E 016b"/>
+    <node id="71" x="303" y="665" type="Lecturehall" name="Labor E" roomid="E 016a"/>
+    <node id="72" x="315" y="622" type="Lecturehall" name="Labor E" roomid="E 016"/>
+    <node id="73" x="311" y="597" type="Entry"/>
+    <node id="74" x="288" y="650" type="Entry"/>
+    <edge id="66" source="7" sink="70" type="1"/>
+    <edge id="67" source="70" sink="73" type="1"/>
+    <edge id="68" source="73" sink="72" type="1"/>
+    <edge id="69" source="72" sink="74" type="1"/>
+    <edge id="70" source="74" sink="71" type="1"/>
+    <node id="75" x="315" y="730" type="Lecturehall" name="Labor E" roomid="E 015"/>
+    <edge id="71" source="75" sink="12" type="1"/>
+    <node id="76" x="321" y="909" type="branch" name="Pausenraum" roomid="E 022"/>
+    <node id="77" x="328" y="971" type="Office" roomid="E 021"/>
+    <node id="78" x="324" y="936" type="Entry"/>
+    <node id="79" x="343" y="970" type="Entry"/>
+    <node id="80" x="359" y="966" type="Entry"/>
+    <edge id="72" source="14" sink="76" type="1"/>
+    <edge id="73" source="76" sink="78" type="1"/>
+    <edge id="74" source="78" sink="77" type="1"/>
+    <edge id="75" source="77" sink="79" type="1"/>
+    <node id="81" x="151" y="834" type="Entry"/>
+    <node id="82" x="35" y="865" type="Entry"/>
+    <node id="83" x="70" y="850" type="Entry"/>
+    <node id="84" x="84" y="865" type="Entry"/>
+    <node id="85" x="75" y="884" type="Entry"/>
+    <node id="86" x="120" y="836" type="branch" name="Aufenthalt" roomid="E 025"/>
+    <node id="87" x="191" y="830" type="branch" name="Aufenthalt" roomid="E 024"/>
+    <node id="88" x="56" y="841" type="branch" name="Lager" roomid="E 025a"/>
+    <node id="89" x="31" y="846" type="branch" name="Lager" roomid="E 026"/>
+    <edge id="76" source="87" sink="81" type="1"/>
+    <edge id="77" source="81" sink="86" type="1"/>
+    <edge id="78" source="84" sink="86" type="1"/>
+    <node id="90" x="338" y="253" type="branch"/>
+    <node id="91" x="342" y="318" type="branch"/>
+    <edge id="79" source="91" sink="58" type="0"/>
+    <edge id="80" source="58" sink="31" type="0"/>
+    <edge id="81" source="58" sink="106" type="0"/>
+    <edge id="82" source="58" sink="90" type="0"/>
+    <edge id="83" source="90" sink="91" type="0"/>
+    <node id="92" x="378" y="828" type="branch"/>
+    <edge id="84" source="92" sink="15" type="0"/>
+    <node id="93" x="448" y="990" type="GpsLink" lat="52.51437" long="13.32635"/>
+    <node id="94" x="314" y="1003" type="GpsLink" lat="52.51436" long="13.32613"/>
+    <node id="95" x="365" y="23" type="GpsLink" lat="52.51528" long="13.3262"/>
+    <node id="96" x="219" y="37" type="GpsLink" lat="52.51527" long="13.32597"/>
+    <node id="97" x="17" y="825" type="GpsLink" lat="52.51455" long="13.32567"/>
+    <pixelToGK>
+      <xrw>0.10513943189098</xrw>
+      <yrw>0.0021278702583221</yrw>
+      <wrw>4590097.1141887</wrw>
+      <xhw>0.0021278702583221</xhw>
+      <yhw>-0.10513943189098</yhw>
+      <whw>5821064.7381996</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>7.8086161970822E-10</xlat>
+      <ylat>-9.4494028028932E-7</ylat>
+      <wlat>52.51531068043</wlat>
+      <xlon>1.548778426653E-6</xlon>
+      <ylon>2.8418258966566E-9</ylon>
+      <wlon>13.325643532026</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>8.6925118802201E-5</xx>
+      <yx>-0.10519027081817</yx>
+      <wx>5845977.6429823</wx>
+      <xy>0.17723429015128</xy>
+      <yy>0.00032618194352674</yy>
+      <wy>1496960.885029</wy>
+    </pixelToEPSG3857>
+    <node id="98" x="286" y="823" type="doorway"/>
+    <node id="99" x="325" y="822" type="Areanode"/>
+    <edge id="85" source="92" sink="99" type="0"/>
+    <edge id="86" source="98" sink="99" type="0"/>
+    <node id="100" x="325" y="855" type="doorway"/>
+    <edge id="87" source="99" sink="100" type="0"/>
+    <node id="101" x="221" y="818" type="link" filename="Campusplan TU Berlin" level="1" nodeid="44"/>
+    <edge id="88" source="98" sink="101" type="6"/>
+    <node id="102" x="340" y="870" type="branch"/>
+    <node id="103" x="350" y="967" type="branch"/>
+    <edge id="89" source="102" sink="100" type="0"/>
+    <edge id="90" source="103" sink="104" type="0"/>
+    <edge id="91" source="103" sink="80" type="0"/>
+    <edge id="92" source="79" sink="103" type="0"/>
+    <node id="104" x="345" y="914" type="branch"/>
+    <edge id="93" source="104" sink="102" type="0"/>
+    <edge id="94" source="14" sink="104" type="0"/>
+    <node id="105" x="350" y="214" type="doorway"/>
+    <node id="106" x="306" y="230" type="branch"/>
+    <edge id="95" source="106" sink="30" type="0"/>
+    <edge id="96" source="106" sink="105" type="0"/>
+    <node id="107" x="366" y="213" type="link" filename="Campusplan TU Berlin" level="1" nodeid="46"/>
+    <edge id="97" source="105" sink="107" type="0"/>
+    <node id="108" x="271" y="258" type="doorway"/>
+    <edge id="98" source="108" sink="58" type="0"/>
+    <node id="109" x="241" y="287" type="branch"/>
+    <node id="110" x="225" y="288" type="link" filename="Campusplan TU Berlin" level="1" nodeid="47"/>
+    <edge id="99" source="108" sink="109" type="0"/>
+    <edge id="100" source="110" sink="109" type="6"/>
+    <edge id="101" source="99" sink="33" type="0"/>
+    <node id="111" x="362" y="776" type="branch"/>
+    <edge id="102" source="111" sink="33" type="20"/>
+    <edge id="103" source="57" sink="111" type="0"/>
+  </level>
+  <leveledge id="1" sourcelevel="1" sinklevel="6" sourcenode="90" sinknode="44" type="Stairs"/>
+  <leveledge id="2" sourcelevel="6" sinklevel="1" sourcenode="44" sinknode="90" type="Stairs"/>
+  <leveledge id="3" sourcelevel="1" sinklevel="2" sourcenode="90" sinknode="114" type="Stairs"/>
+  <leveledge id="4" sourcelevel="2" sinklevel="1" sourcenode="114" sinknode="90" type="Stairs"/>
+  <leveledge id="5" sourcelevel="2" sinklevel="3" sourcenode="114" sinknode="77" type="Stairs"/>
+  <leveledge id="6" sourcelevel="3" sinklevel="2" sourcenode="77" sinknode="114" type="Stairs"/>
+  <leveledge id="7" sourcelevel="3" sinklevel="4" sourcenode="77" sinknode="77" type="Stairs"/>
+  <leveledge id="8" sourcelevel="4" sinklevel="3" sourcenode="77" sinknode="77" type="Stairs"/>
+  <leveledge id="9" sourcelevel="5" sinklevel="4" sourcenode="1" sinknode="77" type="Stairs"/>
+  <leveledge id="10" sourcelevel="4" sinklevel="5" sourcenode="77" sinknode="1" type="Stairs"/>
+  <leveledge id="11" sourcelevel="4" sinklevel="3" sourcenode="78" sinknode="78" type="Elevator"/>
+  <leveledge id="12" sourcelevel="3" sinklevel="4" sourcenode="78" sinknode="78" type="Elevator"/>
+  <leveledge id="13" sourcelevel="3" sinklevel="2" sourcenode="78" sinknode="115" type="Elevator"/>
+  <leveledge id="14" sourcelevel="2" sinklevel="3" sourcenode="115" sinknode="78" type="Elevator"/>
+  <leveledge id="15" sourcelevel="2" sinklevel="1" sourcenode="115" sinknode="91" type="Elevator"/>
+  <leveledge id="16" sourcelevel="1" sinklevel="2" sourcenode="91" sinknode="115" type="Elevator"/>
+  <leveledge id="17" sourcelevel="1" sinklevel="6" sourcenode="91" sinknode="45" type="Elevator"/>
+  <leveledge id="18" sourcelevel="6" sinklevel="1" sourcenode="45" sinknode="91" type="Elevator"/>
+  <leveledge id="19" sourcelevel="4" sinklevel="3" sourcenode="79" sinknode="79" type="Stairs"/>
+  <leveledge id="20" sourcelevel="3" sinklevel="4" sourcenode="79" sinknode="79" type="Stairs"/>
+  <leveledge id="21" sourcelevel="3" sinklevel="2" sourcenode="79" sinknode="116" type="Stairs"/>
+  <leveledge id="22" sourcelevel="2" sinklevel="3" sourcenode="116" sinknode="79" type="Stairs"/>
+  <leveledge id="23" sourcelevel="2" sinklevel="1" sourcenode="116" sinknode="92" type="Stairs"/>
+  <leveledge id="24" sourcelevel="1" sinklevel="2" sourcenode="92" sinknode="116" type="Stairs"/>
+</graph>

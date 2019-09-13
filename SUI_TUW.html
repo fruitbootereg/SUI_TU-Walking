@@ -1,0 +1,543 @@
+<html>
+<!-- <body background="levitan1.jpg"> -->
+<head>
+	<title>TUB NaviApp</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+	<script type="text/javascript">
+
+
+
+
+		var accessToken = "5de42cce50074a43bc7d72dee9d79111";
+		var baseUrl = "https://api.api.ai/v1/";
+		var tuBerlinUrl = "http://urwalking.ur.de:8080/tuberlinroutingtest/Router";
+		var tuWalking = "http://urwalking.ur.de/navi/test/?v=tuberlin";
+
+		var SecondsPassed = 0;
+		var MinutesPassed = 0;
+
+		function timer(){
+			console.log(timePassed);
+			clearInterval(Timer);
+			var timePassed = MinutesPassed + `:` + SecondsPassed;
+			var Timer = setInterval(function(){
+			SecondsPassed++;
+			if(SecondsPassed == 59)
+				MinutesPassed++;
+				},1000);
+
+			return timePassed;
+		}
+
+		$(document).ready(function() {
+			$("#input").keypress(function(event) {
+				if (event.which == 13) {
+					event.preventDefault();
+					send();
+					this.value = '';
+				}
+			});
+			$("#rec").click(function(event) {
+				switchRecognition();
+				 // uncomment to "Press to stop recording"
+				// startRecognition();  // uncomment to "Automatic stop recording"
+
+			// $('#rec').mousedown(function(event) {
+			// 	startRecognition();
+			// 	timer()
+			// });
+			// $('#rec').mouseup(function(event) {
+			// 	send();
+			// 	stopRecognition();
+			});
+		});
+
+		var recognition;
+
+		function startRecognition() {
+			responsiveVoice.cancel();
+			recognition = new webkitSpeechRecognition();
+			recognition.continuous = true; // true - Recording ends after click
+    	recognition.interimResults = true;  // may be later implement a function to see recognized word by word
+
+			// recognition.onstart = function(event) {
+			// 	updateRec();
+			// };
+			recognition.onresult = function(event) {
+				var text = "";
+
+				for (var i = event.resultIndex; i < event.results.length; ++i) {
+					text += event.results[i][0].transcript;
+				}
+				//console.log(text);
+				// dictionary in case of wrong recognition
+
+				// hidden function
+				var hiddenHTTP = `https://www.youtube.com/watch?v=WmuU7XV45Qk`;
+				if (text.includes(`Aphex Twin`)) {
+					stopRecognition();
+					window.open(hiddenHTTP, '_blank');
+				}
+
+				// set apart Buiding from #
+				var text = text.replace(/([a-zA-Z]+)(?=\d)/g, '$1 ');
+
+				// recognition correction Telefunkengebaeude
+				var text = text.replace(/tell|\bl\b|Tell|telda|stilen|Kell|TL|Tilt|Teil|\btill\b|\btil\b|Till|\bTel\b|\btel\b|Comtel|Talent|\bTele\b|Zell|Hotel|Tale|Tölz|\bTelefon\b|\btelefon\b|Teddy|\bt\b|\bDell\b|\bKehl\b|\bTilda\b|\bCL\b/g, 'TEL');
+				var text = text.replace(/(intel|Intel|intern)(?=\s\d)/g, 'in TEL');
+				var text = text.replace(/telefunkengebäude|Telefunken Gebäude/g, 'Telefunkengebäude');
+				var text = text.replace(/telekomgebäude|Telekomgebäude/g, `Telekom Gebäude`);
+				// "Der" in front of >2 digits converts in TEL
+				var text = text.replace(/(der|Der)(?= \d\d\d)/g, 'TEL');
+
+					// recognition correction Hauptgebaeude
+
+				var text = text.replace(/Haar|Hard|Haag|Harz|Hahn|Hafen|Hart|HNA|H&M|HA|\bha\b|\bhat\b|Hat|\bh\b|\bk\b|\bK\b|\bFahrrad\b/g, 'H');
+				var text = text.replace(/(Hi|hi)(?=\s\d)/g, 'H');
+
+					// recognition correction Mathegebaeude
+
+				var text = text.replace(/\bmat\b|\bma\b|\bm.a.\b|\bah\b|Enna|AMA|MMA|Thema|Emma|M&A|\bm\b/g, 'MA');
+				var text = text.replace(/mathegebäude|Mathe Gebäude/g, 'Mathegebäude');
+
+
+					// recognition correction E Gebaeude
+				var text = text.replace(/\be\b/g, 'E');
+
+					// recognition correction Mathegebaeude
+				var text = text.replace(/\ben\b|\bem\b|\bEm\b|\bEn\b/g, 'EN');
+
+				// old version
+				// for (var i = 0; i < dictEN.length; i++){
+				// 	if (text.includes(dictEN[i])){
+				// 		for (var j = 0; j < 5; j++){
+				// 			var text = text.replace(dictEN[i], " EN" );
+				// 		}
+				// 	}
+				// }
+
+				// replace some possible recognized symbols
+				var text = text.replace(/(?:e)(-)/g, " ");
+				var text = text.replace(/[-./:]/g, "");
+
+				//replace spaces between numbers in recognized text
+
+				var myRegexp = /(\d)\s+(?=\d)/g;
+				var text = text.replace(myRegexp, '$1');
+
+				//just some dictionary
+				var text = text.replace(/\bRound\b|\bround\b/g, "Raum");
+				var text = text.replace(/MAöchte/g, "möchte");
+				var text = text.replace(/Hätte/g, "hätte");
+				var text = text.replace(/Nacht/g, "nach");
+				var text = text.replace(/Nachts/g, "Nach");
+				var text = text.replace(/nachts/g, "nach");
+				var text = text.replace(/Zuhal/g, "Zu H");
+				var text = text.replace(/zuhal/g, "zu H");
+				var text = text.replace(/Zoom|Toom/g, "Zum");
+				var text = text.replace(/zoom|toom/g, "zum");
+				var text = text.replace(/zuh/g, "zu H");
+				var text = text.replace(/Zuh/g, "Zu H");
+				var text = text.replace(/Raumfahrt/g, "Raum H");
+
+
+				var words = text.split(/ /);
+				var wordsCount = words.length
+
+				//console.log(words);
+				console.log(text);
+				console.log(wordsCount);
+
+
+				$("#input").val(text);
+
+				//console.log(text);
+
+				// stopRecognition();
+			};
+/////////////////////////////////Uncomment to "Automatic Stop Recording"//////////////////////////
+			// recognition.onend = function() {
+			// 	send();
+			// 	stopRecognition();
+			// };
+/////////////////////////////////Uncomment to "Automatic Stop Recording"//////////////////////////
+
+			// recognition.lang = "en-US";
+			recognition.lang = "de-DE";
+			recognition.start();
+		}
+
+		function stopRecognition() {
+			if (recognition) {
+//				$("#rec").click();  // UNCOMMENT to Stop recording automaticaly
+				recognition.stop();
+				recognition = null;
+			}
+			// updateRec();
+		}
+
+		function switchRecognition() {
+			if (recognition) {
+				setTimeout(stopRecognition, 500);
+				//stopRecognition();
+				setTimeout(send, 2000);
+				//stopRecognition();
+				//send();
+			} else {
+				startRecognition();
+			}
+		}
+
+		function setInput(text) {
+			// $("#input").val(text);
+			send();
+		}
+
+		// function updateRec() {
+		// 	$("#rec").text(recognition ? "Stop" : "🎤");
+		//
+		// }
+
+		function send() {
+			var text = $("#input").val();
+			console.log(`has been sent`);
+	//		setResponse("You: " + text)		//	uncomment to see user's utterance in Response textarea
+			$.ajax({
+				type: "POST",
+				url: baseUrl + "query?v=20150910",
+				contentType: "application/json; charset=utf-8",
+				dataType: "json",
+				headers: {
+					"Authorization": "Bearer " + accessToken
+				},
+				data: JSON.stringify({ query: text, lang: "de", sessionId: "somerandomthing" }),
+
+				success: function(data) {
+					var respText = data.result.fulfillment.speech;
+					// var respText = data.result.queryText;
+
+					//uncomment to check the full info about the response
+					//setResponse(JSON.stringify(data, undefined, 2));
+
+					setResponse(respText);
+					console.log(respText);
+
+					// Here starts the convertion of result to the Route request
+
+					if (respText.includes(`Hier ist die Route`)) {
+						//var respTextStr = respText;
+						var locNodeID = ``;
+						var locLevelID = ``;
+						var destNodeID = ``;
+						var destLevelID = ``;
+						var LocBuildShortcut = '';
+						var DestBuildShortcut = '';
+
+						var regexLocBuild = /^(?:\S+ ){8}(\S+)/;
+						var regexLocRoomNumber = /\d+/;
+						var regexDestBuild = /^.+? des .+? des (.+?)$/;
+						var regexDestRoomNumber = /(?:\d+.*?)(\d+)/;
+
+						// console.log('Location Building is ' + LocBuild[1]);
+						// console.log('Location Building Number is ' + LocRoomNumber[0]);
+						// console.log('Destination Building is ' + DestBuild[1]);
+						// console.log('Destination Building Number is ' + DestRoomNumber[1]);
+
+						var xhttp = new XMLHttpRequest();
+						xhttp.onreadystatechange = function() {
+						    if (this.readyState == 4 && this.status == 200) {
+						        getLocInfo(this);
+//										console.log('locNodeID is ' + locNodeID);
+//										console.log('locLevelID is ' + locLevelID);
+										if (LocBuild[1]=='Hauptgebäudes' || LocBuild[1]=='Mathegebäudes' && DestBuild[1]=='Telefunkengebäudes '){
+											//var httpRoute = `https://urwalking.ur.de/navi/?start=%5B` + locNodeID + `,` + locLevelID + `,` + LocBuildShortcut + `%5D&dest=%5B` + destNodeID + `,` + destLevelID + `,` + DestBuildShortcut + `%5D&v=tuberlin&lang=de`;
+
+											var httpRoute = `https://urwalking.ur.de/navi/navi/nn/` + LocBuildShortcut +  `/` + locLevelID +  `/` + locNodeID + `/` + DestBuildShortcut + `/` + destLevelID + `/` + destNodeID + `?v=tuberlin&lang=de`;
+
+//											console.log(httpRoute);
+											window.open(httpRoute, '_blank');
+										}
+						    }
+
+						};
+
+						var xhttp2 = new XMLHttpRequest();
+						xhttp2.onreadystatechange = function() {
+						    if (this.readyState == 4 && this.status == 200) {
+										getDestInfo(this);
+
+//										console.log('destNodeID is ' + destNodeID);
+//										console.log('destLevelID is ' + destLevelID);
+
+										if (LocBuild[1]=='Hauptgebäudes' && DestBuild[1]=='Telefunkengebäudes '){
+
+										} else {
+											//var httpRoute = `https://urwalking.ur.de/navi/?start=%5B` + locNodeID + `,` + locLevelID + `,` + LocBuildShortcut + `%5D&dest=%5B` + destNodeID + `,` + destLevelID + `,` + DestBuildShortcut + `%5D&v=tuberlin&lang=de`;
+
+											var httpRoute = `https://urwalking.ur.de/navi/navi/nn/` + LocBuildShortcut +  `/` + locLevelID +  `/` + locNodeID + `/` + DestBuildShortcut + `/` + destLevelID + `/` + destNodeID + `?v=tuberlin&lang=de`;
+
+//											console.log(httpRoute);
+											window.open(httpRoute, '_blank');
+										}
+						    }
+						};
+
+						var LocBuild = regexLocBuild.exec(respText);
+						var LocRoomNumber = regexLocRoomNumber.exec(respText);
+//						console.log(`LocBuild ` + LocBuild[1]);
+
+						// if (LocBuild[1] == 'Hauptgebäudes'){
+						// 	LocBuildShortcut = 'Haltbau';
+						// 	var locRoomID = 'H ' + LocRoomNumber[0];
+						// 	xhttp.open("GET", "haltRooms.xml", true);
+						// 	xhttp.send();
+						if (LocBuild[1] == 'Hauptgebäudes'){
+						  if (LocRoomNumber[0] > 2100 &&  LocRoomNumber[0] < 2200 || LocRoomNumber[0] > 3100 &&  LocRoomNumber[0] < 3200 || LocRoomNumber[0] > 4100){
+						    LocBuildShortcut = 'nubau';
+						    var locRoomID = 'H ' + LocRoomNumber[0];
+						    xhttp.open("GET", "nubauRooms.xml", true);
+						    xhttp.send();
+						  } else {
+						    LocBuildShortcut = 'Haltbau';
+						    var locRoomID = 'H ' + LocRoomNumber[0];
+						    xhttp.open("GET", "haltRooms.xml", true);
+						    xhttp.send();
+						  }
+						} else if (LocBuild[1] == 'Mathegebäudes'){
+							LocBuildShortcut = 'MA';
+							var locRoomID = 'MA ' + LocRoomNumber[0];
+							xhttp.open("GET", "maRooms.xml", true);
+							xhttp.send();
+						} else if (LocBuild[1] == 'Telefunkengebäudes'){
+							LocBuildShortcut = 'TEL';
+							var locRoomID = 'TEL ' + LocRoomNumber[0];
+							xhttp.open("GET", "telRooms.xml", true);
+							xhttp.send();
+						} else if (LocBuild[1] == 'E'){
+							LocBuildShortcut = 'E';
+							var locRoomID = 'E ' + LocRoomNumber[0];
+							xhttp.open("GET", "eRooms.xml", true);
+							xhttp.send();
+						} else if (LocBuild[1] == 'EN'){
+							LocBuildShortcut = 'EN';
+							var locRoomID = 'EN ' + LocRoomNumber[0];
+							xhttp.open("GET", "enRooms.xml", true);
+							xhttp.send();
+						};
+
+						var DestBuild = regexDestBuild.exec(respText);
+						var DestRoomNumber = regexDestRoomNumber.exec(respText);
+//						console.log(`DestBuild ` + DestBuild[1]);
+
+						// if (DestBuild[1] == 'Hauptgebäudes '){
+						// 	DestBuildShortcut = 'Haltbau';
+						// 	var destRoomID = 'H ' + DestRoomNumber[1];
+						// 	xhttp2.open("GET", "haltRooms.xml", true);
+						// 	xhttp2.send();
+						if (DestBuild[1] == 'Hauptgebäudes '){
+						  if (DestRoomNumber[1] > 2100 &&  DestRoomNumber[1] < 2200 || DestRoomNumber[1] > 3100 &&  DestRoomNumber[1] < 3200 || DestRoomNumber[1] > 4100){
+//								console.log(`Room number is ` + DestRoomNumber[1]);
+						    DestBuildShortcut = 'nubau';
+						    var destRoomID = 'H ' + DestRoomNumber[1];
+						    xhttp2.open("GET", "nubauRooms.xml", true);
+						    xhttp2.send();
+						  } else {
+						    DestBuildShortcut = 'Haltbau';
+						    var destRoomID = 'H ' + DestRoomNumber[1];
+						    xhttp2.open("GET", "haltRooms.xml", true);
+						    xhttp2.send();
+						  }
+						} else if (DestBuild[1] == 'Mathegebäudes '){
+							DestBuildShortcut = 'MA';
+							var destRoomID = 'MA ' + DestRoomNumber[1];
+							xhttp2.open("GET", "maRooms.xml", true);
+							xhttp2.send();
+						} else if (DestBuild[1] == 'Telefunkengebäudes '){
+							DestBuildShortcut = 'TEL';
+							var destRoomID = 'TEL ' + DestRoomNumber[1];
+							xhttp2.open("GET", "telRooms.xml", true);
+							xhttp2.send();
+						} else if (DestBuild[1] == 'E Gebäudes '){
+							DestBuildShortcut = 'E';
+							var destRoomID = 'E ' + DestRoomNumber[1];
+							xhttp2.open("GET", "eRooms.xml", true);
+							xhttp2.send();
+						} else if (DestBuild[1] == 'EN Gebäudes '){
+							DestBuildShortcut = 'EN';
+							var destRoomID = 'EN ' + DestRoomNumber[1];
+							xhttp2.open("GET", "enRooms.xml", true);
+							xhttp2.send();
+						}
+
+						// var xhttp = new XMLHttpRequest();
+						// xhttp.onreadystatechange = function() {
+						// 		if (this.readyState == 4 && this.status == 200) {
+						// 				getLocDestInfo(this);
+						//
+						// 				console.log('locNodeID is ' + locNodeID);
+						// 				console.log('locLevelID is ' + locLevelID);
+						// 				console.log('destNodeID is ' + destNodeID);
+						// 				console.log('destLevelID is ' + destLevelID);
+						//
+						//
+						// 				//window.open(httpRoute, '_blank');
+						// 		}
+						// };
+
+
+
+						// function getLocDestInfo(xml) {
+						// 	var xmlDocLoc = xml.responseXML;
+						// 	var xmlDocDest = xml.responseXML;
+						// 	var x = xmlDocLoc.getElementsByTagName('node');
+						// 	for (var i = 0; i < x.length; i++) {
+						// 		if (x[i].getAttribute('roomid') == locRoomID) {
+						// 			locNodeID = x[i].getAttribute('id');
+						// 			locLevelID = x[i].parentNode.getAttribute('id');
+						// 			console.log('locNodeID is ' + locNodeID);
+						// 			console.log('locLevelID is ' + locLevelID);
+						// 		}
+						// 	}
+						//
+						//
+						//
+						// 	var y = xmlDocDest.getElementsByTagName('node');
+						// 		for (var j = 0; j < y.length; j++) {
+						// 			if (y[j].getAttribute('roomid') == destRoomID) {
+						// 				destNodeID = y[j].getAttribute('id');
+						// 				destLevelID = y[j].parentNode.getAttribute('id');
+						// 			}
+						// 		}
+						// 		var httpRoute = `https://urwalking.ur.de/navi/?start=%5B` + locNodeID + `,` + locLevelID + `,` + LocBuildShortcut + `%5D&dest=%5B` + destNodeID + `,` + destLevelID + `,` + DestBuildShortcut + `%5D&v=tuberlin&lang=de`;
+						//
+						// 		console.log(httpRoute);
+						//
+						// };
+
+
+						function getLocInfo(xml) {
+//							console.log(`we're in getLocInfo`);
+							var xmlDoc = xml.responseXML;
+
+							var x = xmlDoc.getElementsByTagName('node');
+
+							for (i = 0; i < x.length; i++) {
+
+								if (x[i].getAttribute('roomid') == locRoomID) {
+
+									locNodeID = x[i].getAttribute('id');
+									locLevelID = x[i].parentNode.getAttribute('id');
+//									console.log('locNodeID is ' + locNodeID);
+//									console.log('locLevelID is ' + locLevelID);
+								}
+							}
+							return locNodeID;
+							return locLevelID;
+						};
+
+						function getDestInfo(xml) {
+//							console.log(`we're in getDestInfo`);
+							var xmlDoc = xml.responseXML;
+							var y = xmlDoc.getElementsByTagName('node');
+							for (j = 0; j < y.length; j++) {
+								if (y[j].getAttribute('roomid') == destRoomID) {
+									destNodeID = y[j].getAttribute('id');
+									destLevelID = y[j].parentNode.getAttribute('id');
+								}
+							}
+							return destNodeID;
+							return destLevelID;
+						};
+					}
+
+					responsiveVoice.speak(respText, "Deutsch Male");
+					// document.write("Current URL: ", respText.value, "<br />");
+					// if(respText.value == "calculate"){
+					// 	window.location.href = tuWalking;
+					// }
+
+
+					var textArea = document.getElementById('response');
+					textArea.scrollTop = textArea.scrollHeight;
+
+					var location = document.getElementById('')
+				},
+				error: function() {
+					setResponse("Internal Server Error");
+				}
+			});
+			// setResponse("Loading...");
+		}
+
+		function setResponse(val) {
+			var responseText = document.getElementById('response');
+			responseText.value = '';
+			responseText.value = val;
+			$("#response").text($("#response").text() + val + "\r\n");
+			// $("#response").text(val + "\r\n");
+		}
+
+	</script>
+
+	<!-- <script>
+		fs.readFile('user/EG/Desktop/maRaum.txt', function (err, data) {
+			if (err) throw err;
+			if(data.indexOf('name=') >= 0){
+ 				console.log(data)
+			}
+});
+	</script> -->
+
+	<style type="text/css">
+		/* body { background-image: url("header_tub_full.jpg");
+			width: 800px; margin: 0 auto; text-align: center; margin-top: 20px; }
+		div {  position: absolute; }
+		input { width: 400px; }
+		button { width: 70px; }
+		textarea { width: 100%; } */
+	</style>
+</head>
+<body>
+	<div>
+		<!-- <input id="input" type="text" size="40" style="font-family:Courier New;font-size: 16pt" placeholder="Tippen Sie den Mikrofon Taster..." autocomplete="off">
+		<button id="rec" style="font-size:24"> 🎤 </button> -->
+		<!-- <button id="rec" style="font-size:24;color:black"><i class="fa fa-microphone"></i></button> -->
+
+		<!-- <br>Response<br> <textarea id="response" style="font-family:Courier New;font-size: 16pt" cols="40" rows=5></textarea><br /><br /> -->
+
+		<!-- <form action="#" id="Inputs">
+		Location: <input id="location" type="text"> <br />
+		Destination: <input id="destination" type="text"> <br />
+		<input type="submit" value="Submit">
+	  <input type="reset" value="Reset">
+		</form><br /> -->
+	</div>
+	<!-- <input onclick="responsiveVoice.speak(&quot;wer würde einen Mango kaufen, der vom Geschmack her wie ein Kartofel ist?.&quot;, &quot;Deutsch Male&quot;);" type="button" value="🔊 Play"> -->
+	<div class="input-box">
+		<input class = "input-txt" id="input" type="text" name="" placeholder="Klicken Sie die Mikrofontaste und sprechen Sie..."/>
+		<!-- <button class="Mikrofon-btn" id="rec" href="#">
+		<i class="fas fa-microphone"></i>
+		</button> -->
+		<input type="checkbox" id="rec"/>
+		<label class="Mikrofon-btn" for="rec"/>
+		<i class="mic fas fa-microphone"></i>
+		</label>
+
+	</div>
+
+	<div class="response-box">
+		<textarea class="response-txt" id="response" placeholder="Hallo, ich kann die schnellste Route von Ihrem Standort zu jedem Raum der Universität berechnen. Sagen Sie mir bitte von wo nach wo Sie eine Route benötigen."></textarea>
+
+
+</div>
+	<!--<br><textarea id="filter" cols="40" rows="40"></textarea><br /> -->
+</body>
+</html>

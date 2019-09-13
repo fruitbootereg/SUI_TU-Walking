@@ -1,0 +1,134 @@
+body{
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  padding: 0;
+  background-image: url("tubheader.png");
+  background-color: #EEEEEE;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.input-box{
+  text-indent: 0em;
+  position: absolute;
+  top: 43%;
+  left: 20%;
+  transform: translate(-50%,-50%);
+  background: #AAAAAA; /*2f3640*/
+  height: 35px;
+  border-radius: 35px;
+  padding: 7px;
+}
+.input-box:hover > .input-txt{
+  width: 800px ;
+  padding: 0 6px;
+}
+.input-box:hover > .Mikrofon-btn{
+  background: #EEEEEE;
+}
+/* .input-box:active > .Mikrofon-btn {
+  color: white;
+  background: #e84118;
+  width: 35px;
+  height: 35px;
+  font-size: 0px;
+  border: 2px solid;
+} */
+/* .Mikrofon-btn{
+  color: #e84118;
+  float: left;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+} */
+#rec {
+  display: none;
+}
+.Mikrofon-btn{
+  width: 35px;
+  height: 35px;
+  background: #aaaaaa;  /*2f3640*/
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  color: #e84118;
+  float: left;
+  font-size: 22px;
+  border: none;
+  justify-content: left;
+  align-items: center;
+  transition: 0.4s;
+  line-height: 35px;
+  vertical-align: top;
+  margin: 0;
+  position: relative;
+}
+.mic {
+  /* line-height: 15px; */
+  margin-top: 5px;
+  align-items: center;
+
+  vertical-align: center;
+  position: relative;
+}
+#rec:checked + label {
+  color: white;
+  background: #e84118;
+  width: 35px;
+  height: 35px;
+  font-size: 0px;
+  border: 1px solid;
+  margin-top: 0px;
+}
+.input-txt{
+  position:fixed;
+  left: 60px;
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  /* color: white; */
+  font-size: 16px;
+  font-family: Courier New;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px ;
+}
+.response-box{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  background: #CCCCCC;
+  color: white;
+  font-size: 16px;
+  font-family: Courier New;
+  height: 70px auto;
+  width: 750px auto;
+  border-radius: 20px;
+  padding: 0px;
+}
+.response-txt{
+  margin: 10px;
+  border: none;
+  /* text-indent: -10em; */
+  background: none;
+  outline: none;
+  /* float: left; */
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  font-family: Courier New;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 680px;
+  height: 60px;
+}
+button:focus {outline:0;}

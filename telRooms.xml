@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<graph territory="TU Berlin" name="Telefunken Gebäude">
+  <level id="1" storey="0" mapfile="tel_egg.jpg" width="1754" height="2481" name="EG">
+    <node id="1" x="909" y="1178" type="Areanode"/>
+    <node id="3" x="624" y="1203" type="branch"/>
+    <node id="4" x="1144" y="1138" type="branch"/>
+    <node id="5" x="915" y="1283" type="doorway"/>
+    <node id="6" x="991" y="1673" type="doorway"/>
+    <node id="8" x="892" y="1060" type="doorway"/>
+    <node id="9" x="866" y="815" type="Entry"/>
+    <node id="14" x="816" y="881" type="doorway"/>
+    <node id="15" x="862" y="875" type="branch"/>
+    <edge id="1" source="4" sink="18" type="0"/>
+    <edge id="2" source="1" sink="8" type="0"/>
+    <edge id="3" source="8" sink="33" type="0"/>
+    <edge id="4" source="15" sink="9" type="0"/>
+    <edge id="5" source="15" sink="14" type="0"/>
+    <edge id="6" source="1" sink="5" type="0"/>
+    <edge id="7" source="5" sink="24" type="0"/>
+    <node id="16" x="700" y="887" type="branch"/>
+    <node id="17" x="631" y="900" type="branch"/>
+    <node id="18" x="1057" y="1153" type="branch"/>
+    <edge id="10" source="18" sink="1" type="0"/>
+    <edge id="12" source="14" sink="16" type="0"/>
+    <edge id="13" source="16" sink="17" type="0"/>
+    <node id="19" x="884" y="1448" type="Entry"/>
+    <node id="20" x="988" y="1437" type="Entry"/>
+    <node id="21" x="745" y="1514" type="Lecturehall" name="DCAITI - Car Lab" roomid="TEL 013"/>
+    <node id="23" x="1167" y="1435" type="Lecturehall" name="T-Labs" roomid="TEL 010"/>
+    <node id="24" x="942" y="1439" type="branch"/>
+    <edge id="16" source="24" sink="6" type="0"/>
+    <edge id="17" source="24" sink="20" type="0"/>
+    <edge id="18" source="24" sink="19" type="0"/>
+    <edge id="19" source="20" sink="23" type="1"/>
+    <edge id="20" source="19" sink="21" type="1"/>
+    <node id="25" x="852" y="687" type="branch" name="TELquel" roomid="TEL 004" isdestination="Cafe"/>
+    <edge id="21" source="9" sink="25" type="1"/>
+    <node id="26" x="1053" y="1081" type="Office" name="TEL Pförtner" roomid="TEL 008" isdestination=""/>
+    <edge id="22" source="18" sink="26" type="0"/>
+    <node id="27" x="628" y="925" type="Entry"/>
+    <node id="28" x="700" y="920" type="Entry"/>
+    <node id="29" x="821" y="936" type="Entry"/>
+    <node id="30" x="633" y="1011" type="Toilet" name="TEL EG WC Damen"/>
+    <node id="31" x="704" y="987" type="Toilet" name="TEL EG WC Herren"/>
+    <node id="32" x="775" y="946" type="Toilet" name="TEL EG WC Behinderte, Wickelraum"/>
+    <edge id="23" source="17" sink="27" type="0"/>
+    <edge id="24" source="16" sink="28" type="0"/>
+    <node id="33" x="870" y="929" type="branch"/>
+    <edge id="25" source="33" sink="15" type="0"/>
+    <edge id="26" source="33" sink="29" type="0"/>
+    <edge id="27" source="27" sink="30" type="1"/>
+    <edge id="28" source="28" sink="31" type="1"/>
+    <edge id="29" source="29" sink="32" type="1"/>
+    <node id="34" x="979" y="1722" type="branch"/>
+    <edge id="30" source="6" sink="34" type="0"/>
+    <node id="35" x="555" y="1203" type="doorway"/>
+    <edge id="31" source="35" sink="3" type="0"/>
+    <node id="37" x="761" y="1182" type="branch"/>
+    <node id="38" x="744" y="1126" type="branch"/>
+    <node id="39" x="779" y="1251" type="branch"/>
+    <edge id="33" source="37" sink="1" type="0"/>
+    <edge id="34" source="3" sink="37" type="0"/>
+    <edge id="35" source="39" sink="37" type="0"/>
+    <edge id="36" source="38" sink="37" type="0"/>
+    <node id="40" x="1039" y="335" type="GpsLink" lat="52.51318" long="13.32010"/>
+    <node id="41" x="581" y="388" type="GpsLink" lat="52.51316" long="13.31990"/>
+    <node id="42" x="765" y="2003" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="43" x="1225" y="1962" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <node id="44" x="1199" y="1131" type="link" filename="Campusplan TU Berlin" level="1" nodeid="71"/>
+    <node id="45" x="1178" y="1133" type="doorway"/>
+    <edge id="37" source="4" sink="45" type="0"/>
+    <edge id="38" source="45" sink="44" type="0"/>
+    <pixelToGK>
+      <xrw>0.030006935949337</xrw>
+      <yrw>0.00039054428042994</yrw>
+      <wrw>4589693.9610224</wrw>
+      <xhw>0.00039054428042994</xhw>
+      <yhw>-0.030006935949337</yhw>
+      <whw>5820830.8156627</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.6958303164811E-9</xlat>
+      <ylat>-2.6965490025667E-7</ylat>
+      <wlat>52.513273569046</wlat>
+      <xlon>4.4194685109055E-7</xlon>
+      <ylon>-2.3356092388427E-9</ylon>
+      <wlon>13.319645607055</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00018877896730913</xx>
+      <yx>-0.030017846182096</yx>
+      <wx>5845750.8727803</wx>
+      <xy>0.050572827134076</xy>
+      <yy>-0.00026699086351805</yy>
+      <wy>1496274.7430392</wy>
+    </pixelToEPSG3857>
+    <node id="46" x="1017" y="891" type="branch" name="Hausmeister" roomid="TEL 007"/>
+    <node id="47" x="929" y="926" type="Entry"/>
+    <edge id="39" source="47" sink="46" type="1"/>
+    <edge id="40" source="33" sink="47" type="0"/>
+  </level>
+  <level id="2" storey="1" mapfile="tel_1ogg.jpg" width="1754" height="2481" name="1.OG">
+    <node id="1" x="816" y="1737" type="branch"/>
+    <node id="2" x="745" y="1127" type="branch"/>
+    <node id="3" x="777" y="1255" type="branch"/>
+    <node id="4" x="768" y="1190" type="branch"/>
+    <edge id="1" source="2" sink="4" type="0"/>
+    <edge id="2" source="3" sink="4" type="0"/>
+    <node id="5" x="928" y="1719" type="doorway"/>
+    <node id="6" x="848" y="1182" type="doorway"/>
+    <node id="7" x="970" y="1772" type="doorway"/>
+    <node id="8" x="832" y="579" type="doorway"/>
+    <node id="9" x="891" y="1181" type="Areanode"/>
+    <node id="10" x="807" y="666" type="Entry"/>
+    <node id="11" x="775" y="555" type="Entry"/>
+    <node id="12" x="889" y="533" type="Entry"/>
+    <node id="13" x="896" y="1545" type="Entry"/>
+    <node id="14" x="819" y="893" type="Entry"/>
+    <node id="15" x="822" y="952" type="Entry"/>
+    <node id="16" x="1037" y="1814" type="Entry"/>
+    <node id="17" x="943" y="1819" type="Entry"/>
+    <edge id="3" source="4" sink="6" type="0"/>
+    <edge id="4" source="9" sink="6" type="0"/>
+    <edge id="5" source="1" sink="5" type="0"/>
+    <node id="19" x="670" y="461" type="branch" name="PC Pool" roomid="TEL 104"/>
+    <node id="20" description="Only Woman" x="954" y="435" type="branch" name="PC Pool" roomid="TEL 105"/>
+    <node id="21" x="692" y="709" type="branch" name="PC Pool" roomid="TEL 103"/>
+    <node id="22" x="814" y="1544" type="branch" name="PC Pool" roomid="TEL 109"/>
+    <node id="23" x="1128" y="1876" type="branch" name="PC Pool" roomid="TEL 107"/>
+    <node id="24" x="853" y="1908" type="branch" name="Druckerraum" roomid="TEL 108"/>
+    <node id="25" x="1056" y="1135" type="branch" name="PC Pool" roomid="TEL 106" isdestination=""/>
+    <edge id="17" source="12" sink="20" type="1"/>
+    <edge id="18" source="11" sink="19" type="1"/>
+    <edge id="19" source="10" sink="21" type="1"/>
+    <edge id="20" source="13" sink="22" type="1"/>
+    <edge id="22" source="16" sink="23" type="1"/>
+    <node id="26" x="706" y="1000" type="Toilet" name="TEL 1 WC Herren"/>
+    <node id="27" x="697" y="926" type="Toilet" name="TEL 1 WC Damen"/>
+    <edge id="25" source="14" sink="27" type="1"/>
+    <edge id="26" source="15" sink="26" type="1"/>
+    <node id="29" x="854" y="769" type="branch"/>
+    <node id="30" x="957" y="1603" type="branch"/>
+    <node id="31" x="828" y="535" type="branch"/>
+    <node id="32" x="973" y="1827" type="branch"/>
+    <edge id="27" source="9" sink="29" type="0"/>
+    <edge id="28" source="29" sink="8" type="0"/>
+    <edge id="29" source="9" sink="30" type="0"/>
+    <edge id="30" source="30" sink="7" type="0"/>
+    <edge id="31" source="7" sink="32" type="0"/>
+    <edge id="32" source="5" sink="30" type="0"/>
+    <edge id="33" source="13" sink="30" type="0"/>
+    <edge id="34" source="29" sink="15" type="0"/>
+    <edge id="35" source="29" sink="14" type="0"/>
+    <edge id="36" source="29" sink="10" type="0"/>
+    <edge id="37" source="31" sink="11" type="0"/>
+    <edge id="38" source="31" sink="12" type="0"/>
+    <edge id="39" source="32" sink="16" type="0"/>
+    <edge id="40" source="32" sink="17" type="0"/>
+    <edge id="41" source="17" sink="24" type="1"/>
+    <edge id="42" source="9" sink="25" type="1"/>
+    <pixelToGK>
+      <xrw>0.028727252326018</xrw>
+      <yrw>0.00035841072542948</yrw>
+      <wrw>4589695.1887</wrw>
+      <xhw>0.00035841072542948</xhw>
+      <yhw>-0.028727252326018</yhw>
+      <whw>5820829.4099584</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.7625690580326E-9</xlat>
+      <ylat>-2.5815244236228E-7</ylat>
+      <wlat>52.513260727037</wlat>
+      <xlon>4.2309529923982E-7</xlon>
+      <ylon>-2.4639168010458E-9</ylon>
+      <wlon>13.31966330537</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00019620829003228</xx>
+      <yx>-0.02873739842661</yx>
+      <wx>5845749.4432144</wx>
+      <xy>0.048415607985713</xy>
+      <yy>-0.00028168517577101</yy>
+      <wy>1496276.7683045</wy>
+    </pixelToEPSG3857>
+    <edge id="43" source="8" sink="31" type="0"/>
+    <node id="33" x="743" y="2023" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="34" x="1248" y="1974" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <node id="35" x="557" y="380" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="36" x="1057" y="320" type="GpsLink" lat="52.51318" long="13.3201"/>
+  </level>
+  <level id="3" storey="2" mapfile="tel_2ogg.jpg" width="1754" height="2481" name="2.OG">
+    <node id="1" x="745" y="1121" type="branch"/>
+    <node id="2" x="751" y="1260" type="branch"/>
+    <node id="3" x="774" y="1182" type="branch"/>
+    <node id="4" x="851" y="1737" type="branch"/>
+    <node id="7" x="1038" y="1809" type="Entry"/>
+    <node id="8" x="924" y="1824" type="Entry"/>
+    <node id="9" x="805" y="665" type="Entry"/>
+    <node id="10" x="771" y="539" type="Entry"/>
+    <node id="11" x="893" y="528" type="Entry"/>
+    <node id="12" x="822" y="901" type="Entry"/>
+    <node id="13" x="822" y="949" type="Entry"/>
+    <node id="14" x="915" y="1616" type="Entry"/>
+    <edge id="1" source="1" sink="3" type="0"/>
+    <edge id="2" source="2" sink="3" type="0"/>
+    <node id="15" x="852" y="1185" type="doorway"/>
+    <node id="16" x="974" y="1770" type="doorway"/>
+    <node id="17" x="836" y="577" type="doorway"/>
+    <node id="18" x="901" y="1175" type="Areanode"/>
+    <edge id="3" source="15" sink="18" type="0"/>
+    <edge id="4" source="3" sink="15" type="0"/>
+    <node id="19" x="961" y="1623" type="branch"/>
+    <node id="20" x="870" y="911" type="branch"/>
+    <node id="21" x="842" y="666" type="branch"/>
+    <node id="22" x="832" y="538" type="branch"/>
+    <node id="23" x="975" y="1819" type="branch"/>
+    <edge id="5" source="18" sink="20" type="0"/>
+    <edge id="6" source="20" sink="13" type="0"/>
+    <edge id="7" source="20" sink="12" type="0"/>
+    <edge id="8" source="20" sink="21" type="0"/>
+    <edge id="9" source="21" sink="17" type="0"/>
+    <edge id="10" source="21" sink="9" type="0"/>
+    <edge id="11" source="17" sink="22" type="0"/>
+    <edge id="12" source="22" sink="11" type="0"/>
+    <edge id="13" source="22" sink="10" type="0"/>
+    <edge id="14" source="18" sink="19" type="0"/>
+    <edge id="15" source="19" sink="14" type="0"/>
+    <edge id="17" source="19" sink="16" type="0"/>
+    <edge id="18" source="16" sink="23" type="0"/>
+    <edge id="19" source="23" sink="7" type="0"/>
+    <edge id="20" source="23" sink="8" type="0"/>
+    <node id="24" x="928" y="1718" type="doorway"/>
+    <edge id="21" source="4" sink="24" type="0"/>
+    <edge id="22" source="24" sink="19" type="0"/>
+    <node id="25" x="794" y="1524" type="Lecturehall" name="Quality and Usability Lab" roomid="TEL 209"/>
+    <node id="26" x="682" y="695" type="Lecturehall" name="DAI Labor" roomid="TEL 203"/>
+    <node id="27" x="664" y="455" type="branch" name="PC Pool" roomid="TEL 204"/>
+    <node id="28" x="971" y="426" type="branch" name="PC Pool" roomid="TEL 205"/>
+    <node id="29" x="1126" y="1871" type="branch" name="PC Pool" roomid="TEL 207"/>
+    <node id="30" x="821" y="1888" type="branch" name="PC Pool" roomid="TEL 208"/>
+    <node id="31" x="1052" y="1115" type="branch" name="PC Pool" roomid="TEL 206" isdestination=""/>
+    <edge id="23" source="11" sink="28" type="1"/>
+    <edge id="24" source="10" sink="27" type="1"/>
+    <edge id="25" source="18" sink="31" type="1"/>
+    <edge id="26" source="7" sink="29" type="1"/>
+    <edge id="27" source="8" sink="30" type="1"/>
+    <edge id="28" source="14" sink="25" type="1"/>
+    <edge id="29" source="9" sink="26" type="1"/>
+    <node id="32" x="647" y="993" type="Toilet" name="TEL 2 WC Herren"/>
+    <node id="33" x="695" y="916" type="Toilet" name="TEL 2 WC Damen"/>
+    <edge id="30" source="12" sink="33" type="1"/>
+    <edge id="31" source="13" sink="32" type="1"/>
+    <pixelToGK>
+      <xrw>0.027944304423263</xrw>
+      <yrw>0.00033468695363538</yrw>
+      <wrw>4589695.880022</wrw>
+      <xhw>0.00033468695363538</xhw>
+      <yhw>-0.027944304423263</yhw>
+      <whw>5820828.5324191</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.8399091136433E-9</xlat>
+      <ylat>-2.5111419709832E-7</ylat>
+      <wlat>52.513252723175</wlat>
+      <xlon>4.1156027291554E-7</xlon>
+      <ylon>-2.6022530622568E-9</ylon>
+      <wlon>13.319673248365</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00020481774563864</xx>
+      <yx>-0.027953904547862</yx>
+      <wx>5845748.5522286</wx>
+      <xy>0.047095632890145</xy>
+      <yy>-0.00029752249918796</yy>
+      <wy>1496277.9061088</wy>
+    </pixelToEPSG3857>
+    <node id="34" x="1077" y="314" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="35" x="539" y="379" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="36" x="728" y="2033" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="37" x="1267" y="1974" type="GpsLink" lat="52.51275" long="13.32018"/>
+  </level>
+  <level id="4" storey="3" mapfile="tel_3ogg.jpg" width="1754" height="2481" name="3.OG">
+    <node id="2" x="744" y="1129" type="branch"/>
+    <node id="3" x="750" y="1249" type="branch"/>
+    <node id="4" x="757" y="1185" type="branch"/>
+    <node id="5" x="847" y="1175" type="doorway"/>
+    <node id="6" x="881" y="999" type="doorway"/>
+    <node id="7" x="970" y="1761" type="doorway"/>
+    <node id="8" x="832" y="571" type="doorway"/>
+    <node id="9" x="915" y="1267" type="Areanode"/>
+    <node id="10" x="861" y="793" type="Areanode"/>
+    <node id="11" x="957" y="1166" type="Entry"/>
+    <node id="12" x="985" y="1520" type="Entry"/>
+    <node id="13" x="902" y="1563" type="Entry"/>
+    <node id="14" x="884" y="1450" type="Entry"/>
+    <node id="15" x="917" y="1810" type="Entry"/>
+    <node id="16" x="1034" y="1799" type="Entry"/>
+    <node id="17" x="926" y="915" type="Entry"/>
+    <node id="18" x="891" y="718" type="Entry"/>
+    <node id="19" x="817" y="793" type="Entry"/>
+    <node id="20" x="892" y="530" type="Entry"/>
+    <node id="21" x="771" y="538" type="Entry"/>
+    <node id="25" x="784" y="1452" type="branch" name="Küche" roomid="TEL 313"/>
+    <node id="26" x="1096" y="1499" type="Office" roomid="TEL 309"/>
+    <node id="27" x="1055" y="1081" type="Office" roomid="TEL 308"/>
+    <node id="28" x="1030" y="820" type="Office" roomid="TEL 307"/>
+    <node id="29" x="990" y="637" type="Office" roomid="TEL 306"/>
+    <node id="30" x="967" y="435" type="Office" roomid="TEL 305"/>
+    <node id="31" x="671" y="467" type="Office" roomid="TEL 304"/>
+    <node id="32" x="683" y="723" type="Office" roomid="TEL 303"/>
+    <node id="33" x="800" y="1611" type="Office" roomid="TEL 312"/>
+    <node id="34" x="833" y="1894" type="Office" roomid="TEL 311"/>
+    <node id="35" x="1127" y="1866" type="Lecturehall" name="Besprechungsraum" roomid="TEL 310" isdestination=""/>
+    <edge id="1" source="4" sink="5" type="0"/>
+    <edge id="2" source="5" sink="9" type="0"/>
+    <edge id="3" source="9" sink="11" type="0"/>
+    <edge id="4" source="9" sink="12" type="0"/>
+    <edge id="5" source="7" sink="9" type="0"/>
+    <edge id="6" source="13" sink="9" type="0"/>
+    <edge id="7" source="14" sink="9" type="0"/>
+    <edge id="8" source="6" sink="10" type="0"/>
+    <edge id="9" source="10" sink="17" type="0"/>
+    <edge id="10" source="10" sink="19" type="0"/>
+    <edge id="11" source="10" sink="18" type="0"/>
+    <edge id="12" source="10" sink="8" type="0"/>
+    <edge id="13" source="6" sink="9" type="0"/>
+    <node id="36" x="828" y="528" type="branch"/>
+    <node id="37" x="975" y="1806" type="branch"/>
+    <edge id="14" source="7" sink="37" type="0"/>
+    <edge id="15" source="37" sink="15" type="0"/>
+    <edge id="16" source="37" sink="16" type="0"/>
+    <edge id="17" source="8" sink="36" type="0"/>
+    <edge id="18" source="36" sink="20" type="0"/>
+    <edge id="19" source="36" sink="21" type="0"/>
+    <edge id="20" source="12" sink="26" type="1"/>
+    <edge id="21" source="16" sink="35" type="1"/>
+    <edge id="22" source="15" sink="34" type="1"/>
+    <edge id="23" source="13" sink="33" type="1"/>
+    <edge id="24" source="14" sink="25" type="1"/>
+    <edge id="25" source="11" sink="27" type="1"/>
+    <edge id="26" source="17" sink="28" type="1"/>
+    <edge id="27" source="18" sink="29" type="1"/>
+    <edge id="28" source="20" sink="30" type="1"/>
+    <edge id="29" source="21" sink="31" type="1"/>
+    <edge id="30" source="19" sink="32" type="1"/>
+    <node id="38" x="820" y="892" type="Entry"/>
+    <node id="39" x="825" y="945" type="Entry"/>
+    <node id="40" x="698" y="992" type="Toilet" name="TEL 3 WC Herren"/>
+    <node id="41" x="694" y="912" type="Toilet" name="TEL 3 WC Damen"/>
+    <edge id="31" source="38" sink="41" type="1"/>
+    <edge id="32" source="39" sink="40" type="1"/>
+    <edge id="33" source="10" sink="38" type="0"/>
+    <edge id="34" source="10" sink="39" type="0"/>
+    <pixelToGK>
+      <xrw>0.029193904916106</xrw>
+      <yrw>0.00037710950795728</yrw>
+      <wrw>4589694.7330838</wrw>
+      <xhw>0.00037710950795729</xhw>
+      <yhw>-0.029193904916106</yhw>
+      <whw>5820829.8241087</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.6755145804431E-9</xlat>
+      <ylat>-2.6234816785847E-7</ylat>
+      <wlat>52.513264526854</wlat>
+      <xlon>4.2997163388941E-7</xlon>
+      <ylon>-2.3143368240528E-9</ylon>
+      <wlon>13.319656708186</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.0001865174299177</xx>
+      <yx>-0.029204464452286</yx>
+      <wx>5845749.8662082</wx>
+      <xy>0.049202480052163</xy>
+      <yy>-0.00026456413634563</yy>
+      <wy>1496276.0133722</wy>
+    </pixelToEPSG3857>
+    <node id="42" x="1057" y="319" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="43" x="559" y="372" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="44" x="763" y="2021" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="45" x="1228" y="1969" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <edge id="35" source="2" sink="4" type="0"/>
+    <edge id="36" source="4" sink="3" type="0"/>
+  </level>
+  <level id="5" storey="4" mapfile="tel_4ogg.jpg" width="1754" height="2481" name="4.OG">
+    <node id="1" x="745" y="1129" type="branch"/>
+    <node id="2" x="750" y="1186" type="branch"/>
+    <node id="3" x="751" y="1263" type="branch"/>
+    <node id="4" x="900" y="1133" type="Office" name="DCAITI - 4" roomid="TEL 4. Stock" isdestination=""/>
+    <node id="5" x="848" y="1172" type="Entry"/>
+    <edge id="1" source="2" sink="3" type="0"/>
+    <edge id="2" source="1" sink="2" type="0"/>
+    <edge id="3" source="2" sink="5" type="0"/>
+    <edge id="4" source="5" sink="4" type="1"/>
+    <pixelToGK>
+      <xrw>0.029264459520894</xrw>
+      <yrw>0.00039805062016846</yrw>
+      <wrw>4589694.6448554</wrw>
+      <xhw>0.00039805062016847</xhw>
+      <yhw>-0.029264459520894</yhw>
+      <whw>5820829.8951077</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.4996135642342E-9</xlat>
+      <ylat>-2.6298567395566E-7</ylat>
+      <wlat>52.513265180024</wlat>
+      <xlon>4.3101616888795E-7</xlon>
+      <ylon>-2.0249992702771E-9</ylon>
+      <wlon>13.319655428186</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00016693621836624</xx>
+      <yx>-0.029275431306392</yx>
+      <wx>5845749.9389187</wx>
+      <xy>0.049322008013498</xy>
+      <yy>-0.00023145402963496</yy>
+      <wy>1496275.8668986</wy>
+    </pixelToEPSG3857>
+    <node id="6" x="1057" y="319" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="7" x="561" y="375" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="8" x="763" y="2020" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="9" x="1226" y="1968" type="GpsLink" lat="52.51275" long="13.32018"/>
+  </level>
+  <level id="6" storey="5" mapfile="tel_5ogg.jpg" width="1754" height="2481" name="5.OG">
+    <node id="1" x="847" y="1166" type="doorway"/>
+    <node id="2" x="835" y="583" type="doorway"/>
+    <node id="3" x="967" y="1734" type="doorway"/>
+    <node id="4" x="883" y="1009" type="doorway"/>
+    <node id="5" x="795" y="1635" type="Lecturehall" roomid="TEL 512"/>
+    <node id="6" x="1138" y="1877" type="branch" name="Labor" roomid="TEL 510"/>
+    <node id="7" x="838" y="1880" type="branch" name="Labor" roomid="TEL 511"/>
+    <node id="8" x="700" y="810" type="branch" name="EDV" roomid="TEL 503"/>
+    <node id="9" x="707" y="637" type="branch" name="Teeküche" roomid="TEL 504"/>
+    <node id="10" x="1007" y="483" type="Office" roomid="TEL 506"/>
+    <node id="11" x="721" y="960" type="Toilet" name="TEL 5 WC Herren"/>
+    <node id="12" x="700" y="899" type="Toilet" name="TEL 5 WC Damen"/>
+    <node id="13" x="1121" y="1685" type="Office" roomid="TEL 509D"/>
+    <node id="14" x="1105" y="1515" type="Office" roomid="TEL 509C"/>
+    <node id="16" x="1065" y="1010" type="Office" roomid="TEL 509"/>
+    <node id="17" x="1099" y="1358" type="Office" roomid="TEL 509B"/>
+    <node id="18" x="1083" y="1203" type="Office" roomid="TEL 509A"/>
+    <node id="19" x="1032" y="857" type="Office" roomid="TEL 508"/>
+    <node id="20" x="1019" y="713" type="Office" roomid="Tel507A"/>
+    <node id="21" x="988" y="574" type="Office" roomid="TEL 507"/>
+    <node id="22" x="652" y="513" type="Office" roomid="TEL 505"/>
+    <node id="23" x="754" y="1118" type="branch"/>
+    <node id="24" x="782" y="1242" type="branch"/>
+    <node id="25" x="766" y="1176" type="branch"/>
+    <node id="26" x="969" y="1796" type="branch"/>
+    <node id="27" x="834" y="524" type="branch"/>
+    <node id="28" x="879" y="1426" type="Entry"/>
+    <node id="29" x="924" y="1681" type="Entry"/>
+    <node id="30" x="917" y="1796" type="Entry"/>
+    <node id="31" x="1028" y="1789" type="Entry"/>
+    <node id="32" x="993" y="1678" type="Entry"/>
+    <node id="33" x="983" y="1500" type="Entry"/>
+    <node id="34" x="981" y="1395" type="Entry"/>
+    <node id="35" x="960" y="1245" type="Entry"/>
+    <node id="36" x="944" y="1068" type="Entry"/>
+    <node id="37" x="920" y="907" type="Entry"/>
+    <node id="38" x="899" y="787" type="Entry"/>
+    <node id="39" x="879" y="648" type="Entry"/>
+    <node id="40" x="874" y="524" type="Entry"/>
+    <node id="41" x="800" y="532" type="Entry"/>
+    <node id="42" x="804" y="621" type="Entry"/>
+    <node id="43" x="817" y="791" type="Entry"/>
+    <node id="44" x="821" y="887" type="Entry"/>
+    <node id="45" x="825" y="937" type="Entry"/>
+    <node id="46" x="920" y="1288" type="Areanode"/>
+    <node id="47" x="859" y="794" type="Areanode"/>
+    <edge id="1" source="23" sink="25" type="0"/>
+    <edge id="2" source="25" sink="24" type="0"/>
+    <edge id="3" source="25" sink="1" type="0"/>
+    <edge id="4" source="1" sink="46" type="0"/>
+    <edge id="5" source="4" sink="46" type="0"/>
+    <edge id="6" source="28" sink="46" type="0"/>
+    <edge id="7" source="46" sink="36" type="0"/>
+    <edge id="8" source="46" sink="35" type="0"/>
+    <edge id="9" source="46" sink="34" type="0"/>
+    <edge id="10" source="46" sink="33" type="0"/>
+    <edge id="11" source="46" sink="26" type="0"/>
+    <edge id="12" source="46" sink="29" type="0"/>
+    <edge id="13" source="46" sink="32" type="0"/>
+    <edge id="14" source="26" sink="31" type="0"/>
+    <edge id="15" source="26" sink="30" type="0"/>
+    <edge id="16" source="47" sink="4" type="0"/>
+    <edge id="17" source="47" sink="37" type="0"/>
+    <edge id="18" source="47" sink="38" type="0"/>
+    <edge id="19" source="47" sink="39" type="0"/>
+    <edge id="20" source="47" sink="2" type="0"/>
+    <edge id="21" source="42" sink="47" type="0"/>
+    <edge id="22" source="43" sink="47" type="0"/>
+    <edge id="23" source="44" sink="47" type="0"/>
+    <edge id="24" source="45" sink="47" type="0"/>
+    <edge id="25" source="2" sink="27" type="0"/>
+    <edge id="26" source="27" sink="40" type="0"/>
+    <edge id="27" source="27" sink="41" type="0"/>
+    <edge id="28" source="28" sink="5" type="1"/>
+    <edge id="29" source="29" sink="5" type="1"/>
+    <edge id="30" source="30" sink="7" type="1"/>
+    <edge id="31" source="31" sink="6" type="1"/>
+    <edge id="32" source="32" sink="13" type="1"/>
+    <edge id="33" source="33" sink="14" type="1"/>
+    <edge id="34" source="34" sink="17" type="1"/>
+    <edge id="35" source="36" sink="16" type="1"/>
+    <edge id="36" source="37" sink="19" type="1"/>
+    <edge id="37" source="38" sink="20" type="1"/>
+    <edge id="38" source="39" sink="21" type="1"/>
+    <edge id="39" source="40" sink="10" type="1"/>
+    <edge id="40" source="41" sink="22" type="1"/>
+    <edge id="41" source="42" sink="9" type="1"/>
+    <edge id="42" source="43" sink="8" type="1"/>
+    <edge id="43" source="44" sink="12" type="1"/>
+    <edge id="44" source="45" sink="11" type="1"/>
+    <edge id="45" source="35" sink="18" type="1"/>
+    <node id="48" x="1057" y="315" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="49" x="559" y="369" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="50" x="761" y="2017" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="51" x="1226" y="1963" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <pixelToGK>
+      <xrw>0.029209052454982</xrw>
+      <yrw>0.0003996344777843</yrw>
+      <wrw>4589694.7239722</wrw>
+      <xhw>0.0003996344777843</xhw>
+      <yhw>-0.029209052454982</yhw>
+      <whw>5820829.6977844</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.4757738708832E-9</xlat>
+      <ylat>-2.6248816263202E-7</ylat>
+      <wlat>52.513263393517</wlat>
+      <xlon>4.3020074609134E-7</xlon>
+      <ylon>-1.9867464859132E-9</ylon>
+      <wlon>13.319656539979</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00016428239584206</xx>
+      <yx>-0.029220048599189</yx>
+      <wx>5845749.7400456</wx>
+      <xy>0.04922869759518</xy>
+      <yy>-0.00022707720195138</yy>
+      <wy>1496275.9941251</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="7" storey="6" mapfile="tel_6ogg.jpg" width="1754" height="2481" name="6.OG">
+    <node id="1" x="747" y="1121" type="branch"/>
+    <node id="2" x="781" y="1248" type="branch"/>
+    <node id="3" x="758" y="1179" type="branch"/>
+    <node id="4" x="894" y="1155" type="Office" name="EIT - 6" roomid="TEL 6. Stock" isdestination=""/>
+    <node id="5" x="848" y="1163" type="Entry"/>
+    <edge id="1" source="5" sink="4" type="1"/>
+    <edge id="2" source="3" sink="5" type="0"/>
+    <edge id="3" source="3" sink="2" type="0"/>
+    <edge id="4" source="3" sink="1" type="0"/>
+    <node id="6" x="1055" y="313" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="7" x="559" y="368" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="8" x="759" y="2017" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="9" x="1226" y="1961" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <pixelToGK>
+      <xrw>0.029194406273049</xrw>
+      <yrw>0.00039309865644383</yrw>
+      <wrw>4589694.7744713</wrw>
+      <xhw>0.00039309865644383</xhw>
+      <yhw>-0.029194406273049</yhw>
+      <whw>5820829.6504942</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.5319524438908E-9</xlat>
+      <ylat>-2.6235544536295E-7</ylat>
+      <wlat>52.513262959895</wlat>
+      <xlon>4.2998332493308E-7</xlon>
+      <ylon>-2.0790373255296E-9</ylon>
+      <wlon>13.319657270817</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00017053616598184</xx>
+      <yx>-0.029205274580378</yx>
+      <wx>5845749.6917751</wx>
+      <xy>0.049203817733029</xy>
+      <yy>-0.00023763835617065</yy>
+      <wy>1496276.0777567</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="8" storey="7" mapfile="tel_7ogg.jpg" width="1754" height="2481" name="7.OG">
+    <node id="1" x="785" y="1491" type="Lecturehall" roomid="TEL 716"/>
+    <node id="2" x="697" y="671" type="branch" name="Tutorenraum" roomid="TEL 703"/>
+    <node id="3" x="751" y="978" type="Toilet" name="TEL 7 WC Herren"/>
+    <node id="4" x="741" y="901" type="Toilet" name="TEL 7 WC Damen"/>
+    <node id="5" x="836" y="1718" type="Office" roomid="TEL 715"/>
+    <node id="6" x="859" y="1883" type="branch" name="Druckerraum" roomid="TEL 714"/>
+    <node id="7" x="1137" y="1868" type="Lecturehall" name="Besprechungsraum" roomid="TEL 713" isdestination=""/>
+    <node id="8" x="1116" y="1684" type="Office" roomid="TEL 712"/>
+    <node id="9" x="1102" y="1537" type="Office" roomid="TEL 711A"/>
+    <node id="10" x="1112" y="1394" type="Office" roomid="TEL 711"/>
+    <node id="11" x="1091" y="1259" type="Office" roomid="TEL 710A"/>
+    <node id="12" x="1079" y="1113" type="Office" roomid="TEL 710"/>
+    <node id="13" x="1067" y="977" type="Office" roomid="TEL 709"/>
+    <node id="14" x="1049" y="835" type="Office" roomid="TEL 708"/>
+    <node id="15" x="1021" y="731" type="Office" roomid="TEL 707"/>
+    <node id="16" x="994" y="584" type="Office" roomid="TEL 706"/>
+    <node id="17" x="971" y="426" type="Office" roomid="TEL 705"/>
+    <node id="18" x="680" y="485" type="Office" roomid="TEL 704"/>
+    <node id="19" x="885" y="997" type="doorway"/>
+    <node id="20" x="834" y="588" type="doorway"/>
+    <node id="21" x="970" y="1742" type="doorway"/>
+    <node id="22" x="846" y="1175" type="doorway"/>
+    <node id="23" x="880" y="1429" type="Entry"/>
+    <node id="24" x="925" y="1679" type="Entry"/>
+    <node id="25" x="918" y="1803" type="Entry"/>
+    <node id="26" x="1033" y="1795" type="Entry"/>
+    <node id="27" x="1000" y="1676" type="Entry"/>
+    <node id="28" x="987" y="1545" type="Entry"/>
+    <node id="29" x="983" y="1417" type="Entry"/>
+    <node id="30" x="965" y="1252" type="Entry"/>
+    <node id="31" x="950" y="1163" type="Entry"/>
+    <node id="32" x="946" y="1074" type="Entry"/>
+    <node id="33" x="921" y="908" type="Entry"/>
+    <node id="34" x="900" y="789" type="Entry"/>
+    <node id="35" x="879" y="646" type="Entry"/>
+    <node id="36" x="886" y="515" type="Entry"/>
+    <node id="37" x="776" y="538" type="Entry"/>
+    <node id="38" x="810" y="646" type="Entry"/>
+    <node id="39" x="819" y="885" type="Entry"/>
+    <node id="40" x="823" y="936" type="Entry"/>
+    <node id="41" x="858" y="782" type="Areanode"/>
+    <node id="42" x="914" y="1286" type="Areanode"/>
+    <edge id="1" source="22" sink="42" type="0"/>
+    <edge id="2" source="42" sink="23" type="0"/>
+    <edge id="3" source="42" sink="24" type="0"/>
+    <edge id="4" source="42" sink="21" type="0"/>
+    <edge id="5" source="42" sink="27" type="0"/>
+    <edge id="6" source="42" sink="28" type="0"/>
+    <edge id="7" source="42" sink="29" type="0"/>
+    <edge id="8" source="42" sink="30" type="0"/>
+    <edge id="9" source="42" sink="31" type="0"/>
+    <edge id="10" source="42" sink="32" type="0"/>
+    <edge id="11" source="42" sink="19" type="0"/>
+    <edge id="12" source="41" sink="19" type="0"/>
+    <edge id="13" source="41" sink="20" type="0"/>
+    <edge id="14" source="41" sink="35" type="0"/>
+    <edge id="15" source="41" sink="34" type="0"/>
+    <edge id="16" source="41" sink="33" type="0"/>
+    <edge id="17" source="41" sink="38" type="0"/>
+    <edge id="18" source="41" sink="39" type="0"/>
+    <edge id="19" source="41" sink="40" type="0"/>
+    <node id="43" x="824" y="523" type="branch"/>
+    <node id="44" x="976" y="1807" type="branch"/>
+    <node id="45" x="747" y="1117" type="branch"/>
+    <node id="46" x="780" y="1248" type="branch"/>
+    <node id="47" x="765" y="1186" type="branch"/>
+    <edge id="20" source="43" sink="20" type="0"/>
+    <edge id="21" source="43" sink="36" type="0"/>
+    <edge id="22" source="43" sink="37" type="0"/>
+    <edge id="23" source="21" sink="44" type="0"/>
+    <edge id="24" source="44" sink="26" type="0"/>
+    <edge id="25" source="44" sink="25" type="0"/>
+    <edge id="26" source="47" sink="22" type="0"/>
+    <edge id="27" source="47" sink="46" type="0"/>
+    <edge id="28" source="47" sink="45" type="0"/>
+    <edge id="29" source="36" sink="17" type="1"/>
+    <edge id="30" source="37" sink="18" type="1"/>
+    <edge id="31" source="38" sink="2" type="1"/>
+    <edge id="32" source="39" sink="4" type="1"/>
+    <edge id="33" source="40" sink="3" type="1"/>
+    <edge id="34" source="23" sink="1" type="1"/>
+    <edge id="35" source="24" sink="5" type="1"/>
+    <edge id="36" source="25" sink="6" type="1"/>
+    <edge id="37" source="26" sink="7" type="1"/>
+    <edge id="38" source="27" sink="8" type="1"/>
+    <edge id="39" source="28" sink="9" type="1"/>
+    <edge id="40" source="29" sink="10" type="1"/>
+    <edge id="41" source="30" sink="11" type="1"/>
+    <edge id="42" source="31" sink="12" type="1"/>
+    <edge id="43" source="32" sink="13" type="1"/>
+    <edge id="44" source="33" sink="14" type="1"/>
+    <edge id="45" source="34" sink="15" type="1"/>
+    <edge id="46" source="35" sink="16" type="1"/>
+    <node id="48" x="1055" y="315" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="49" x="559" y="376" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="50" x="761" y="2018" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="51" x="1227" y="1965" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <pixelToGK>
+      <xrw>0.029230548839685</xrw>
+      <yrw>0.00035898285662613</yrw>
+      <wrw>4589694.7584193</wrw>
+      <xhw>0.00035898285662613</xhw>
+      <yhw>-0.029230548839685</yhw>
+      <whw>5820829.8326323</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.8447230391327E-9</xlat>
+      <ylat>-2.6267423881932E-7</ylat>
+      <wlat>52.513264599037</wlat>
+      <xlon>4.3050631806164E-7</xlon>
+      <ylon>-2.5911201724893E-9</ylon>
+      <wlon>13.319657083539</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00020535362937422</xx>
+      <yx>-0.029240762505605</yx>
+      <wx>5845749.8742435</wx>
+      <xy>0.049263665161046</xy>
+      <yy>-0.00029623665009429</yy>
+      <wy>1496276.0563245</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="9" storey="8" mapfile="tel_8ogg.jpg" width="1754" height="2481" name="8.OG">
+    <node id="1" x="751" y="976" type="Toilet" name="TEL 8 WC Herren"/>
+    <node id="2" x="702" y="906" type="Toilet" name="TEL 8 WC Damen"/>
+    <node id="3" x="1042" y="876" type="Office" roomid="Tel 809"/>
+    <node id="4" x="1017" y="718" type="branch" name="Archiv" roomid="TEL 808"/>
+    <node id="5" x="999" y="582" type="branch" name="Archiv" roomid="TEL 807"/>
+    <node id="6" x="971" y="419" type="Office" roomid="TEL 806"/>
+    <node id="7" x="1072" y="1219" type="Lecturehall" roomid="TEL 811"/>
+    <node id="8" x="765" y="1446" type="Office" name="Forschungskolleg" roomid="TEL 819"/>
+    <node id="9" x="788" y="1597" type="Office" roomid="TEL 818"/>
+    <node id="10" x="832" y="1731" type="Office" roomid="TEL 817"/>
+    <node id="11" x="823" y="1854" type="Office" roomid="TEL 816"/>
+    <node id="12" x="1113" y="1824" type="Office" roomid="TEL 815"/>
+    <node id="13" x="1117" y="1686" type="Office" roomid="TEL 814"/>
+    <node id="14" x="1113" y="1530" type="Lecturehall" name="Konferenzraum" roomid="TEL 813" isdestination=""/>
+    <node id="15" x="1113" y="1388" type="Office" roomid="TEL 812"/>
+    <node id="16" x="667" y="447" type="Office" roomid="TEL 805"/>
+    <node id="17" x="696" y="639" type="branch" name="Archiv" roomid="TEL 804"/>
+    <node id="18" x="700" y="775" type="Office" roomid="TEL 803"/>
+    <node id="19" x="1044" y="1022" type="Office" roomid="TEL 810"/>
+    <node id="20" x="843" y="1176" type="doorway"/>
+    <node id="21" x="878" y="999" type="doorway"/>
+    <node id="22" x="838" y="590" type="doorway"/>
+    <node id="23" x="968" y="1751" type="doorway"/>
+    <node id="24" x="751" y="1126" type="branch"/>
+    <node id="25" x="780" y="1253" type="branch"/>
+    <node id="26" x="766" y="1188" type="branch"/>
+    <node id="27" x="975" y="1804" type="branch"/>
+    <node id="28" x="827" y="525" type="branch"/>
+    <node id="29" x="882" y="528" type="Entry"/>
+    <node id="30" x="802" y="540" type="Entry"/>
+    <node id="31" x="805" y="648" type="Entry"/>
+    <node id="32" x="816" y="795" type="Entry"/>
+    <node id="33" x="819" y="899" type="Entry"/>
+    <node id="34" x="822" y="952" type="Entry"/>
+    <node id="35" x="878" y="1431" type="Entry"/>
+    <node id="36" x="902" y="1554" type="Entry"/>
+    <node id="37" x="923" y="1693" type="Entry"/>
+    <node id="38" x="938" y="1801" type="Entry"/>
+    <node id="39" x="1031" y="1797" type="Entry"/>
+    <node id="40" x="995" y="1716" type="Entry"/>
+    <node id="41" x="985" y="1547" type="Entry"/>
+    <node id="42" x="979" y="1427" type="Entry"/>
+    <node id="43" x="964" y="1253" type="Entry"/>
+    <node id="44" x="945" y="1068" type="Entry"/>
+    <node id="45" x="921" y="910" type="Entry"/>
+    <node id="46" x="902" y="783" type="Entry"/>
+    <node id="47" x="878" y="652" type="Entry"/>
+    <node id="48" x="858" y="787" type="Areanode"/>
+    <node id="49" x="923" y="1334" type="Areanode"/>
+    <edge id="1" source="24" sink="26" type="0"/>
+    <edge id="2" source="26" sink="25" type="0"/>
+    <edge id="3" source="26" sink="20" type="0"/>
+    <edge id="4" source="28" sink="22" type="0"/>
+    <edge id="5" source="23" sink="27" type="0"/>
+    <edge id="6" source="28" sink="29" type="0"/>
+    <edge id="7" source="30" sink="28" type="0"/>
+    <edge id="8" source="38" sink="27" type="0"/>
+    <edge id="9" source="27" sink="39" type="0"/>
+    <edge id="10" source="20" sink="49" type="0"/>
+    <edge id="11" source="21" sink="49" type="0"/>
+    <edge id="12" source="44" sink="49" type="0"/>
+    <edge id="13" source="43" sink="49" type="0"/>
+    <edge id="14" source="42" sink="49" type="0"/>
+    <edge id="15" source="41" sink="49" type="0"/>
+    <edge id="16" source="40" sink="49" type="0"/>
+    <edge id="17" source="23" sink="49" type="0"/>
+    <edge id="18" source="35" sink="49" type="0"/>
+    <edge id="19" source="36" sink="49" type="0"/>
+    <edge id="20" source="37" sink="49" type="0"/>
+    <edge id="21" source="48" sink="21" type="0"/>
+    <edge id="22" source="22" sink="48" type="0"/>
+    <edge id="23" source="47" sink="48" type="0"/>
+    <edge id="24" source="46" sink="48" type="0"/>
+    <edge id="25" source="45" sink="48" type="0"/>
+    <edge id="26" source="31" sink="48" type="0"/>
+    <edge id="27" source="32" sink="48" type="0"/>
+    <edge id="28" source="33" sink="48" type="0"/>
+    <edge id="29" source="34" sink="48" type="0"/>
+    <edge id="30" source="29" sink="6" type="1"/>
+    <edge id="31" source="30" sink="16" type="1"/>
+    <edge id="32" source="17" sink="31" type="1"/>
+    <edge id="33" source="47" sink="5" type="1"/>
+    <edge id="34" source="46" sink="4" type="1"/>
+    <edge id="35" source="32" sink="18" type="1"/>
+    <edge id="36" source="45" sink="3" type="1"/>
+    <edge id="37" source="44" sink="19" type="1"/>
+    <edge id="38" source="43" sink="7" type="1"/>
+    <edge id="39" source="42" sink="15" type="1"/>
+    <edge id="40" source="41" sink="14" type="1"/>
+    <edge id="41" source="40" sink="13" type="1"/>
+    <edge id="42" source="39" sink="12" type="1"/>
+    <edge id="43" source="38" sink="11" type="1"/>
+    <edge id="44" source="37" sink="10" type="1"/>
+    <edge id="45" source="36" sink="9" type="1"/>
+    <edge id="46" source="35" sink="8" type="1"/>
+    <edge id="47" source="2" sink="33" type="1"/>
+    <edge id="48" source="1" sink="34" type="1"/>
+    <node id="50" x="1057" y="315" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="51" x="559" y="371" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="52" x="761" y="2018" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="53" x="1226" y="1964" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <pixelToGK>
+      <xrw>0.029206963772843</xrw>
+      <yrw>0.00039523504275525</yrw>
+      <wrw>4589694.7305881</wrw>
+      <xhw>0.00039523504275525</xhw>
+      <yhw>-0.029206963772843</yhw>
+      <whw>5820829.7285188</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.5149368354468E-9</xlat>
+      <ylat>-2.6246863451553E-7</ylat>
+      <wlat>52.513263668492</wlat>
+      <xlon>4.3016880542439E-7</xlon>
+      <ylon>-2.0509637679052E-9</ylon>
+      <wlon>13.319656645678</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.0001686419971146</xx>
+      <yx>-0.029217874739205</yx>
+      <wx>5845749.7706557</wx>
+      <xy>0.049225042603714</xy>
+      <yy>-0.0002344257287228</yy>
+      <wy>1496276.0062201</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="10" storey="9" mapfile="tel_9ogg.jpg" width="1754" height="2481" name="9.OG">
+    <node id="1" x="677" y="478" type="Office" roomid="TEL 905"/>
+    <node id="2" x="965" y="451" type="Office" roomid="TEL 906"/>
+    <node id="3" x="984" y="599" type="branch" name="Kopierraum" roomid="TEL 907"/>
+    <node id="4" x="997" y="692" type="Office" roomid="TEL 908"/>
+    <node id="5" x="695" y="643" type="Office" name="Sekretariat ZfA" roomid="TEL 904"/>
+    <node id="6" x="707" y="804" type="Office" roomid="TEL 903"/>
+    <node id="7" x="1029" y="842" type="branch" name="Bibliothek" roomid="TEL 909" isdestination=""/>
+    <node id="8" x="698" y="913" type="Toilet" name="TEL 9 WC Damen"/>
+    <node id="9" x="664" y="975" type="Toilet" name="TEL 9 WC Herren"/>
+    <node id="10" x="1097" y="1337" type="branch" name="Bibiothek" roomid="TEL 910" isdestination=""/>
+    <node id="11" x="771" y="1437" type="Office" roomid="TEL 916"/>
+    <node id="12" x="794" y="1539" type="Lecturehall" name="Redaktion, Besprechungsraum" roomid="TEL 915" isdestination=""/>
+    <node id="14" x="828" y="1747" type="Office" roomid="TEL 913"/>
+    <node id="15" x="855" y="1900" type="Office" roomid="TEL 912"/>
+    <node id="16" x="1131" y="1865" type="Office" roomid="TEL 911"/>
+    <node id="17" x="770" y="541" type="Entry"/>
+    <node id="18" x="888" y="525" type="Entry"/>
+    <node id="19" x="891" y="639" type="Entry"/>
+    <node id="20" x="901" y="680" type="Entry"/>
+    <node id="21" x="795" y="687" type="Entry"/>
+    <node id="22" x="797" y="726" type="Entry"/>
+    <node id="23" x="820" y="897" type="Entry"/>
+    <node id="24" x="822" y="947" type="Entry"/>
+    <node id="25" x="928" y="920" type="Entry"/>
+    <node id="27" x="869" y="1447" type="Entry"/>
+    <node id="28" x="888" y="1552" type="Entry"/>
+    <node id="29" x="895" y="1592" type="Entry"/>
+    <node id="30" x="914" y="1699" type="Entry"/>
+    <node id="31" x="916" y="1809" type="Entry"/>
+    <node id="32" x="1036" y="1796" type="Entry"/>
+    <node id="33" x="971" y="1790" type="doorway"/>
+    <node id="34" x="830" y="552" type="doorway"/>
+    <node id="35" x="882" y="1005" type="doorway"/>
+    <node id="36" x="848" y="1175" type="doorway"/>
+    <node id="37" x="917" y="1297" type="Areanode"/>
+    <node id="38" x="860" y="787" type="Areanode"/>
+    <edge id="1" source="7" sink="25" type="1"/>
+    <edge id="2" source="4" sink="20" type="1"/>
+    <edge id="4" source="16" sink="32" type="1"/>
+    <edge id="5" source="15" sink="31" type="1"/>
+    <edge id="6" source="14" sink="30" type="1"/>
+    <node id="39" x="807" y="1635" type="Office" roomid="TEL 914"/>
+    <edge id="7" source="39" sink="29" type="1"/>
+    <edge id="8" source="12" sink="28" type="1"/>
+    <edge id="9" source="11" sink="27" type="1"/>
+    <edge id="10" source="9" sink="24" type="1"/>
+    <edge id="11" source="8" sink="23" type="1"/>
+    <edge id="12" source="6" sink="22" type="1"/>
+    <edge id="13" source="5" sink="21" type="1"/>
+    <edge id="14" source="1" sink="17" type="1"/>
+    <edge id="15" source="2" sink="18" type="1"/>
+    <edge id="16" source="17" sink="34" type="0"/>
+    <edge id="17" source="18" sink="34" type="0"/>
+    <edge id="18" source="34" sink="38" type="0"/>
+    <edge id="19" source="19" sink="38" type="0"/>
+    <edge id="20" source="20" sink="38" type="0"/>
+    <edge id="21" source="21" sink="38" type="0"/>
+    <edge id="22" source="22" sink="38" type="0"/>
+    <edge id="23" source="23" sink="38" type="0"/>
+    <edge id="24" source="24" sink="38" type="0"/>
+    <edge id="25" source="25" sink="38" type="0"/>
+    <edge id="26" source="38" sink="35" type="0"/>
+    <edge id="28" source="37" sink="27" type="0"/>
+    <edge id="29" source="37" sink="28" type="0"/>
+    <edge id="30" source="37" sink="29" type="0"/>
+    <edge id="31" source="37" sink="30" type="0"/>
+    <edge id="32" source="37" sink="33" type="0"/>
+    <edge id="33" source="31" sink="33" type="0"/>
+    <edge id="34" source="32" sink="33" type="0"/>
+    <edge id="35" source="37" sink="35" type="0"/>
+    <edge id="36" source="36" sink="37" type="0"/>
+    <node id="40" x="747" y="1119" type="branch"/>
+    <node id="41" x="786" y="1245" type="branch"/>
+    <node id="42" x="765" y="1179" type="branch"/>
+    <edge id="37" source="40" sink="42" type="0"/>
+    <edge id="38" source="41" sink="42" type="0"/>
+    <edge id="39" source="42" sink="36" type="0"/>
+    <pixelToGK>
+      <xrw>0.02927899920187</xrw>
+      <yrw>0.00035606633273978</yrw>
+      <wrw>4589694.7047154</wrw>
+      <xhw>0.00035606633273979</xhw>
+      <yhw>-0.02927899920187</yhw>
+      <whw>5820829.7965381</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.8793290184328E-9</xlat>
+      <ylat>-2.6310901884844E-7</ylat>
+      <wlat>52.513264284075</wlat>
+      <xlon>4.312189467103E-7</xlon>
+      <ylon>-2.6471213152549E-9</ylon>
+      <wlon>13.319656283042</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00020920594936781</xx>
+      <yx>-0.029289161997046</yx>
+      <wx>5845749.8391822</wx>
+      <xy>0.04934521265903</xy>
+      <yy>-0.00030264452098189</yy>
+      <wy>1496275.9647223</wy>
+    </pixelToEPSG3857>
+    <node id="43" x="1055" y="315" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="44" x="559" y="371" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="45" x="763" y="2013" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="46" x="1227" y="1962" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <edge id="40" source="7" sink="10" type="1"/>
+  </level>
+  <level id="11" storey="10" mapfile="tel_10ogg.jpg" width="1754" height="2481" name="10.OG">
+    <node id="1" x="847" y="1169" type="Entry"/>
+    <node id="2" x="746" y="1122" type="branch"/>
+    <node id="3" x="778" y="1254" type="branch"/>
+    <node id="4" x="759" y="1176" type="branch"/>
+    <node id="5" x="897" y="1168" type="Office" name="SESE - 10" roomid="TEL 10. Stock" isdestination=""/>
+    <edge id="1" source="1" sink="5" type="1"/>
+    <edge id="2" source="4" sink="1" type="0"/>
+    <edge id="3" source="4" sink="3" type="0"/>
+    <edge id="4" source="4" sink="2" type="0"/>
+    <node id="6" x="1055" y="313" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="7" x="559" y="368" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="8" x="759" y="2018" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="9" x="1228" y="1971" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <pixelToGK>
+      <xrw>0.029119511695342</xrw>
+      <yrw>0.00040901889256061</yrw>
+      <wrw>4589694.80763</wrw>
+      <xhw>0.00040901889256061</xhw>
+      <yhw>-0.029119511695342</yhw>
+      <whw>5820829.6288106</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.3759324038246E-9</xlat>
+      <ylat>-2.6168534165219E-7</ylat>
+      <wlat>52.513262759335</wlat>
+      <xlon>4.2888481871191E-7</xlon>
+      <ylon>-1.8244349221833E-9</ylon>
+      <wlon>13.319657753224</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00015316809457057</xx>
+      <yx>-0.029130678976529</yx>
+      <wx>5845749.6694489</wx>
+      <xy>0.049078113399796</xy>
+      <yy>-0.00020850440437737</yy>
+      <wy>1496276.1329597</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="12" storey="11" mapfile="tel_11ogg.jpg" width="1754" height="2481" name="11.OG">
+    <node id="1" x="813" y="1654" type="Lecturehall" name=" " roomid="TEL 1118"/>
+    <node id="2" x="1105" y="1722" type="Office" name=" " roomid="TEL 1115"/>
+    <node id="4" x="1100" y="1426" type="Office" roomid=" TEL 1113"/>
+    <node id="5" x="1084" y="1281" type="Office" name=" " roomid="TEL 1112"/>
+    <node id="7" x="1062" y="1030" type="Office" name=" " roomid="TEL 1110"/>
+    <node id="8" x="1024" y="843" type="Office" name=" " roomid="TEL 1109"/>
+    <node id="9" x="992" y="646" type="Office" name=" " roomid="TEL 1108"/>
+    <node id="10" x="959" y="434" type="Office" name=" " roomid="TEL 1107"/>
+    <node id="11" x="680" y="470" type="Office" name=" " roomid="TEL 1106"/>
+    <node id="12" x="1126" y="1861" type="Office" name=" " roomid="TEL 1116"/>
+    <node id="13" x="840" y="1890" type="Office" name=" " roomid="TEL 1117"/>
+    <node id="14" x="1077" y="1156" type="Office" roomid="TEL 1111"/>
+    <node id="15" x="1106" y="1571" type="Office" roomid="TEL 1114"/>
+    <node id="16" x="693" y="680" type="Lecturehall" name="Besprechungsraum" roomid="TEL 1104" isdestination=""/>
+    <node id="17" x="647" y="985" type="Toilet" name="TEL 11 WC Herren"/>
+    <node id="18" x="694" y="917" type="Toilet" name="TEL 11 WC Damen"/>
+    <node id="19" x="879" y="1005" type="doorway"/>
+    <node id="20" x="843" y="1182" type="doorway"/>
+    <node id="21" x="834" y="602" type="doorway"/>
+    <node id="22" x="967" y="1753" type="doorway"/>
+    <node id="23" x="785" y="1450" type="branch" name="Teeküche" roomid="TEL 1120"/>
+    <node id="24" x="877" y="1438" type="Entry"/>
+    <node id="25" x="924" y="1697" type="Entry"/>
+    <node id="26" x="998" y="1722" type="Entry"/>
+    <node id="27" x="991" y="1618" type="Entry"/>
+    <node id="28" x="983" y="1420" type="Entry"/>
+    <node id="29" x="968" y="1258" type="Entry"/>
+    <node id="30" x="958" y="1165" type="Entry"/>
+    <node id="31" x="946" y="1077" type="Entry"/>
+    <node id="32" x="911" y="823" type="Entry"/>
+    <node id="33" x="821" y="952" type="Entry"/>
+    <node id="34" x="820" y="899" type="Entry"/>
+    <node id="35" x="813" y="802" type="Entry"/>
+    <node id="36" x="811" y="729" type="Entry"/>
+    <node id="37" x="893" y="718" type="Entry"/>
+    <node id="38" x="892" y="533" type="Entry"/>
+    <node id="39" x="770" y="550" type="Entry"/>
+    <node id="40" x="707" y="836" type="branch" roomid="TEL 1103"/>
+    <edge id="1" source="11" sink="39" type="1"/>
+    <edge id="2" source="10" sink="38" type="1"/>
+    <edge id="3" source="9" sink="37" type="1"/>
+    <edge id="4" source="8" sink="32" type="1"/>
+    <edge id="5" source="16" sink="36" type="1"/>
+    <edge id="6" source="40" sink="35" type="1"/>
+    <edge id="7" source="18" sink="34" type="1"/>
+    <edge id="8" source="17" sink="33" type="1"/>
+    <edge id="9" source="7" sink="31" type="1"/>
+    <node id="41" x="859" y="807" type="Areanode"/>
+    <node id="42" x="831" y="544" type="branch"/>
+    <edge id="10" source="39" sink="42" type="0"/>
+    <edge id="11" source="38" sink="42" type="0"/>
+    <edge id="12" source="42" sink="21" type="0"/>
+    <edge id="13" source="21" sink="41" type="0"/>
+    <edge id="14" source="37" sink="41" type="0"/>
+    <edge id="15" source="36" sink="41" type="0"/>
+    <edge id="16" source="35" sink="41" type="0"/>
+    <edge id="17" source="32" sink="41" type="0"/>
+    <edge id="18" source="34" sink="41" type="0"/>
+    <edge id="19" source="33" sink="41" type="0"/>
+    <edge id="20" source="19" sink="41" type="0"/>
+    <node id="43" x="922" y="1324" type="Areanode"/>
+    <edge id="21" source="30" sink="43" type="0"/>
+    <edge id="22" source="31" sink="43" type="0"/>
+    <edge id="23" source="19" sink="43" type="0"/>
+    <edge id="24" source="20" sink="43" type="0"/>
+    <edge id="25" source="29" sink="43" type="0"/>
+    <edge id="26" source="24" sink="43" type="0"/>
+    <edge id="27" source="28" sink="43" type="0"/>
+    <edge id="28" source="30" sink="14" type="1"/>
+    <edge id="29" source="29" sink="5" type="1"/>
+    <edge id="30" source="28" sink="4" type="1"/>
+    <edge id="31" source="24" sink="23" type="1"/>
+    <edge id="32" source="15" sink="27" type="1"/>
+    <edge id="33" source="2" sink="26" type="1"/>
+    <edge id="34" source="1" sink="25" type="1"/>
+    <node id="44" x="912" y="1817" type="Entry"/>
+    <node id="45" x="1033" y="1804" type="Entry"/>
+    <node id="46" x="972" y="1806" type="branch"/>
+    <edge id="35" source="13" sink="44" type="1"/>
+    <edge id="36" source="12" sink="45" type="1"/>
+    <edge id="37" source="44" sink="46" type="0"/>
+    <edge id="38" source="45" sink="46" type="0"/>
+    <edge id="39" source="46" sink="22" type="0"/>
+    <edge id="40" source="22" sink="43" type="0"/>
+    <edge id="41" source="25" sink="43" type="0"/>
+    <edge id="42" source="26" sink="43" type="0"/>
+    <edge id="43" source="27" sink="43" type="0"/>
+    <node id="47" x="746" y="1126" type="branch"/>
+    <node id="48" x="782" y="1254" type="branch"/>
+    <node id="49" x="774" y="1187" type="branch"/>
+    <edge id="44" source="49" sink="20" type="0"/>
+    <edge id="45" source="47" sink="49" type="0"/>
+    <edge id="46" source="48" sink="49" type="0"/>
+    <pixelToGK>
+      <xrw>0.029186621902943</xrw>
+      <yrw>0.00037917096043635</yrw>
+      <wrw>4589694.7742909</wrw>
+      <xhw>0.00037917096043635</xhw>
+      <yhw>-0.029186621902943</yhw>
+      <whw>5820829.7704209</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.6557309583386E-9</xlat>
+      <ylat>-2.6228309363906E-7</ylat>
+      <wlat>52.513264037367</wlat>
+      <xlon>4.2986494959293E-7</xlon>
+      <ylon>-2.2820200407576E-9</ylon>
+      <wlon>13.319657300478</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00018431512717929</xx>
+      <yx>-0.029197220423318</yx>
+      <wx>5845749.8117187</wx>
+      <xy>0.049190271943251</xy>
+      <yy>-0.00026086613181961</yy>
+      <wy>1496276.0811498</wy>
+    </pixelToEPSG3857>
+    <node id="50" x="1055" y="313" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="51" x="559" y="374" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="52" x="761" y="2018" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="53" x="1227" y="1970" type="GpsLink" lat="52.51275" long="13.32018"/>
+  </level>
+  <level id="13" storey="12" mapfile="tel_12ogg.jpg" width="1754" height="2481" name="12.OG">
+    <node id="1" x="1038" y="861" type="Office" roomid="TEL 1209"/>
+    <node id="2" x="1022" y="728" type="Office" name=" " roomid="TEL 1208"/>
+    <node id="3" x="1068" y="985" type="Office" name=" ECDF" roomid="TEL 1210"/>
+    <node id="4" x="1085" y="1145" type="Office" name=" " roomid="TEL 1211"/>
+    <node id="6" x="1115" y="1553" type="Office" roomid="TEL 1214"/>
+    <node id="7" x="793" y="1601" type="Office" roomid="TEL 1219"/>
+    <node id="8" x="992" y="589" type="Office" roomid="TEL 1207"/>
+    <node id="9" x="692" y="629" type="Office" roomid="TEL 1204"/>
+    <node id="10" x="690" y="788" type="Office" roomid="TEL 1203"/>
+    <node id="11" x="675" y="448" type="branch" name="Forschungsraum" roomid="TEL 1205"/>
+    <node id="12" x="968" y="419" type="Office" roomid="TEL 1206"/>
+    <node id="13" x="778" y="1465" type="branch" name="Teeküche" roomid="TEL 1220"/>
+    <node id="14" x="1105" y="1283" type="Lecturehall" name="Besprechungsraum" roomid="TEL 1212" isdestination=""/>
+    <node id="15" x="1123" y="1723" type="Lecturehall" roomid="TEL 1215"/>
+    <node id="16" x="829" y="1742" type="Lecturehall" roomid="TEL 1218"/>
+    <node id="17" x="1145" y="1878" type="Office" name="ADT" roomid="TEL 1216"/>
+    <node id="18" x="848" y="1920" type="Office" name="ADT" roomid="TEL 1217"/>
+    <node id="19" x="644" y="979" type="Toilet" name="TEL 12 WC Herren"/>
+    <node id="20" x="694" y="908" type="Toilet" name="TEL 12 WC Damen"/>
+    <node id="21" x="764" y="522" type="Entry"/>
+    <node id="22" x="889" y="505" type="Entry"/>
+    <node id="23" x="880" y="629" type="Entry"/>
+    <node id="24" x="802" y="637" type="Entry"/>
+    <node id="25" x="811" y="779" type="Entry"/>
+    <node id="26" x="904" y="768" type="Entry"/>
+    <node id="27" x="927" y="899" type="Entry"/>
+    <node id="28" x="816" y="940" type="Entry"/>
+    <node id="29" x="816" y="888" type="Entry"/>
+    <node id="30" x="952" y="1071" type="Entry"/>
+    <node id="31" x="961" y="1161" type="Entry"/>
+    <node id="32" x="971" y="1249" type="Entry"/>
+    <node id="33" x="878" y="1436" type="Entry"/>
+    <node id="34" x="988" y="1428" type="Entry"/>
+    <node id="35" x="995" y="1557" type="Entry"/>
+    <node id="36" x="902" y="1568" type="Entry"/>
+    <node id="37" x="1041" y="1816" type="Entry"/>
+    <node id="38" x="921" y="1832" type="Entry"/>
+    <node id="39" x="972" y="1766" type="doorway"/>
+    <node id="40" x="882" y="998" type="doorway"/>
+    <node id="41" x="845" y="1177" type="doorway"/>
+    <node id="42" x="928" y="1706" type="Entry"/>
+    <node id="43" x="1003" y="1695" type="Entry"/>
+    <node id="44" x="919" y="1329" type="Areanode"/>
+    <node id="45" x="740" y="1120" type="branch"/>
+    <node id="46" x="779" y="1253" type="branch"/>
+    <node id="47" x="774" y="1179" type="branch"/>
+    <node id="48" x="977" y="1816" type="branch"/>
+    <edge id="1" source="17" sink="37" type="1"/>
+    <edge id="2" source="15" sink="43" type="1"/>
+    <edge id="3" source="6" sink="35" type="1"/>
+    <node id="49" x="1110" y="1395" type="branch" name="Druckerraum" roomid="TEL 1213"/>
+    <edge id="4" source="49" sink="34" type="1"/>
+    <edge id="5" source="7" sink="36" type="1"/>
+    <edge id="6" source="16" sink="42" type="1"/>
+    <edge id="7" source="18" sink="38" type="1"/>
+    <edge id="8" source="14" sink="32" type="1"/>
+    <edge id="9" source="13" sink="33" type="1"/>
+    <edge id="10" source="4" sink="31" type="1"/>
+    <edge id="11" source="3" sink="30" type="1"/>
+    <edge id="12" source="38" sink="48" type="0"/>
+    <edge id="13" source="37" sink="48" type="0"/>
+    <edge id="14" source="48" sink="39" type="0"/>
+    <edge id="15" source="39" sink="44" type="0"/>
+    <edge id="16" source="43" sink="44" type="0"/>
+    <edge id="17" source="35" sink="44" type="0"/>
+    <edge id="18" source="34" sink="44" type="0"/>
+    <edge id="19" source="32" sink="44" type="0"/>
+    <edge id="20" source="31" sink="44" type="0"/>
+    <edge id="21" source="30" sink="44" type="0"/>
+    <edge id="22" source="44" sink="40" type="0"/>
+    <edge id="23" source="44" sink="41" type="0"/>
+    <edge id="24" source="45" sink="47" type="0"/>
+    <edge id="25" source="46" sink="47" type="0"/>
+    <edge id="26" source="47" sink="41" type="0"/>
+    <edge id="27" source="33" sink="44" type="0"/>
+    <edge id="28" source="36" sink="44" type="0"/>
+    <edge id="29" source="42" sink="44" type="0"/>
+    <edge id="30" source="11" sink="21" type="1"/>
+    <edge id="31" source="12" sink="22" type="1"/>
+    <edge id="32" source="8" sink="23" type="1"/>
+    <edge id="33" source="2" sink="26" type="1"/>
+    <edge id="34" source="1" sink="27" type="1"/>
+    <edge id="35" source="9" sink="24" type="1"/>
+    <edge id="36" source="10" sink="25" type="1"/>
+    <edge id="37" source="20" sink="29" type="1"/>
+    <edge id="38" source="19" sink="28" type="1"/>
+    <node id="50" x="864" y="804" type="Areanode"/>
+    <node id="51" x="834" y="573" type="doorway"/>
+    <node id="52" x="827" y="514" type="branch"/>
+    <edge id="39" source="21" sink="52" type="0"/>
+    <edge id="40" source="22" sink="52" type="0"/>
+    <edge id="41" source="52" sink="51" type="0"/>
+    <edge id="42" source="51" sink="50" type="0"/>
+    <edge id="43" source="23" sink="50" type="0"/>
+    <edge id="44" source="26" sink="50" type="0"/>
+    <edge id="45" source="24" sink="50" type="0"/>
+    <edge id="46" source="25" sink="50" type="0"/>
+    <edge id="47" source="29" sink="50" type="0"/>
+    <edge id="48" source="28" sink="50" type="0"/>
+    <edge id="49" source="27" sink="50" type="0"/>
+    <edge id="50" source="40" sink="50" type="0"/>
+    <pixelToGK>
+      <xrw>0.029233576152415</xrw>
+      <yrw>0.00035934258466449</yrw>
+      <wrw>4589694.7112428</wrw>
+      <xhw>0.00035934258466449</xhw>
+      <yhw>-0.029233576152415</yhw>
+      <whw>5820829.8499235</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.8420162555678E-9</xlat>
+      <ylat>-2.6270149907909E-7</ylat>
+      <wlat>52.513264762567</wlat>
+      <xlon>4.3055099111897E-7</xlon>
+      <ylon>-2.5866391002661E-9</ylon>
+      <wlon>13.319656393542</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00020505231160614</xx>
+      <yx>-0.029243797103841</yx>
+      <wx>5845749.8924476</wx>
+      <xy>0.04926877718185</xy>
+      <yy>-0.00029572384436837</yy>
+      <wy>1496275.9773666</wy>
+    </pixelToEPSG3857>
+    <node id="53" x="1055" y="313" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="54" x="561" y="375" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="55" x="764" y="2018" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="56" x="1228" y="1970" type="GpsLink" lat="52.51275" long="13.32018"/>
+  </level>
+  <level id="14" storey="13" mapfile="tel_13ogg.jpg" width="1754" height="2481" name="13.OG">
+    <node id="1" x="750" y="1193" type="branch"/>
+    <node id="2" x="744" y="1129" type="branch"/>
+    <node id="3" x="780" y="1256" type="branch"/>
+    <node id="4" x="842" y="1182" type="Entry"/>
+    <node id="5" x="897" y="1170" type="Office" name="DAI - AOT - 13" roomid="TEL 13.Stock" isdestination=""/>
+    <edge id="1" source="4" sink="5" type="1"/>
+    <edge id="2" source="2" sink="1" type="0"/>
+    <edge id="3" source="3" sink="1" type="0"/>
+    <edge id="4" source="1" sink="4" type="0"/>
+    <node id="6" x="1055" y="313" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="7" x="561" y="380" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="8" x="759" y="2018" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="9" x="1226" y="1963" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <pixelToGK>
+      <xrw>0.029252823959739</xrw>
+      <yrw>0.00037755574735761</yrw>
+      <wrw>4589694.7239713</wrw>
+      <xhw>0.00037755574735761</xhw>
+      <yhw>-0.029252823959739</yhw>
+      <whw>5820829.8420302</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.6817246879216E-9</xlat>
+      <ylat>-2.6287758346709E-7</ylat>
+      <wlat>52.513264689445</wlat>
+      <xlon>4.3083931639457E-7</xlon>
+      <ylon>-2.3236435458367E-9</ylon>
+      <wlon>13.319656578837</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00018720873591994</xx>
+      <yx>-0.029263398728247</yx>
+      <wx>5845749.8843077</wx>
+      <xy>0.049301770630979</xy>
+      <yy>-0.00026562857777994</yy>
+      <wy>1496275.9985704</wy>
+    </pixelToEPSG3857>
+  </level>
+  <level id="15" storey="14" mapfile="tel_14ogg.jpg" width="1754" height="2481" name="14.OG">
+    <node id="1" x="765" y="1187" type="branch"/>
+    <node id="2" x="747" y="1122" type="branch"/>
+    <node id="3" x="776" y="1249" type="branch"/>
+    <node id="4" x="844" y="1175" type="Entry"/>
+    <node id="5" x="900" y="1153" type="Office" name="DAI - AOT - 14" roomid="TEL 14.Stock" isdestination=""/>
+    <edge id="1" source="4" sink="5" type="1"/>
+    <edge id="2" source="2" sink="1" type="0"/>
+    <edge id="3" source="3" sink="1" type="0"/>
+    <edge id="4" source="1" sink="4" type="0"/>
+    <pixelToGK>
+      <xrw>0.029378041834513</xrw>
+      <yrw>0.00035740041059783</yrw>
+      <wrw>4589694.6205532</wrw>
+      <xhw>0.00035740041059784</xhw>
+      <yhw>-0.029378041834513</yhw>
+      <whw>5820829.9695909</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.8845218645659E-9</xlat>
+      <ylat>-2.6399906525654E-7</ylat>
+      <wlat>52.513265853408</wlat>
+      <xlon>4.32677674245E-7</xlon>
+      <ylon>-2.6541673887061E-9</ylon>
+      <wlon>13.319655090416</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00020978401435515</xx>
+      <yx>-0.029388241509963</yx>
+      <wx>5845750.0138794</wx>
+      <xy>0.049512137652572</xy>
+      <yy>-0.00030344990113283</yy>
+      <wy>1496275.8282463</wy>
+    </pixelToEPSG3857>
+    <node id="6" x="1055" y="319" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="7" x="561" y="380" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="8" x="761" y="2013" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="9" x="1226" y="1957" type="GpsLink" lat="52.51275" long="13.32018"/>
+  </level>
+  <level id="16" storey="15" mapfile="tel_15ogg.jpg" width="1754" height="2481" name="15.OG">
+    <node id="1" x="907" y="1130" type="Office" name="T-Labs - 15" roomid="TEL 15.Stock" isdestination=""/>
+    <node id="2" x="843" y="1170" type="Entry"/>
+    <node id="3" x="749" y="1181" type="branch"/>
+    <node id="4" x="745" y="1108" type="branch"/>
+    <node id="5" x="778" y="1249" type="branch"/>
+    <edge id="1" source="5" sink="3" type="0"/>
+    <edge id="2" source="4" sink="3" type="0"/>
+    <edge id="3" source="3" sink="2" type="0"/>
+    <edge id="4" source="2" sink="1" type="1"/>
+    <pixelToGK>
+      <xrw>0.029289387766516</xrw>
+      <yrw>0.00036408456971239</yrw>
+      <wrw>4589694.6645001</wrw>
+      <xhw>0.00036408456971239</xhw>
+      <yhw>-0.029289387766516</yhw>
+      <whw>5820829.7645341</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.8090937227445E-9</xlat>
+      <ylat>-2.6320374211277E-7</ylat>
+      <wlat>52.513264003522</wlat>
+      <xlon>4.3137407542704E-7</xlon>
+      <ylon>-2.5318550872547E-9</ylon>
+      <wlon>13.319655682261</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00020138739201723</xx>
+      <yx>-0.029299706542596</yx>
+      <wx>5845749.8079511</wx>
+      <xy>0.049362964263223</xy>
+      <yy>-0.00028945428810799</yy>
+      <wy>1496275.8959742</wy>
+    </pixelToEPSG3857>
+    <node id="6" x="1228" y="1957" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <node id="7" x="763" y="2012" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="8" x="559" y="368" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="9" x="1057" y="319" type="GpsLink" lat="52.51318" long="13.3201"/>
+  </level>
+  <level id="17" storey="16" mapfile="tel_16ogg.jpg" width="1754" height="2481" name="16.OG">
+    <node id="1" x="745" y="1116" type="branch"/>
+    <node id="2" x="780" y="1253" type="branch"/>
+    <node id="3" x="761" y="1190" type="branch"/>
+    <node id="4" x="847" y="1185" type="Entry"/>
+    <node id="5" x="913" y="1147" type="Office" name="T-Labs - 16" roomid="TEL 16.Stock" isdestination=""/>
+    <edge id="1" source="4" sink="5" type="1"/>
+    <edge id="2" source="2" sink="3" type="0"/>
+    <edge id="3" source="1" sink="3" type="0"/>
+    <edge id="4" source="3" sink="4" type="0"/>
+    <pixelToGK>
+      <xrw>0.029233894894941</xrw>
+      <yrw>0.00040405307458279</yrw>
+      <wrw>4589694.6739118</wrw>
+      <xhw>0.00040405307458279</xhw>
+      <yhw>-0.029233894894941</yhw>
+      <whw>5820829.7663184</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.4403852720161E-9</xlat>
+      <ylat>-2.6271211750986E-7</ylat>
+      <wlat>52.51326401792</wlat>
+      <xlon>4.3056773302556E-7</xlon>
+      <ylon>-1.9283787117476E-9</ylon>
+      <wlon>13.319655821325</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.0001603429550369</xx>
+      <yx>-0.029244979142146</yx>
+      <wx>5845749.8095539</wx>
+      <xy>0.04927069257718</xy>
+      <yy>-0.00022039783529163</yy>
+      <wy>1496275.9118875</wy>
+    </pixelToEPSG3857>
+    <node id="6" x="1227" y="1968" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <node id="7" x="763" y="2015" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="8" x="559" y="368" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="9" x="1057" y="319" type="GpsLink" lat="52.51318" long="13.3201"/>
+  </level>
+  <level id="18" storey="17" mapfile="tel_17ogg.jpg" width="1754" height="2481" name="17.OG">
+    <node id="1" x="848" y="1170" type="Entry"/>
+    <node id="2" x="746" y="1123" type="branch"/>
+    <node id="3" x="779" y="1255" type="branch"/>
+    <node id="4" x="759" y="1177" type="branch"/>
+    <node id="5" x="902" y="1143" type="Office" name="T-Labs - 17" roomid="TEL 17. Stock" isdestination=""/>
+    <edge id="1" source="1" sink="5" type="1"/>
+    <edge id="2" source="4" sink="1" type="0"/>
+    <edge id="3" source="4" sink="3" type="0"/>
+    <edge id="4" source="4" sink="2" type="0"/>
+    <pixelToGK>
+      <xrw>0.029182199857601</xrw>
+      <yrw>0.00040209615821876</yrw>
+      <wrw>4589694.7445857</wrw>
+      <xhw>0.00040209615821877</xhw>
+      <yhw>-0.029182199857601</yhw>
+      <whw>5820829.7153258</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.4490002959659E-9</xlat>
+      <ylat>-2.6224734152248E-7</ylat>
+      <wlat>52.513263547536</wlat>
+      <xlon>4.2980601438381E-7</xlon>
+      <ylon>-1.9432628958587E-9</ylon>
+      <wlon>13.319656848232</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00016130197511596</xx>
+      <yx>-0.029193240515906</yx>
+      <wx>5845749.7571909</wx>
+      <xy>0.049183527661639</xy>
+      <yy>-0.00022210153910205</yy>
+      <wy>1496276.0293989</wy>
+    </pixelToEPSG3857>
+    <node id="6" x="1055" y="312" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="7" x="561" y="374" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="8" x="759" y="2016" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="9" x="1228" y="1969" type="GpsLink" lat="52.51275" long="13.32018"/>
+  </level>
+  <level id="19" storey="18" mapfile="tel_18ogg.jpg" width="1754" height="2481" name="18.OG">
+    <node id="1" x="847" y="1165" type="Entry"/>
+    <node id="2" x="746" y="1118" type="branch"/>
+    <node id="3" x="778" y="1250" type="branch"/>
+    <node id="4" x="759" y="1172" type="branch"/>
+    <node id="5" x="898" y="1153" type="Office" name="T-Labs - 18" roomid="TEL 18. Stock" isdestination=""/>
+    <edge id="1" source="1" sink="5" type="1"/>
+    <edge id="2" source="4" sink="1" type="0"/>
+    <edge id="3" source="4" sink="3" type="0"/>
+    <edge id="4" source="4" sink="2" type="0"/>
+    <pixelToGK>
+      <xrw>0.029163472767198</xrw>
+      <yrw>0.00042101737745236</yrw>
+      <wrw>4589694.717802</wrw>
+      <xhw>0.00042101737745235</xhw>
+      <yhw>-0.029163472767198</yhw>
+      <whw>5820829.6542256</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.2757608901263E-9</xlat>
+      <ylat>-2.6208237610025E-7</ylat>
+      <wlat>52.513263003247</wlat>
+      <xlon>4.2953536341549E-7</xlon>
+      <ylon>-1.6596080226493E-9</ylon>
+      <wlon>13.319656437387</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00014201705267537</xx>
+      <yx>-0.029174876649108</yx>
+      <wx>5845749.696601</wx>
+      <xy>0.04915255637429</xy>
+      <yy>-0.00018964253788044</yy>
+      <wy>1496275.9823857</wy>
+    </pixelToEPSG3857>
+    <node id="6" x="1057" y="313" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="7" x="561" y="368" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="8" x="761" y="2019" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="9" x="1227" y="1968" type="GpsLink" lat="52.51275" long="13.32018"/>
+  </level>
+  <level id="20" storey="19" mapfile="tel_19ogg.jpg" width="1754" height="2481" name="19.OG">
+    <node id="1" x="848" y="1167" type="Entry"/>
+    <node id="2" x="746" y="1120" type="branch"/>
+    <node id="3" x="779" y="1252" type="branch"/>
+    <node id="4" x="759" y="1174" type="branch"/>
+    <node id="5" x="901" y="1167" type="Office" name="T-Labs - 19" roomid="TEL 19. Stock" isdestination=""/>
+    <edge id="1" source="1" sink="5" type="1"/>
+    <edge id="2" source="4" sink="1" type="0"/>
+    <edge id="3" source="4" sink="3" type="0"/>
+    <edge id="4" source="4" sink="2" type="0"/>
+    <pixelToGK>
+      <xrw>0.029149692505328</xrw>
+      <yrw>0.00035190037410172</yrw>
+      <wrw>4589694.8554888</wrw>
+      <xhw>0.00035190037410173</xhw>
+      <yhw>-0.029149692505328</yhw>
+      <whw>5820829.6281066</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.8943291062018E-9</xlat>
+      <ylat>-2.619465840242E-7</ylat>
+      <wlat>52.513262744709</wlat>
+      <xlon>4.293138283169E-7</xlon>
+      <ylon>-2.6736181657174E-9</ylon>
+      <wlon>13.319658457737</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00021087575149972</xx>
+      <yx>-0.02915976034435</yx>
+      <wx>5845749.6678207</wx>
+      <xy>0.049127206324559</xy>
+      <yy>-0.00030567780210764</yy>
+      <wy>1496276.2135785</wy>
+    </pixelToEPSG3857>
+    <node id="6" x="1052" y="306" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="7" x="559" y="368" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="8" x="761" y="2016" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="9" x="1228" y="1968" type="GpsLink" lat="52.51275" long="13.32018"/>
+  </level>
+  <level id="21" storey="20" mapfile="tel_20ogg.jpg" width="1754" height="2481" name="20.OG">
+    <node id="1" x="747" y="1115" type="branch"/>
+    <node id="2" x="782" y="1252" type="branch"/>
+    <node id="3" x="762" y="1183" type="branch"/>
+    <node id="4" x="645" y="843" type="Toilet" name="TEL 20 WC Damen"/>
+    <node id="5" x="708" y="990" type="Toilet" name="TEL 20 WC Herren"/>
+    <node id="6" x="675" y="845" type="Entry"/>
+    <node id="7" x="684" y="651" type="Entry"/>
+    <node id="8" x="879" y="896" type="Entry"/>
+    <node id="9" x="745" y="526" type="Entry"/>
+    <node id="12" x="760" y="951" type="Entry"/>
+    <node id="13" x="845" y="1174" type="doorway"/>
+    <node id="14" x="927" y="1390" type="Entry"/>
+    <node id="15" x="897" y="1158" type="Areanode"/>
+    <edge id="1" source="1" sink="3" type="0"/>
+    <edge id="2" source="2" sink="3" type="0"/>
+    <edge id="3" source="3" sink="13" type="0"/>
+    <edge id="4" source="13" sink="15" type="0"/>
+    <edge id="6" source="15" sink="8" type="0"/>
+    <edge id="8" source="5" sink="12" type="1"/>
+    <edge id="9" source="4" sink="6" type="1"/>
+    <edge id="11" source="14" sink="15" type="0"/>
+    <node id="20" x="823" y="925" type="branch"/>
+    <node id="22" x="636" y="657" type="branch"/>
+    <edge id="17" source="15" sink="20" type="0"/>
+    <edge id="22" source="22" sink="7" type="0"/>
+    <node id="24" x="1024" y="1612" type="branch" name="Cafeteria Skyline" roomid="TEL 2011" isdestination="Cafe"/>
+    <edge id="25" source="24" sink="14" type="1"/>
+    <node id="25" x="974" y="891" type="Toilet" name="TEL 20 WC Behinderten"/>
+    <node id="26" x="927" y="920" type="Entry"/>
+    <edge id="26" source="26" sink="25" type="1"/>
+    <edge id="27" source="15" sink="26" type="0"/>
+    <node id="27" x="853" y="554" type="Lecturehall" name="Auditorium 02" roomid="TEL 2003"/>
+    <edge id="28" source="9" sink="27" type="1"/>
+    <node id="28" x="872" y="785" type="Lecturehall" name="Auditorium 01" roomid="TEL 2004"/>
+    <edge id="29" source="8" sink="28" type="1"/>
+    <pixelToGK>
+      <xrw>0.029066062106891</xrw>
+      <yrw>0.00039740963348938</yrw>
+      <wrw>4589694.8606444</wrw>
+      <xhw>0.00039740963348937</xhw>
+      <yhw>-0.029066062106891</yhw>
+      <whw>5820829.6784914</whw>
+    </pixelToGK>
+    <pixelToWGS84>
+      <xlat>-1.4709613171659E-9</xlat>
+      <ylat>-2.6120312834661E-7</ylat>
+      <wlat>52.51326319648</wlat>
+      <xlon>4.2809466381751E-7</xlon>
+      <ylon>-1.9809736527854E-9</ylon>
+      <wlon>13.31965854723</wlon>
+    </pixelToWGS84>
+    <pixelToEPSG3857>
+      <xx>-0.00016374666481276</xx>
+      <yx>-0.029076999236906</yx>
+      <wx>5845749.7181116</wx>
+      <xy>0.048987694558241</xy>
+      <yy>-0.00022641792743365</yy>
+      <wy>1496276.2238189</wy>
+    </pixelToEPSG3857>
+    <node id="29" x="1057" y="319" type="GpsLink" lat="52.51318" long="13.3201"/>
+    <node id="30" x="557" y="367" type="GpsLink" lat="52.51316" long="13.3199"/>
+    <node id="31" x="760" y="2027" type="GpsLink" lat="52.51273" long="13.31997"/>
+    <node id="32" x="1228" y="1971" type="GpsLink" lat="52.51275" long="13.32018"/>
+    <node id="33" x="634" y="491" type="branch"/>
+    <node id="34" x="717" y="464" type="branch"/>
+    <node id="35" x="692" y="815" type="branch"/>
+    <node id="36" x="752" y="917" type="branch"/>
+    <edge id="30" source="34" sink="9" type="0"/>
+    <edge id="31" source="34" sink="33" type="0"/>
+    <edge id="32" source="33" sink="22" type="0"/>
+    <edge id="33" source="22" sink="35" type="0"/>
+    <edge id="34" source="35" sink="36" type="0"/>
+    <edge id="35" source="36" sink="20" type="0"/>
+    <edge id="36" source="35" sink="6" type="0"/>
+    <edge id="37" source="36" sink="12" type="0"/>
+    <edge id="38" source="7" sink="27" type="1"/>
+  </level>
+  <leveledge id="1" sourcelevel="1" sinklevel="2" sourcenode="34" sinknode="1" type="Stairs"/>
+  <leveledge id="2" sourcelevel="2" sinklevel="1" sourcenode="1" sinknode="34" type="Stairs"/>
+  <leveledge id="3" sourcelevel="1" sinklevel="2" sourcenode="38" sinknode="2" type="Elevator"/>
+  <leveledge id="4" sourcelevel="2" sinklevel="1" sourcenode="2" sinknode="38" type="Elevator"/>
+  <leveledge id="5" sourcelevel="1" sinklevel="2" sourcenode="39" sinknode="3" type="Elevator"/>
+  <leveledge id="6" sourcelevel="2" sinklevel="1" sourcenode="3" sinknode="39" type="Elevator"/>
+  <leveledge id="7" sourcelevel="6" sinklevel="7" sourcenode="23" sinknode="1" type="Elevator"/>
+  <leveledge id="8" sourcelevel="7" sinklevel="6" sourcenode="1" sinknode="23" type="Elevator"/>
+  <leveledge id="9" sourcelevel="6" sinklevel="7" sourcenode="24" sinknode="2" type="Elevator"/>
+  <leveledge id="10" sourcelevel="7" sinklevel="6" sourcenode="2" sinknode="24" type="Elevator"/>
+  <leveledge id="11" sourcelevel="7" sinklevel="8" sourcenode="1" sinknode="45" type="Elevator"/>
+  <leveledge id="12" sourcelevel="8" sinklevel="7" sourcenode="45" sinknode="1" type="Elevator"/>
+  <leveledge id="13" sourcelevel="7" sinklevel="8" sourcenode="2" sinknode="46" type="Elevator"/>
+  <leveledge id="14" sourcelevel="8" sinklevel="7" sourcenode="46" sinknode="2" type="Elevator"/>
+  <leveledge id="15" sourcelevel="8" sinklevel="9" sourcenode="45" sinknode="24" type="Elevator"/>
+  <leveledge id="16" sourcelevel="9" sinklevel="8" sourcenode="24" sinknode="45" type="Elevator"/>
+  <leveledge id="17" sourcelevel="8" sinklevel="9" sourcenode="46" sinknode="25" type="Elevator"/>
+  <leveledge id="18" sourcelevel="9" sinklevel="8" sourcenode="25" sinknode="46" type="Elevator"/>
+  <leveledge id="29" sourcelevel="3" sinklevel="2" sourcenode="1" sinknode="2" type="Elevator"/>
+  <leveledge id="30" sourcelevel="2" sinklevel="3" sourcenode="2" sinknode="1" type="Elevator"/>
+  <leveledge id="31" sourcelevel="2" sinklevel="3" sourcenode="3" sinknode="2" type="Elevator"/>
+  <leveledge id="32" sourcelevel="3" sinklevel="2" sourcenode="2" sinknode="3" type="Elevator"/>
+  <leveledge id="33" sourcelevel="2" sinklevel="3" sourcenode="1" sinknode="4" type="Stairs"/>
+  <leveledge id="34" sourcelevel="3" sinklevel="2" sourcenode="4" sinknode="1" type="Stairs"/>
+  <leveledge id="35" sourcelevel="3" sinklevel="4" sourcenode="2" sinknode="3" type="Elevator"/>
+  <leveledge id="36" sourcelevel="4" sinklevel="3" sourcenode="3" sinknode="2" type="Elevator"/>
+  <leveledge id="37" sourcelevel="4" sinklevel="3" sourcenode="2" sinknode="1" type="Elevator"/>
+  <leveledge id="38" sourcelevel="3" sinklevel="4" sourcenode="1" sinknode="2" type="Elevator"/>
+  <leveledge id="39" sourcelevel="4" sinklevel="5" sourcenode="2" sinknode="1" type="Elevator"/>
+  <leveledge id="40" sourcelevel="5" sinklevel="4" sourcenode="1" sinknode="2" type="Elevator"/>
+  <leveledge id="41" sourcelevel="5" sinklevel="4" sourcenode="3" sinknode="3" type="Elevator"/>
+  <leveledge id="42" sourcelevel="4" sinklevel="5" sourcenode="3" sinknode="3" type="Elevator"/>
+  <leveledge id="43" sourcelevel="5" sinklevel="6" sourcenode="3" sinknode="24" type="Elevator"/>
+  <leveledge id="44" sourcelevel="6" sinklevel="5" sourcenode="24" sinknode="3" type="Elevator"/>
+  <leveledge id="45" sourcelevel="6" sinklevel="5" sourcenode="23" sinknode="1" type="Elevator"/>
+  <leveledge id="46" sourcelevel="5" sinklevel="6" sourcenode="1" sinknode="23" type="Elevator"/>
+  <leveledge id="47" sourcelevel="14" sinklevel="13" sourcenode="2" sinknode="45" type="Elevator"/>
+  <leveledge id="48" sourcelevel="13" sinklevel="14" sourcenode="45" sinknode="2" type="Elevator"/>
+  <leveledge id="49" sourcelevel="13" sinklevel="14" sourcenode="46" sinknode="3" type="Elevator"/>
+  <leveledge id="50" sourcelevel="14" sinklevel="13" sourcenode="3" sinknode="46" type="Elevator"/>
+  <leveledge id="51" sourcelevel="14" sinklevel="15" sourcenode="2" sinknode="2" type="Elevator"/>
+  <leveledge id="52" sourcelevel="15" sinklevel="14" sourcenode="2" sinknode="2" type="Elevator"/>
+  <leveledge id="53" sourcelevel="15" sinklevel="14" sourcenode="3" sinknode="3" type="Elevator"/>
+  <leveledge id="54" sourcelevel="14" sinklevel="15" sourcenode="3" sinknode="3" type="Elevator"/>
+  <leveledge id="55" sourcelevel="15" sinklevel="16" sourcenode="2" sinknode="4" type="Elevator"/>
+  <leveledge id="56" sourcelevel="16" sinklevel="15" sourcenode="4" sinknode="2" type="Elevator"/>
+  <leveledge id="57" sourcelevel="16" sinklevel="15" sourcenode="5" sinknode="3" type="Elevator"/>
+  <leveledge id="58" sourcelevel="15" sinklevel="16" sourcenode="3" sinknode="5" type="Elevator"/>
+  <leveledge id="59" sourcelevel="17" sinklevel="16" sourcenode="2" sinknode="5" type="Elevator"/>
+  <leveledge id="60" sourcelevel="16" sinklevel="17" sourcenode="5" sinknode="2" type="Elevator"/>
+  <leveledge id="61" sourcelevel="16" sinklevel="17" sourcenode="4" sinknode="1" type="Elevator"/>
+  <leveledge id="62" sourcelevel="17" sinklevel="16" sourcenode="1" sinknode="4" type="Elevator"/>
+  <leveledge id="63" sourcelevel="17" sinklevel="18" sourcenode="1" sinknode="2" type="Elevator"/>
+  <leveledge id="64" sourcelevel="18" sinklevel="17" sourcenode="2" sinknode="1" type="Elevator"/>
+  <leveledge id="65" sourcelevel="18" sinklevel="17" sourcenode="3" sinknode="2" type="Elevator"/>
+  <leveledge id="66" sourcelevel="17" sinklevel="18" sourcenode="2" sinknode="3" type="Elevator"/>
+  <leveledge id="68" sourcelevel="10" sinklevel="9" sourcenode="40" sinknode="24" type="Elevator"/>
+  <leveledge id="69" sourcelevel="9" sinklevel="10" sourcenode="24" sinknode="40" type="Elevator"/>
+  <leveledge id="70" sourcelevel="9" sinklevel="10" sourcenode="25" sinknode="41" type="Elevator"/>
+  <leveledge id="71" sourcelevel="10" sinklevel="9" sourcenode="41" sinknode="25" type="Elevator"/>
+  <leveledge id="72" sourcelevel="10" sinklevel="11" sourcenode="41" sinknode="3" type="Elevator"/>
+  <leveledge id="73" sourcelevel="11" sinklevel="10" sourcenode="3" sinknode="41" type="Elevator"/>
+  <leveledge id="74" sourcelevel="11" sinklevel="10" sourcenode="2" sinknode="40" type="Elevator"/>
+  <leveledge id="75" sourcelevel="10" sinklevel="11" sourcenode="40" sinknode="2" type="Elevator"/>
+  <leveledge id="76" sourcelevel="11" sinklevel="12" sourcenode="3" sinknode="48" type="Elevator"/>
+  <leveledge id="77" sourcelevel="12" sinklevel="11" sourcenode="48" sinknode="3" type="Elevator"/>
+  <leveledge id="78" sourcelevel="12" sinklevel="11" sourcenode="47" sinknode="2" type="Elevator"/>
+  <leveledge id="79" sourcelevel="11" sinklevel="12" sourcenode="2" sinknode="47" type="Elevator"/>
+  <leveledge id="80" sourcelevel="12" sinklevel="13" sourcenode="48" sinknode="46" type="Elevator"/>
+  <leveledge id="81" sourcelevel="13" sinklevel="12" sourcenode="46" sinknode="48" type="Elevator"/>
+  <leveledge id="82" sourcelevel="13" sinklevel="12" sourcenode="45" sinknode="47" type="Elevator"/>
+  <leveledge id="83" sourcelevel="12" sinklevel="13" sourcenode="47" sinknode="45" type="Elevator"/>
+  <leveledge id="84" sourcelevel="18" sinklevel="19" sourcenode="3" sinknode="3" type="Elevator"/>
+  <leveledge id="85" sourcelevel="19" sinklevel="18" sourcenode="3" sinknode="3" type="Elevator"/>
+  <leveledge id="86" sourcelevel="19" sinklevel="18" sourcenode="2" sinknode="2" type="Elevator"/>
+  <leveledge id="87" sourcelevel="18" sinklevel="19" sourcenode="2" sinknode="2" type="Elevator"/>
+  <leveledge id="88" sourcelevel="19" sinklevel="20" sourcenode="3" sinknode="3" type="Elevator"/>
+  <leveledge id="89" sourcelevel="20" sinklevel="19" sourcenode="3" sinknode="3" type="Elevator"/>
+  <leveledge id="90" sourcelevel="20" sinklevel="19" sourcenode="2" sinknode="2" type="Elevator"/>
+  <leveledge id="91" sourcelevel="19" sinklevel="20" sourcenode="2" sinknode="2" type="Elevator"/>
+  <leveledge id="92" sourcelevel="21" sinklevel="20" sourcenode="2" sinknode="3" type="Elevator"/>
+  <leveledge id="93" sourcelevel="20" sinklevel="21" sourcenode="3" sinknode="2" type="Elevator"/>
+  <leveledge id="94" sourcelevel="20" sinklevel="21" sourcenode="2" sinknode="1" type="Elevator"/>
+  <leveledge id="95" sourcelevel="21" sinklevel="20" sourcenode="1" sinknode="2" type="Elevator"/>
+</graph>
